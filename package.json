@@ -64,8 +64,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "bundlesize": [
     {
       "path": "./dist/next-social-share-buttons.es.js",

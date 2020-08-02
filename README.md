@@ -1,5 +1,7 @@
 # next-social-share-buttons
 
+The official React component​ for adding social share buttons to NextJS as well as React apps.
+
 [![NPM](https://img.shields.io/npm/v/next-social-share-buttons.svg)](https://www.npmjs.com/package/next-social-share-buttons) [![downloads](https://img.shields.io/npm/dm/next-social-share-buttons.svg?style=flat-square)](https://www.npmjs.com/package/next-social-share-buttons) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-social-share-buttons) [![Build Status](https://api.travis-ci.com/Bunlong/next-social-share-buttons.svg?branch=master)](https://travis-ci.com/Bunlong/next-social-share-buttons) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## 💖 Wrap Up

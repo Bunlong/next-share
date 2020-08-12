@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es5",
     "module": "es2015",
-    "lib": ["es2017", "es7", "es6", "dom"],
+    "lib": ["es2017", "es7", "es6", "es5", "dom"],
     "allowJs": false,
     "jsx": "react",
     "declaration": true,

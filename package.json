@@ -1,25 +1,29 @@
 {
-  "name": "next-social-share-buttons",
+  "name": "next-share",
   "version": "1.0.1",
-  "description": "Description",
+  "description": "next-share is a social share buttons plugin for Next.js as well as React apps.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bunlong/next-social-share-buttons.git"
+    "url": "git+https://github.com/Bunlong/next-share.git"
   },
   "bugs": {
-    "url": "https://github.com/Bunlont/next-social-share-buttons.git/issues"
+    "url": "https://github.com/Bunlont/next-share.git/issues"
   },
   "keywords": [
-    "react"
+    "react",
+    "reactjs",
+    "next",
+    "nextjs",
+    "next-share"
   ],
-  "homepage": "https://github.com/Bunlong/next-social-share-buttons",
-  "main": "dist/next-social-share-buttons.js",
-  "module": "dist/next-social-share-buttons.es.js",
-  "jsnext:main": "dist/next-social-share-buttons.es.js",
-  "types": "dist/next-social-share-buttons.d.ts",
-  "@comment unpkg": "dist/next-social-share-buttons.umd.js",
+  "homepage": "https://github.com/Bunlong/next-share",
+  "main": "dist/next-share.js",
+  "module": "dist/next-share.es.js",
+  "jsnext:main": "dist/next-share.es.js",
+  "types": "dist/next-share.d.ts",
+  "@comment unpkg": "dist/next-share.umd.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -67,7 +71,7 @@
   "dependencies": {},
   "bundlesize": [
     {
-      "path": "./dist/next-social-share-buttons.es.js",
+      "path": "./dist/next-share.es.js",
       "maxSize": "50 kB"
     }
   ],

@@ -9,7 +9,7 @@ import pkg from './package.json';
 // import builtins from 'builtin-modules'
 
 export default {
-  input: 'src/next-social-share-buttons.ts',
+  input: 'src/next-share.ts',
   output: [
     {
       file: pkg.main,

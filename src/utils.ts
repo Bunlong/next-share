@@ -48,10 +48,7 @@ export function CustomWindow(
   return dialog;
 }
 
-export const getBoxPositionOnWindowCenter = (
-  width: number,
-  height: number,
-) => ({
+export const getPositionOnWindowCenter = (width: number, height: number) => ({
   left:
     window.outerWidth / 2 +
     (window.screenX || window.screenLeft || 0) -
@@ -62,10 +59,7 @@ export const getBoxPositionOnWindowCenter = (
     height / 2,
 });
 
-export const getBoxPositionOnScreenCenter = (
-  width: number,
-  height: number,
-) => ({
+export const getPositionOnScreenCenter = (width: number, height: number) => ({
   top: (window.screen.height - height) / 2,
   left: (window.screen.width - width) / 2,
 });
@@ -74,3 +68,16 @@ export const isPromise = (obj: any | Promise<any>) =>
   !!obj &&
   (typeof obj === 'object' || typeof obj === 'function') &&
   typeof obj.then === 'function';
+
+export default function transformObjectToParams(object: {
+  [key: string]: string | number | undefined | null;
+}) {
+  const params = Object.entries(object)
+    .filter(([, value]) => value !== undefined && value !== null)
+    .map(
+      ([key, value]) =>
+        `${encodeURIComponent(key)}=${encodeURIComponent(String(value))}`,
+    );
+
+  return params.length > 0 ? `?${params.join('&')}` : '';
+}

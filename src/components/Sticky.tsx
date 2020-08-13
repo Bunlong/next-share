@@ -8,6 +8,7 @@ const styles = {
     '-ms-transform': 'translateY(-50%)',
     transform: 'translateY(-50%)',
     display: 'grid',
+    left: 0,
   } as CSSProperties,
   left: {
     left: 0,

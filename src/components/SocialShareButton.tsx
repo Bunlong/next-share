@@ -6,8 +6,6 @@ import {
   isPromise,
 } from '../utils';
 
-// import cx from 'classnames';
-
 type NetworkLink<LinkOptions> = (url: string, options: LinkOptions) => string;
 
 type WindowPosition = 'windowCenter' | 'screenCenter';
@@ -15,7 +13,9 @@ type WindowPosition = 'windowCenter' | 'screenCenter';
 interface CustomProps<LinkOptions> {
   children: React.ReactNode;
   className?: string;
-  /** Disables click action and adds `disabled` class */
+  /**
+   * Disables click action and adds `disabled` class
+   */
   disabled?: boolean;
   /**
    * Style when button is disabled
@@ -122,7 +122,6 @@ export default class SocialShareButton<LinkOptions> extends Component<Props<Link
       children,
       className,
       disabled,
-      disabledStyle,
       forwardedRef,
       networkLink,
       networkName,
@@ -136,41 +135,26 @@ export default class SocialShareButton<LinkOptions> extends Component<Props<Link
       windowPosition,
       windowWidth,
       ...rest
+      // disabledStyle,
     } = this.props;
 
-    // const newClassName = cx(
-    //   'react-share__ShareButton',
-    //   {
-    //     'react-share__ShareButton--disabled': !!disabled,
-    //     disabled: !!disabled,
-    //   },
-    //   className,
-    // );
-
-    // const newStyle = resetButtonStyle
-    //   ? {
-    //       backgroundColor: 'transparent',
-    //       border: 'none',
-    //       padding: 0,
-    //       font: 'inherit',
-    //       color: 'inherit',
-    //       cursor: 'pointer',
-    //       ...style,
-    //       ...(disabled && disabledStyle),
-    //     }
-    //   : {
-    //       ...style,
-    //       ...(disabled && disabledStyle),
-    //     };
+    const newStyle = {
+      backgroundColor: 'transparent',
+      border: 'none',
+      padding: 0,
+      font: 'inherit',
+      color: 'inherit',
+      cursor: 'pointer',
+      ...style,
+    };
 
     return (
       <button
         {...rest}
         aria-label={rest['aria-label'] || networkName}
-        // className={newClassName}
         onClick={this.handleClick}
         ref={forwardedRef}
-        // style={newStyle}
+        style={newStyle}
       >
         {children}
       </button>

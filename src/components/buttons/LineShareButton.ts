@@ -1,10 +1,7 @@
-// import assert from '../utils/assert';
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
 function lineLink(url: string, { title }: { title?: string }) {
-  // assert(url, 'line.url');
-
   return (
     'https://social-plugins.line.me/lineit/share' +
     transformObjectToParams({

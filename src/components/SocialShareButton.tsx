@@ -12,7 +12,6 @@ type WindowPosition = 'windowCenter' | 'screenCenter';
 
 interface CustomProps<LinkOptions> {
   children: React.ReactNode;
-  className?: string;
   /**
    * Disables click action and adds `disabled` class
    */
@@ -118,24 +117,11 @@ export default class SocialShareButton<LinkOptions> extends Component<Props<Link
 
   render() {
     const {
-      beforeOnClick,
       children,
-      className,
-      disabled,
       forwardedRef,
-      networkLink,
       networkName,
-      onShareWindowClose,
-      openShareDialogOnClick,
-      opts,
-      resetButtonStyle,
       style,
-      url,
-      windowHeight,
-      windowPosition,
-      windowWidth,
       ...rest
-      // disabledStyle,
     } = this.props;
 
     const newStyle = {

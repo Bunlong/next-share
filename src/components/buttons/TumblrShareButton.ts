@@ -1,4 +1,3 @@
-// import assert from './utils/assert';
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
@@ -11,8 +10,6 @@ function tumblrLink(
     posttype,
   }: { title?: string; caption?: string; tags?: string; posttype?: 'link' | string },
 ) {
-  // assert(url, 'tumblr.url');
-
   return (
     'https://www.tumblr.com/widgets/share/tool' +
     transformObjectToParams({

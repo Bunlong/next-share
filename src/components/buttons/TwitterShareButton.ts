@@ -1,4 +1,3 @@
-// import assert from './utils/assert';
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
@@ -11,10 +10,6 @@ function twitterLink(
     related = [],
   }: { title?: string; via?: string; hashtags?: string[]; related?: string[] },
 ) {
-  // assert(url, 'twitter.url');
-  // assert(Array.isArray(hashtags), 'twitter.hashtags is not an array');
-  // assert(Array.isArray(related), 'twitter.related is not an array');
-
   return (
     'https://twitter.com/share' +
     transformObjectToParams({

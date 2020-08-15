@@ -1,4 +1,3 @@
-// import assert from './utils/assert';
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
@@ -7,8 +6,6 @@ function isMobileOrTablet() {
 }
 
 function whatsappLink(url: string, { title, separator }: { title?: string; separator?: string }) {
-  // assert(url, 'whatsapp.url');
-
   return (
     'https://' +
     (isMobileOrTablet() ? 'api' : 'web') +

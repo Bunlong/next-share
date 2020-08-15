@@ -1,10 +1,7 @@
-// import assert from './utils/assert';
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
 function redditLink(url: string, { title }: { title?: string }) {
-  // assert(url, 'reddit.url');
-
   return (
     'https://www.reddit.com/submit' +
     transformObjectToParams({

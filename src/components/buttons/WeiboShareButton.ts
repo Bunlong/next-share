@@ -1,10 +1,7 @@
-// import assert from './utils/assert';
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
 function weiboLink(url: string, { title, image }: { title?: string; image?: string }) {
-  // assert(url, 'weibo.url');
-
   return (
     'http://service.weibo.com/share/share.php' +
     transformObjectToParams({

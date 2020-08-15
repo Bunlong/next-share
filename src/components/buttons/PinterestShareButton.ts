@@ -1,4 +1,3 @@
-// import assert from './utils/assert';
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
@@ -6,9 +5,6 @@ function pinterestLink(
   url: string,
   { media, description }: { media: string; description?: string },
 ) {
-  // assert(url, 'pinterest.url');
-  // assert(media, 'pinterest.media');
-
   return (
     'https://pinterest.com/pin/create/button/' +
     transformObjectToParams({

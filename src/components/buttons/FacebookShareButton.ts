@@ -1,10 +1,7 @@
-// import assert from './utils/assert';
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
 function facebookLink(url: string, { quote, hashtag }: { quote?: string; hashtag?: string }) {
-  // assert(url, 'facebook.url');
-
   return (
     'https://www.facebook.com/sharer/sharer.php' +
     transformObjectToParams({

@@ -22,6 +22,7 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
     'react/display-name': 'warn',
+    'react/prop-types': 'off',
     'no-console': 'error',
     "@typescript-eslint/no-this-alias": [
       "error",

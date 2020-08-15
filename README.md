@@ -213,39 +213,39 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>size<td>
-    <td>number<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>size</td>
+    <td>number</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>round<td>
-    <td>boolean<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>round</td>
+    <td>boolean</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>borderRadius<td>
-    <td>number<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>borderRadius</td>
+    <td>number</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>bgStyle<td>
-    <td>object<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>bgStyle</td>
+    <td>object</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>iconFillColor<td>
-    <td>string<td>
-    <td>`white`<td>
-    <td><td>
-    <td>❌<td>
+    <td>iconFillColor</td>
+    <td>string</td>
+    <td>`white`</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -262,46 +262,46 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>quote<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>quote</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>hashtag<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>hashtag</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>550<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>550</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>400<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>400</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -316,39 +316,39 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>title<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>500<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>500</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>500<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>500</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -363,46 +363,46 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>media<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>media</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>description<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>description</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>550<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>550</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>400<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>400</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -417,39 +417,39 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>title<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>660<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>660</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>460<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>460</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -464,39 +464,39 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>title<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>550<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>550</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>400<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>400</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -511,60 +511,60 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>title<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>tags<td>
-    <td><code>Array<string></code><td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>tags</td>
+    <td><code>Array&lt;string&gt;</code></td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>caption<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>caption</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>posttype<td>
-    <td>string<td>
-    <td><code>link</code><td>
-    <td><td>
-    <td>❌<td>
+    <td>posttype</td>
+    <td>string</td>
+    <td><code>link</code></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>660<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>660</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>460<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>460</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -579,60 +579,60 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>title<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>via<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>via</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>hashtags<td>
-    <td>array<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>hashtags</td>
+    <td>array</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>related<td>
-    <td>array<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>related</td>
+    <td>array</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>550<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>550</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>400<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>400</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -647,46 +647,46 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>title<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>separator<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>separator</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>660<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>660</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>460<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>460</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -701,46 +701,46 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>title<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>image<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>image</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>660<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>660</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>550<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>550</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 
@@ -755,46 +755,46 @@ import {
     <th>Required</th>
   </tr>
   <tr>
-    <td>children<td>
-    <td>React node<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>url<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>✅<td>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td>title<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>separator<td>
-    <td>string<td>
-    <td><td>
-    <td><td>
-    <td>❌<td>
+    <td>separator</td>
+    <td>string</td>
+    <td></td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowWidth<td>
-    <td>number<td>
-    <td>550<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>550</td>
+    <td></td>
+    <td>❌</td>
   </tr>
   <tr>
-    <td>windowHeight<td>
-    <td>number<td>
-    <td>400<td>
-    <td><td>
-    <td>❌<td>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>400</td>
+    <td></td>
+    <td>❌</td>
   </tr>
 </table>
 

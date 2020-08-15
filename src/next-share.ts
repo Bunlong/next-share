@@ -21,6 +21,3 @@ export { default as TwitterShareButton } from './components/buttons/TwitterShare
 export { default as ViberShareButton } from './components/buttons/ViberShareButton';
 export { default as WeiboShareButton } from './components/buttons/WeiboShareButton';
 export { default as WhatsappShareButton } from './components/buttons/WhatsappShareButton';
-
-// Sticky
-// export { default as Sticky } from './components/Sticky';

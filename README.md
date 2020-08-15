@@ -114,7 +114,7 @@ import {
 
 <TelegramShareButton
   url={'https://github.com/next-share'}
-  title={'next-share is a social share buttons plugin for React apps.}
+  title={'next-share is a social share buttons plugin for React apps.'}
 >
   <TelegramIcon size={32} round />
 </TelegramShareButton>
@@ -130,7 +130,7 @@ import {
 
 <TumblrShareButton
   url={'https://github.com/next-share'}
-  title={'next-share is a social share buttons plugin for React apps.}
+  title={'next-share is a social share buttons plugin for React apps.'}
 >
   <TumblrIcon size={32} round />
 </TumblrShareButton>
@@ -146,7 +146,7 @@ import {
 
 <TwitterShareButton
   url={'https://github.com/next-share'}
-  title={'next-share is a social share buttons plugin for React apps.}
+  title={'next-share is a social share buttons plugin for React apps.'}
 >
   <TwitterIcon size={32} round />
 </TwitterShareButton>
@@ -162,7 +162,7 @@ import {
 
 <ViberShareButton
   url={'https://github.com/next-share'}
-  title={'next-share is a social share buttons plugin for React apps.}
+  title={'next-share is a social share buttons plugin for React apps.'}
 >
   <ViberIcon size={32} round />
 </ViberShareButton>
@@ -178,7 +178,7 @@ import {
 
 <WeiboShareButton
   url={'https://github.com/next-share'}
-  title={'next-share is a social share buttons plugin for React apps.}
+  title={'next-share is a social share buttons plugin for React apps.'}
   image={`${String(window.location)}/${example-image}`}
 >
   <WeiboIcon size={32} round />
@@ -195,7 +195,7 @@ import {
 
 <WhatsappShareButton
   url={'https://github.com/next-share'}
-  title={'next-share is a social share buttons plugin for React apps.}
+  title={'next-share is a social share buttons plugin for React apps.'}
   separator=":: "
 >
   <WhatsappIcon size={32} round />

@@ -1,13 +1,13 @@
 # next-share
 
-next-share is a social share buttons plugin for Next.js, Gatsby.js, Create React app as well as React apps.
+next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.
 
 [![NPM](https://img.shields.io/npm/v/next-share.svg)](https://www.npmjs.com/package/next-share) [![downloads](https://img.shields.io/npm/dm/next-share.svg?style=flat-square)](https://www.npmjs.com/package/next-share) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-share) [![Build Status](https://api.travis-ci.com/Bunlong/next-share.svg?branch=master)](https://travis-ci.com/Bunlong/next-share) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## 🎁 Features
 
 * Compatible with both JavaScript and TypeScript
-* Next Share Buttons
+* Next Share Buttons and Next Share Icons
   * Facebook
   * Line
   * Pinterest
@@ -216,35 +216,35 @@ import {
     <td>size</td>
     <td>number</td>
     <td></td>
-    <td></td>
+    <td>Icon size in pixels.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>round</td>
     <td>boolean</td>
-    <td></td>
-    <td></td>
+    <td>false</td>
+    <td>Show round or rectangle.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>borderRadius</td>
     <td>number</td>
     <td></td>
-    <td></td>
+    <td>Set rounded corners if using round icon.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>bgStyle</td>
     <td>object</td>
     <td></td>
-    <td></td>
+    <td>Customize background style.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>iconFillColor</td>
     <td>string</td>
     <td>`white`</td>
-    <td></td>
+    <td>Customize icon fill color.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -265,21 +265,21 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>quote</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>A quote to be shared.</td>
     <td>❌</td>
   </tr>
   <tr>
@@ -293,14 +293,14 @@ import {
     <td>windowWidth</td>
     <td>number</td>
     <td>550</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>400</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -319,35 +319,35 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>title</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The title of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowWidth</td>
     <td>number</td>
     <td>500</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>500</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -366,42 +366,42 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>media</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The image URL that will be pinned.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>description</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The description of the shared media.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowWidth</td>
     <td>number</td>
     <td>550</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>400</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -420,35 +420,35 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>title</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The title of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowWidth</td>
     <td>number</td>
     <td>660</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>460</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -467,35 +467,35 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>title</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The title of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowWidth</td>
     <td>number</td>
     <td>550</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>400</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -514,21 +514,21 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>title</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The title of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>
@@ -542,7 +542,7 @@ import {
     <td>caption</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The description of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>
@@ -556,14 +556,14 @@ import {
     <td>windowWidth</td>
     <td>number</td>
     <td>660</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>460</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -582,21 +582,21 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>title</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The title of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>
@@ -624,14 +624,14 @@ import {
     <td>windowWidth</td>
     <td>number</td>
     <td>550</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>400</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -650,21 +650,21 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>title</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The title of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>
@@ -678,14 +678,14 @@ import {
     <td>windowWidth</td>
     <td>number</td>
     <td>660</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>460</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -704,42 +704,42 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>title</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The title of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>image</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The image URL that will be shared.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowWidth</td>
     <td>number</td>
     <td>660</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>550</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -758,21 +758,21 @@ import {
     <td>children</td>
     <td>React node</td>
     <td></td>
-    <td></td>
+    <td>React component, HTML element or string.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>url</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The URL of the shared page.</td>
     <td>✅</td>
   </tr>
   <tr>
     <td>title</td>
     <td>string</td>
     <td></td>
-    <td></td>
+    <td>The title of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>
@@ -786,14 +786,14 @@ import {
     <td>windowWidth</td>
     <td>number</td>
     <td>550</td>
-    <td></td>
+    <td>Opened window width.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>windowHeight</td>
     <td>number</td>
     <td>400</td>
-    <td></td>
+    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>

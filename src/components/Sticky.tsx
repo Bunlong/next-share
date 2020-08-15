@@ -9,6 +9,7 @@ const styles = {
     transform: 'translateY(-50%)',
     display: 'grid',
     left: 0,
+    border: 'none',
   } as CSSProperties,
   left: {
     left: 0,

@@ -23,4 +23,4 @@ export { default as WeiboShareButton } from './components/buttons/WeiboShareButt
 export { default as WhatsappShareButton } from './components/buttons/WhatsappShareButton';
 
 // Sticky
-export { default as Sticky } from './components/Sticky';
+// export { default as Sticky } from './components/Sticky';

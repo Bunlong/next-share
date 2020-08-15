@@ -4,6 +4,8 @@ next-share is a social share buttons plugin for Next.js, Create React App, Gatsb
 
 [![NPM](https://img.shields.io/npm/v/next-share.svg)](https://www.npmjs.com/package/next-share) [![downloads](https://img.shields.io/npm/dm/next-share.svg?style=flat-square)](https://www.npmjs.com/package/next-share) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-share) [![Build Status](https://api.travis-ci.com/Bunlong/next-share.svg?branch=master)](https://travis-ci.com/Bunlong/next-share) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+![next-share](https://raw.githubusercontent.com/bunlong/next-share/master/static/images/next-share.png)
+
 ## 🎁 Features
 
 * Compatible with both JavaScript and TypeScript

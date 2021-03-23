@@ -50,7 +50,7 @@ import {
   quote={'next-share is a social share buttons plugin for React apps.'}
   hashtag={'#nextshare'}
 >
-  <FacebookIcon />
+  <FacebookIcon size={32} round />
 </FacebookShareButton>
 ```
 
@@ -120,7 +120,7 @@ import {
 </TelegramShareButton>
 ```
 
-### 🎀 Telegram
+### 🎀 Tumblr
 
 ```js
 import {

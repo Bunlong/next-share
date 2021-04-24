@@ -830,6 +830,15 @@ How to contribute:
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/Akirtovskis">
+        <img src="https://avatars.githubusercontent.com/u/25903618?v=4" width="100" alt="Arturs Kirtovskis" />
+        <br />
+        <sub>
+          <b>Arturs Kirtovskis</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 

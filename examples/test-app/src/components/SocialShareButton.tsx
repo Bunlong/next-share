@@ -132,6 +132,7 @@ export default class SocialShareButton<LinkOptions> extends Component<
 
     return (
       <button
+        // {...rest}
         aria-label={rest['aria-label'] || networkName}
         onClick={this.handleClick}
         ref={forwardedRef}

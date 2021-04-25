@@ -8,8 +8,9 @@ Social media share buttons for your next React apps.
 
 ## 🎁 Features
 
+* No dependencies
 * Compatible with both JavaScript and TypeScript
-* Next Share Buttons and Next Share Icons
+* Share buttons for your next React app:
   * Facebook
   * Line
   * Pinterest

@@ -47,7 +47,7 @@ import {
 } from 'next-share'
 
 <FacebookShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   quote={'next-share is a social share buttons for your next React apps.'}
   hashtag={'#nextshare'}
 >
@@ -64,7 +64,7 @@ import {
 } from 'next-share'
 
 <LineShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <LineIcon />
@@ -80,7 +80,7 @@ import {
 } from 'next-share'
 
 <PinterestShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   media={'next-share is a social share buttons for your next React apps.'}
 >
   <PinterestIcon size={32} round />
@@ -96,7 +96,7 @@ import {
 } from 'next-share'
 
 <RedditShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
   windowWidth={660}
   windowHeight={460}
@@ -114,7 +114,7 @@ import {
 } from 'next-share'
 
 <TelegramShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <TelegramIcon size={32} round />
@@ -130,7 +130,7 @@ import {
 } from 'next-share'
 
 <TumblrShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <TumblrIcon size={32} round />
@@ -146,7 +146,7 @@ import {
 } from 'next-share'
 
 <TwitterShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <TwitterIcon size={32} round />
@@ -162,7 +162,7 @@ import {
 } from 'next-share'
 
 <ViberShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <ViberIcon size={32} round />
@@ -178,7 +178,7 @@ import {
 } from 'next-share'
 
 <WeiboShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
   image={`${String(window.location)}/${example-image}`}
 >
@@ -195,7 +195,7 @@ import {
 } from 'next-share'
 
 <WhatsappShareButton
-  url={'https://github.com/Bunlong/next-share'}
+  url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
   separator=":: "
 >

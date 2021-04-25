@@ -33,7 +33,7 @@ npm install next-share --save
 next-share is available on yarn as well. It can be installed with the following command:
 
 ```
-yarn add next-share
+yarn add next-share --save
 ```
 
 ## 💡 Usage

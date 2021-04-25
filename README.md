@@ -1,10 +1,10 @@
 # next-share
 
-next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.
-
-[![NPM](https://img.shields.io/npm/v/next-share.svg)](https://www.npmjs.com/package/next-share) [![downloads](https://img.shields.io/npm/dm/next-share.svg?style=flat-square)](https://www.npmjs.com/package/next-share) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-share) [![Build Status](https://api.travis-ci.com/Bunlong/next-share.svg?branch=master)](https://travis-ci.com/Bunlong/next-share) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+Social media share buttons for your next React apps.
 
 ![next-share](https://raw.githubusercontent.com/bunlong/next-share/master/static/images/next-share.png)
+
+[![NPM](https://img.shields.io/npm/v/next-share.svg)](https://www.npmjs.com/package/next-share) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-share) [![Build Status](https://api.travis-ci.com/Bunlong/next-share.svg?branch=master)](https://travis-ci.com/Bunlong/next-share) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![downloads](https://img.shields.io/npm/dm/next-share.svg)](https://www.npmjs.com/package/next-share)
 
 ## 🎁 Features
 
@@ -836,6 +836,15 @@ How to contribute:
         <br />
         <sub>
           <b>Arturs Kirtovskis</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/helloitsm3">
+        <img src="https://avatars.githubusercontent.com/u/13825491?v=4" width="100" alt="Sean" />
+        <br />
+        <sub>
+          <b>Sean</b>
         </sub>
       </a>
     </td>

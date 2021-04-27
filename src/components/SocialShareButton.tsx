@@ -127,6 +127,7 @@ export default class SocialShareButton<LinkOptions> extends Component<
       font: 'inherit',
       color: 'inherit',
       cursor: 'pointer',
+      outline: 'none',
       ...style,
     };
 

@@ -1,7 +1,7 @@
 {
   "name": "next-share",
   "version": "0.1.0",
-  "description": "next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.",
+  "description": "Social media share buttons for your next React apps.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
   "repository": {

@@ -14,7 +14,7 @@ function lineLink(url: string, { title }: { title?: string }) {
 const LineShareButton = createShareButton<{ title?: string }>(
   'line',
   lineLink,
-  props => ({
+  (props) => ({
     title: props.title,
   }),
   {

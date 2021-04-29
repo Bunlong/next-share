@@ -15,10 +15,13 @@ function pinterestLink(
   );
 }
 
-const PinterestShareButton = createShareButton<{ media: string; description?: string }>(
+const PinterestShareButton = createShareButton<{
+  media: string;
+  description?: string;
+}>(
   'pinterest',
   pinterestLink,
-  props => ({
+  (props) => ({
     media: props.media,
     description: props.description,
   }),

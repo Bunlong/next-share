@@ -14,7 +14,7 @@ function redditLink(url: string, { title }: { title?: string }) {
 const RedditShareButton = createShareButton<{ title?: string }>(
   'reddit',
   redditLink,
-  props => ({
+  (props) => ({
     title: props.title,
   }),
   {

@@ -1,7 +1,10 @@
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
-function viberLink(url: string, { title, separator }: { title?: string; separator?: string }) {
+function viberLink(
+  url: string,
+  { title, separator }: { title?: string; separator?: string },
+) {
   return (
     'viber://forward' +
     transformObjectToParams({
@@ -10,10 +13,13 @@ function viberLink(url: string, { title, separator }: { title?: string; separato
   );
 }
 
-const ViberShareButton = createShareButton<{ title?: string; separator?: string }>(
+const ViberShareButton = createShareButton<{
+  title?: string;
+  separator?: string;
+}>(
   'viber',
   viberLink,
-  props => ({
+  (props) => ({
     title: props.title,
     separator: props.separator || ' ',
   }),

@@ -5,7 +5,10 @@ function isMobileOrTablet() {
   return /(android|iphone|ipad|mobile)/i.test(navigator.userAgent);
 }
 
-function whatsappLink(url: string, { title, separator }: { title?: string; separator?: string }) {
+function whatsappLink(
+  url: string,
+  { title, separator }: { title?: string; separator?: string },
+) {
   return (
     'https://' +
     (isMobileOrTablet() ? 'api' : 'web') +
@@ -16,10 +19,13 @@ function whatsappLink(url: string, { title, separator }: { title?: string; separ
   );
 }
 
-const WhatsappShareButton = createShareButton<{ title?: string; separator?: string }>(
+const WhatsappShareButton = createShareButton<{
+  title?: string;
+  separator?: string;
+}>(
   'whatsapp',
   whatsappLink,
-  props => ({
+  (props) => ({
     title: props.title,
     separator: props.separator || ' ',
   }),

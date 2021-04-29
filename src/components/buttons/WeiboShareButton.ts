@@ -1,7 +1,10 @@
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
-function weiboLink(url: string, { title, image }: { title?: string; image?: string }) {
+function weiboLink(
+  url: string,
+  { title, image }: { title?: string; image?: string },
+) {
   return (
     'http://service.weibo.com/share/share.php' +
     transformObjectToParams({
@@ -15,7 +18,7 @@ function weiboLink(url: string, { title, image }: { title?: string; image?: stri
 const WeiboShareButton = createShareButton<{ title?: string; image?: string }>(
   'weibo',
   weiboLink,
-  props => ({
+  (props) => ({
     title: props.title,
     image: props.image,
   }),

@@ -30,7 +30,7 @@ const TwitterShareButton = createShareButton<{
 }>(
   'twitter',
   twitterLink,
-  props => ({
+  (props) => ({
     hashtags: props.hashtags,
     title: props.title,
     via: props.via,

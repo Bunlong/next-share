@@ -14,7 +14,7 @@ function telegramLink(url: string, { title }: { title?: string }) {
 const TelegramShareButton = createShareButton<{ title?: string }>(
   'telegram',
   telegramLink,
-  props => ({
+  (props) => ({
     title: props.title,
   }),
   {

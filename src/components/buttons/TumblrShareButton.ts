@@ -8,7 +8,12 @@ function tumblrLink(
     caption,
     tags,
     posttype,
-  }: { title?: string; caption?: string; tags?: string; posttype?: 'link' | string },
+  }: {
+    title?: string;
+    caption?: string;
+    tags?: string;
+    posttype?: 'link' | string;
+  },
 ) {
   return (
     'https://www.tumblr.com/widgets/share/tool' +
@@ -34,7 +39,7 @@ const TumblrShareButton = createShareButton<
 >(
   'tumblr',
   tumblrLink,
-  props => ({
+  (props) => ({
     title: props.title,
     tags: (props.tags || []).join(','),
     caption: props.caption,

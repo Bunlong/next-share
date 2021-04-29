@@ -1,7 +1,10 @@
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
-function facebookLink(url: string, { quote, hashtag }: { quote?: string; hashtag?: string }) {
+function facebookLink(
+  url: string,
+  { quote, hashtag }: { quote?: string; hashtag?: string },
+) {
   return (
     'https://www.facebook.com/sharer/sharer.php' +
     transformObjectToParams({
@@ -12,10 +15,13 @@ function facebookLink(url: string, { quote, hashtag }: { quote?: string; hashtag
   );
 }
 
-const FacebookShareButton = createShareButton<{ quote?: string; hashtag?: string }>(
+const FacebookShareButton = createShareButton<{
+  quote?: string;
+  hashtag?: string;
+}>(
   'facebook',
   facebookLink,
-  props => ({
+  (props) => ({
     quote: props.quote,
     hashtag: props.hashtag,
   }),

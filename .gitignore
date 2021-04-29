@@ -9,5 +9,7 @@ dist
 
 package-lock.json
 
+# docs
 docs/.next
 docs/node_modules
+docs/package-lock.json

@@ -14,17 +14,10 @@
   "keywords": [
     "react",
     "reactjs",
-    "next",
-    "nextjs",
-    "create-react-app",
-    "createreactapp",
-    "nextshare",
     "next-share",
-    "nextsharejs",
-    "gatsby",
-    "gatsbyjs",
+    "share-buttons",
     "social-share-buttons",
-    "socialsharebuttons"
+    "social-media-share-buttons"
   ],
   "homepage": "https://github.com/Bunlong/next-share",
   "main": "dist/next-share.js",

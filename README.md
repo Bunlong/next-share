@@ -21,6 +21,7 @@ Social media share buttons for your next React apps.
   * Viber
   * Weibo
   * Whatsapp
+  * Linkedin
 
 ## 🔧 Install
 

@@ -1,6 +1,6 @@
 {
   "name": "next-share",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Social media share buttons for your next React apps.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
@@ -76,10 +76,6 @@
       "maxSize": "50 kB"
     }
   ],
-  "peerDependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
   "browser": {
     "fs": false
   }

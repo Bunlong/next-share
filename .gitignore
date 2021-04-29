@@ -10,3 +10,4 @@ dist
 package-lock.json
 
 docs/.next
+docs/node_modules

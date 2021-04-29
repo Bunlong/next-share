@@ -20,6 +20,8 @@ import {
   WeiboIcon,
   WhatsappShareButton,
   WhatsappIcon,
+  LinkedinIcon,
+  LinkedinShareButton,
 } from 'next-share'
 
 function App() {
@@ -111,6 +113,15 @@ function App() {
           <WhatsappIcon size={32} round />
         </div>
       </WhatsappShareButton>
+      <LinkedinShareButton
+        url={'http://github.com'}
+        title={'Testing - next-share is a .'}
+        summary={'Testing - next-share is a .'}
+      >
+        <div style={{marginRight: 10, width: 32, height: 32}}>
+          <LinkedinIcon size={32} round />
+        </div>
+      </LinkedinShareButton>
     </div>
   )
 };

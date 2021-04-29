@@ -9,6 +9,7 @@ export { default as TwitterIcon } from './icons/TwitterIcon';
 export { default as ViberIcon } from './icons/ViberIcon';
 export { default as WeiboIcon } from './icons/WeiboIcon';
 export { default as WhatsappIcon } from './icons/WhatsappIcon';
+export { default as LinkedinIcon } from './icons/LinkedinIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';
@@ -21,3 +22,4 @@ export { default as TwitterShareButton } from './components/buttons/TwitterShare
 export { default as ViberShareButton } from './components/buttons/ViberShareButton';
 export { default as WeiboShareButton } from './components/buttons/WeiboShareButton';
 export { default as WhatsappShareButton } from './components/buttons/WhatsappShareButton';
+export { default as LinkedinShareButton } from './components/buttons/LinkedinShareButton';

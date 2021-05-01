@@ -10,6 +10,7 @@ export { default as ViberIcon } from './icons/ViberIcon';
 export { default as WeiboIcon } from './icons/WeiboIcon';
 export { default as WhatsappIcon } from './icons/WhatsappIcon';
 export { default as LinkedinIcon } from './icons/LinkedinIcon';
+export { default as VKIcon } from './icons/VKIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

@@ -22,6 +22,8 @@ import {
   WhatsappIcon,
   LinkedinIcon,
   LinkedinShareButton,
+  VKShareButton,
+  VKIcon,
 } from 'next-share'
 
 function App() {
@@ -122,6 +124,12 @@ function App() {
           <LinkedinIcon size={32} round />
         </div>
       </LinkedinShareButton>
+      <VKShareButton
+        url={'https://github.com/next-share'}
+        image={`https://repository-images.githubusercontent.com/282947984/a3f80f00-df42-11ea-8d44-2d5482d26f27`}
+      >
+        <VKIcon size={32} round />
+      </VKShareButton>
     </div>
   )
 };

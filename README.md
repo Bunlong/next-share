@@ -22,6 +22,7 @@ Social media share buttons for your next React apps.
   * Weibo
   * Whatsapp
   * Linkedin
+  * VKShare
 
 ## 🔧 Install
 
@@ -215,6 +216,22 @@ import {
 <LinkedinShareButton url={'https://github.com/next-share'}>
   <LinkedinIcon size={32} round />
 </LinkedinShareButton>
+```
+
+### 🎀 VK
+
+```js
+import {
+  VKShareButton,
+  VKIcon,
+} from 'next-share'
+
+<VKShareButton
+  url={'https://github.com/next-share'}
+  image={'./next-share.png'}
+>
+  <VKIcon size={32} round />
+</VKShareButton>
 ```
 
 ## 📚 Icons Documentation
@@ -858,6 +875,74 @@ import {
     <td>string</td>
     <td></td>
     <td>Source of the content (e.g. your website or application name).</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>550</td>
+    <td>Opened window width.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>400</td>
+    <td>Opened window height.</td>
+    <td>❌</td>
+  </tr>
+</table>
+
+### 📖 VKShareButton Props
+
+<table>
+  <tr>
+    <th>Props</th>
+    <th>Type</th>
+    <th>Default</th>
+    <th>Description</th>
+    <th>Required</th>
+  </tr>
+  <tr>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td>React component, HTML element or string.</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td>The URL of the shared page.</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td>The title of the shared page.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>image</td>
+    <td>string</td>
+    <td></td>
+    <td>An absolute link to the image that will be shared</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>noParse</td>
+    <td>boolean</td>
+    <td></td>
+    <td>If true is passed, VK will not retrieve URL information.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>noVkLinks</td>
+    <td>boolean</td>
+    <td></td>
+    <td> If true is passed, there will be no links to the user's profile in the open window. Only for mobile devices.</td>
     <td>❌</td>
   </tr>
   <tr>

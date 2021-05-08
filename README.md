@@ -228,7 +228,7 @@ import {
 
 <VKShareButton
   url={'https://github.com/next-share'}
-  image={`./next-share.png`}
+  image={'./next-share.png'}
 >
   <VKIcon size={32} round />
 </VKShareButton>

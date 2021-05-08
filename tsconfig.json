@@ -68,5 +68,6 @@
     "dist",
     "examples",
     "setup.ts",
+    "docs",
   ]
 }

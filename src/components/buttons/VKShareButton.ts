@@ -25,7 +25,7 @@ function vkLink(url: string, { title, image, noParse, noVkLinks }: Options) {
 const VKShareButton = createShareButton<Options>(
   'vk',
   vkLink,
-  props => ({
+  (props) => ({
     title: props.title,
     image: props.image,
     noParse: props.noParse,

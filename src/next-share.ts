@@ -24,3 +24,4 @@ export { default as ViberShareButton } from './components/buttons/ViberShareButt
 export { default as WeiboShareButton } from './components/buttons/WeiboShareButton';
 export { default as WhatsappShareButton } from './components/buttons/WhatsappShareButton';
 export { default as LinkedinShareButton } from './components/buttons/LinkedinShareButton';
+export { default as VKShareButton } from './components/buttons/VKShareButton';

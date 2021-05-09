@@ -11,6 +11,7 @@ export { default as WeiboIcon } from './icons/WeiboIcon';
 export { default as WhatsappIcon } from './icons/WhatsappIcon';
 export { default as LinkedinIcon } from './icons/LinkedinIcon';
 export { default as VKIcon } from './icons/VKIcon';
+export { default as MailruIcon } from './icons/MailruIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';
@@ -25,3 +26,4 @@ export { default as WeiboShareButton } from './components/buttons/WeiboShareButt
 export { default as WhatsappShareButton } from './components/buttons/WhatsappShareButton';
 export { default as LinkedinShareButton } from './components/buttons/LinkedinShareButton';
 export { default as VKShareButton } from './components/buttons/VKShareButton';
+export { default as MailruShareButton } from './components/buttons/MailruShareButton';

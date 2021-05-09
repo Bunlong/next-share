@@ -3,7 +3,11 @@ import createShareButton from '../../hocs/createShareButton';
 
 function mailruLink(
   url: string,
-  { title, description, imageUrl }: { title?: string; description?: string; imageUrl?: string },
+  {
+    title,
+    description,
+    imageUrl,
+  }: { title?: string; description?: string; imageUrl?: string },
 ) {
   return (
     'https://connect.mail.ru/share' +
@@ -24,7 +28,7 @@ const MailruShareButton = createShareButton<{
 }>(
   'mailru',
   mailruLink,
-  props => ({
+  (props) => ({
     title: props.title,
     description: props.description,
     imageUrl: props.imageUrl,

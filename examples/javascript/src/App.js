@@ -24,6 +24,8 @@ import {
   LinkedinShareButton,
   VKShareButton,
   VKIcon,
+  MailruShareButton,
+  MailruIcon,
 } from 'next-share'
 
 function App() {
@@ -128,8 +130,18 @@ function App() {
         url={'https://github.com/next-share'}
         image={`https://repository-images.githubusercontent.com/282947984/a3f80f00-df42-11ea-8d44-2d5482d26f27`}
       >
-        <VKIcon size={32} round />
+        <div style={{marginRight: 10, width: 32, height: 32}}>
+          <VKIcon size={32} round />
+        </div>
       </VKShareButton>
+      <MailruShareButton
+        url={'https://github.com/next-share'}
+        title={'Next Share'}
+      >
+        <div style={{marginRight: 10, width: 32, height: 32}}>
+          <MailruIcon size={32} round />
+        </div>
+      </MailruShareButton>
     </div>
   )
 };

@@ -26,3 +26,4 @@ export { default as WeiboShareButton } from './components/buttons/WeiboShareButt
 export { default as WhatsappShareButton } from './components/buttons/WhatsappShareButton';
 export { default as LinkedinShareButton } from './components/buttons/LinkedinShareButton';
 export { default as VKShareButton } from './components/buttons/VKShareButton';
+export { default as MailruShareButton } from './components/buttons/MailruShareButton';

@@ -11,6 +11,7 @@ export { default as WeiboIcon } from './icons/WeiboIcon';
 export { default as WhatsappIcon } from './icons/WhatsappIcon';
 export { default as LinkedinIcon } from './icons/LinkedinIcon';
 export { default as VKIcon } from './icons/VKIcon';
+export { default as MailruIcon } from './icons/MailruIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

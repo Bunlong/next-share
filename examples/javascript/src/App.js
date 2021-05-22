@@ -26,6 +26,7 @@ import {
   VKIcon,
   MailruShareButton,
   MailruIcon,
+  LivejournalShareButton,
   LivejournalIcon,
 } from 'next-share'
 
@@ -143,7 +144,15 @@ function App() {
           <MailruIcon size={32} round />
         </div>
       </MailruShareButton>
-      <LivejournalIcon size={32} round />
+      <LivejournalShareButton
+        url={'https://github.com/next-share'}
+        title={'Next Share'}
+        description={'https://github.com/next-share'}
+      >
+        <div style={{marginRight: 10, width: 32, height: 32}}>
+          <LivejournalIcon size={32} round />
+        </div>
+      </LivejournalShareButton>
     </div>
   )
 };

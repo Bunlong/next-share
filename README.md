@@ -23,6 +23,7 @@ Social media share buttons for your next React apps.
   * Whatsapp
   * Linkedin
   * VKShare
+  * Livejournal
 
 ## 🔧 Install
 
@@ -232,6 +233,23 @@ import {
 >
   <VKIcon size={32} round />
 </VKShareButton>
+```
+
+### 🎀 Livejournal
+
+```js
+import {
+  LivejournalShareButton,
+  LivejournalIcon,
+} from 'next-share'
+
+<LivejournalShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+  description={'https://github.com/next-share'}
+>
+  <LivejournalIcon size={32} round />
+</LivejournalShareButton>
 ```
 
 ## 📚 Icons Documentation
@@ -943,6 +961,60 @@ import {
     <td>boolean</td>
     <td></td>
     <td> If true is passed, there will be no links to the user's profile in the open window. Only for mobile devices.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>550</td>
+    <td>Opened window width.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>400</td>
+    <td>Opened window height.</td>
+    <td>❌</td>
+  </tr>
+</table>
+
+### 📖 LivejournalShareButton Props
+
+<table>
+  <tr>
+    <th>Props</th>
+    <th>Type</th>
+    <th>Default</th>
+    <th>Description</th>
+    <th>Required</th>
+  </tr>
+  <tr>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td>React component, HTML element or string.</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td>The URL of the shared page.</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td>string</td>
+    <td></td>
+    <td>The title of the shared page.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td>string</td>
+    <td></td>
+    <td>Description of the shared page.</td>
     <td>❌</td>
   </tr>
   <tr>

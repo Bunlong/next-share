@@ -26,6 +26,7 @@ import {
   VKIcon,
   MailruShareButton,
   MailruIcon,
+  LivejournalIcon,
 } from 'next-share'
 
 function App() {
@@ -142,6 +143,7 @@ function App() {
           <MailruIcon size={32} round />
         </div>
       </MailruShareButton>
+      <LivejournalIcon size={32} round />
     </div>
   )
 };

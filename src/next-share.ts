@@ -12,6 +12,7 @@ export { default as WhatsappIcon } from './icons/WhatsappIcon';
 export { default as LinkedinIcon } from './icons/LinkedinIcon';
 export { default as VKIcon } from './icons/VKIcon';
 export { default as MailruIcon } from './icons/MailruIcon';
+export { default as LivejournalIcon } from './icons/LivejournalIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

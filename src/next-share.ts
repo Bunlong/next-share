@@ -13,6 +13,7 @@ export { default as LinkedinIcon } from './icons/LinkedinIcon';
 export { default as VKIcon } from './icons/VKIcon';
 export { default as MailruIcon } from './icons/MailruIcon';
 export { default as LivejournalIcon } from './icons/LivejournalIcon';
+export { default as WorkplaceIcon } from './icons/WorkplaceIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

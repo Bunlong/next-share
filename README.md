@@ -24,6 +24,7 @@ Social media share buttons for your next React apps.
   * Linkedin
   * VKShare
   * Livejournal
+  * Workplace
 
 ## 🔧 Install
 
@@ -250,6 +251,22 @@ import {
 >
   <LivejournalIcon size={32} round />
 </LivejournalShareButton>
+```
+
+### 🎀 Workplace
+
+```js
+import {
+  WorkplaceShareButton,
+  WorkplaceIcon,
+} from 'next-share'
+
+<WorkplaceShareButton
+  url={'https://github.com/next-share'}
+  quote={'Next Share'}
+>
+  <WorkplaceIcon size={32} round />
+</WorkplaceShareButton>
 ```
 
 ## 📚 Icons Documentation
@@ -1015,6 +1032,60 @@ import {
     <td>string</td>
     <td></td>
     <td>Description of the shared page.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>550</td>
+    <td>Opened window width.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>400</td>
+    <td>Opened window height.</td>
+    <td>❌</td>
+  </tr>
+</table>
+
+### 📖 LivejournalShareButton Props
+
+<table>
+  <tr>
+    <th>Props</th>
+    <th>Type</th>
+    <th>Default</th>
+    <th>Description</th>
+    <th>Required</th>
+  </tr>
+  <tr>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td>React component, HTML element or string.</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td>The URL of the shared page.</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>quote</td>
+    <td>string</td>
+    <td></td>
+    <td>A quote to be shared along with the link.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>hashtag</td>
+    <td>string</td>
+    <td></td>
+    <td> A hashtag specified by the developer to be added to the shared content. People will still have the opportunity to remove this hashtag in the dialog. The hashtag should include the hash symbol.</td>
     <td>❌</td>
   </tr>
   <tr>

@@ -28,6 +28,8 @@ import {
   MailruIcon,
   LivejournalShareButton,
   LivejournalIcon,
+  WorkplaceShareButton,
+  WorkplaceIcon
 } from 'next-share'
 
 function App() {
@@ -153,6 +155,12 @@ function App() {
           <LivejournalIcon size={32} round />
         </div>
       </LivejournalShareButton>
+      <WorkplaceShareButton
+        url={'https://github.com/next-share'}
+        quote={'Next Share'}
+      >
+        <WorkplaceIcon size={32} round />
+      </WorkplaceShareButton>
     </div>
   )
 };

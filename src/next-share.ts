@@ -32,3 +32,4 @@ export { default as VKShareButton } from './components/buttons/VKShareButton';
 export { default as MailruShareButton } from './components/buttons/MailruShareButton';
 export { default as LivejournalShareButton } from './components/buttons/LivejournalShareButton';
 export { default as WorkplaceShareButton } from './components/buttons/WorkplaceShareButton';
+export { default as PocketShareButton } from './components/buttons/PocketShareButton';

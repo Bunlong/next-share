@@ -29,7 +29,9 @@ import {
   LivejournalShareButton,
   LivejournalIcon,
   WorkplaceShareButton,
-  WorkplaceIcon
+  WorkplaceIcon,
+  PocketShareButton,
+  PocketIcon,
 } from 'next-share'
 
 function App() {
@@ -159,8 +161,18 @@ function App() {
         url={'https://github.com/next-share'}
         quote={'Next Share'}
       >
-        <WorkplaceIcon size={32} round />
+        <div style={{marginRight: 10, width: 32, height: 32}}>
+          <WorkplaceIcon size={32} round />
+        </div>
       </WorkplaceShareButton>
+      <PocketShareButton
+        url={'https://github.com/next-share'}
+        title={'Next Share'}
+      >
+        <div style={{marginRight: 10, width: 32, height: 32}}>
+          <PocketIcon size={32} round />
+        </div>
+      </PocketShareButton>
     </div>
   )
 };

@@ -37,7 +37,6 @@ import {
 function App() {
   return (
     <div style={{float: 'left'}}>
-      
       <FacebookShareButton
         url={'https://github.com/bunlong/next-share'}
         quote={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}

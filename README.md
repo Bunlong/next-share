@@ -288,6 +288,22 @@ import {
 </PocketShareButton>
 ```
 
+### 🎀 Instapaper
+
+```js
+import {
+  InstapaperShareButton,
+  InstapaperIcon,
+} from 'next-share'
+
+<InstapaperShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+>
+  <InstapaperIcon size={32} round />
+</InstapaperShareButton>
+```
+
 ## 📚 Icons Documentation
 
 ### 📖 Icons Props

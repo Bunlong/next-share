@@ -304,6 +304,22 @@ import {
 </InstapaperShareButton>
 ```
 
+### 🎀 Hatena
+
+```js
+import {
+  HatenaShareButton,
+  HatenaIcon,
+} from 'next-share'
+
+<HatenaShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+>
+  <HatenaIcon size={32} round />
+</HatenaShareButton>
+```
+
 ## 📚 Icons Documentation
 
 ### 📖 Icons Props

@@ -190,7 +190,9 @@ function App() {
         windowWidth={660}
         windowHeight={460}
       >
-        <HatenaIcon size={32} round />
+        <div style={{marginRight: 10, width: 32, height: 32}}>
+          <HatenaIcon size={32} round />
+        </div>
       </HatenaShareButton>
     </div>
   )

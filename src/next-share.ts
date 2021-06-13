@@ -18,6 +18,7 @@ export { default as PocketIcon } from './icons/PocketIcon';
 export { default as InstapaperIcon } from './icons/InstapaperIcon';
 export { default as HatenaIcon } from './icons/HatenaIcon';
 export { default as FacebookMessengerIcon } from './icons/FacebookMessengerIcon';
+export { default as EmailIcon } from './icons/EmailIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

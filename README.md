@@ -325,7 +325,7 @@ import {
 
 ```js
 import {
-  FacebookMessengerButton,
+  FacebookMessengerShareButton,
   FacebookMessengerIcon,
 } from 'next-share'
 
@@ -1320,7 +1320,7 @@ import {
   </tr>
 </table>
 
-### 📖 FacebookMessengerButton Props
+### 📖 FacebookMessengerShareButton Props
 
 <table>
   <tr>
@@ -1364,7 +1364,7 @@ import {
     <td></td>
     <td>A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients.</td>
     <td>❌</td>
-  </tr>
+  </tr>FacebookMessenger
   <tr>
     <td>windowWidth</td>
     <td>number</td>

@@ -16,6 +16,7 @@ export { default as LivejournalIcon } from './icons/LivejournalIcon';
 export { default as WorkplaceIcon } from './icons/WorkplaceIcon';
 export { default as PocketIcon } from './icons/PocketIcon';
 export { default as InstapaperIcon } from './icons/InstapaperIcon';
+export { default as HatenaIcon } from './icons/HatenaIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

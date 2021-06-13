@@ -36,3 +36,4 @@ export { default as LivejournalShareButton } from './components/buttons/Livejour
 export { default as WorkplaceShareButton } from './components/buttons/WorkplaceShareButton';
 export { default as PocketShareButton } from './components/buttons/PocketShareButton';
 export { default as InstapaperShareButton } from './components/buttons/InstapaperShareButton';
+export { default as HatenaShareButton } from './components/buttons/HatenaShareButton';

@@ -15,6 +15,7 @@ export { default as MailruIcon } from './icons/MailruIcon';
 export { default as LivejournalIcon } from './icons/LivejournalIcon';
 export { default as WorkplaceIcon } from './icons/WorkplaceIcon';
 export { default as PocketIcon } from './icons/PocketIcon';
+export { default as InstapaperIcon } from './icons/InstapaperIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

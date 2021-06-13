@@ -40,3 +40,4 @@ export { default as PocketShareButton } from './components/buttons/PocketShareBu
 export { default as InstapaperShareButton } from './components/buttons/InstapaperShareButton';
 export { default as HatenaShareButton } from './components/buttons/HatenaShareButton';
 export { default as FacebookMessengerShareButton } from './components/buttons/FacebookMessengerShareButton';
+export { default as EmailShareButton } from './components/buttons/EmailShareButton';

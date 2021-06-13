@@ -34,3 +34,4 @@ export { default as MailruShareButton } from './components/buttons/MailruShareBu
 export { default as LivejournalShareButton } from './components/buttons/LivejournalShareButton';
 export { default as WorkplaceShareButton } from './components/buttons/WorkplaceShareButton';
 export { default as PocketShareButton } from './components/buttons/PocketShareButton';
+export { default as InstapaperShareButton } from './components/buttons/InstapaperShareButton';

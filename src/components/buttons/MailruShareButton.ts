@@ -15,7 +15,6 @@ function mailruLink(
       url,
       title,
       description,
-      // eslint-disable-next-line @typescript-eslint/camelcase
       image_url: imageUrl,
     })
   );

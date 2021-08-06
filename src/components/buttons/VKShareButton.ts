@@ -16,7 +16,6 @@ function vkLink(url: string, { title, image, noParse, noVkLinks }: Options) {
       title,
       image,
       noparse: noParse ? 1 : 0,
-      // eslint-disable-next-line @typescript-eslint/camelcase
       no_vk_links: noVkLinks ? 1 : 0,
     })
   );

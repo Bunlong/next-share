@@ -1364,7 +1364,7 @@ import {
     <td></td>
     <td>A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients.</td>
     <td>❌</td>
-  </tr>FacebookMessenger
+  </tr>
   <tr>
     <td>windowWidth</td>
     <td>number</td>

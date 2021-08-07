@@ -72,8 +72,12 @@
   "dependencies": {},
   "bundlesize": [
     {
-      "path": "./dist/next-share.es.js",
-      "maxSize": "50 kB"
+      "path": "./dist/**/*.js",
+      "maxSize": "20 kB"
+    },
+    {
+      "path": "./dist/**/*.ts",
+      "maxSize": "765 B"
     }
   ],
   "browser": {

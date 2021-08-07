@@ -16,6 +16,7 @@ export { default as LivejournalIcon } from './icons/LivejournalIcon';
 export { default as WorkplaceIcon } from './icons/WorkplaceIcon';
 export { default as PocketIcon } from './icons/PocketIcon';
 export { default as InstapaperIcon } from './icons/InstapaperIcon';
+export { default as HatenaIcon } from './icons/HatenaIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';
@@ -35,3 +36,4 @@ export { default as LivejournalShareButton } from './components/buttons/Livejour
 export { default as WorkplaceShareButton } from './components/buttons/WorkplaceShareButton';
 export { default as PocketShareButton } from './components/buttons/PocketShareButton';
 export { default as InstapaperShareButton } from './components/buttons/InstapaperShareButton';
+export { default as HatenaShareButton } from './components/buttons/HatenaShareButton';

@@ -20,9 +20,7 @@ function facebookMessengerLink(
     'https://www.facebook.com/dialog/send' +
     transformObjectToParams({
       link: url,
-      // eslint-disable-next-line @typescript-eslint/camelcase
       redirect_uri: redirectUri || url,
-      // eslint-disable-next-line @typescript-eslint/camelcase
       app_id: appId,
       to,
     })

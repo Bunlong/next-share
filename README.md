@@ -28,6 +28,7 @@ Social media share buttons for your next React apps.
   * Pocket
   * Instapaper
   * Hatena
+  * FacebookMessenger
 
 ## 🔧 Install
 
@@ -318,6 +319,22 @@ import {
 >
   <HatenaIcon size={32} round />
 </HatenaShareButton>
+```
+
+### 🎀 FacebookMessenger
+
+```js
+import {
+  FacebookMessengerShareButton,
+  FacebookMessengerIcon,
+} from 'next-share'
+
+<FacebookMessengerShareButton
+  url={'https://github.com/next-share'}
+  appId={''}
+>
+  <FacebookMessengerIcon size={32} round />
+</FacebookMessengerShareButton>
 ```
 
 ## 📚 Icons Documentation
@@ -1287,6 +1304,67 @@ import {
     <td>Title of the shared page.</td>
     <td>❌</td>
   </tr>
+  <tr>
+    <td>windowWidth</td>
+    <td>number</td>
+    <td>550</td>
+    <td>Opened window width.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>windowHeight</td>
+    <td>number</td>
+    <td>400</td>
+    <td>Opened window height.</td>
+    <td>❌</td>
+  </tr>
+</table>
+
+### 📖 FacebookMessengerShareButton Props
+
+<table>
+  <tr>
+    <th>Props</th>
+    <th>Type</th>
+    <th>Default</th>
+    <th>Description</th>
+    <th>Required</th>
+  </tr>
+  <tr>
+    <td>children</td>
+    <td>React node</td>
+    <td></td>
+    <td>React component, HTML element or string.</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>url</td>
+    <td>string</td>
+    <td></td>
+    <td>The URL of the shared page.</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>appId</td>
+    <td>string</td>
+    <td></td>
+    <td>Facebook application id.</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>redirectUri</td>
+    <td>string</td>
+    <td></td>
+    <td>The URL to redirect to after sharing (default: the shared url).</td>
+    <td>❌</td>
+  </tr>
+  <tr>
+    <td>to</td>
+    <td>string</td>
+    <td></td>
+    <td>A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients.</td>
+    <td>❌</td>
+  </tr>FacebookMessenger
   <tr>
     <td>windowWidth</td>
     <td>number</td>

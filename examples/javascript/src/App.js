@@ -36,6 +36,8 @@ import {
   InstapaperIcon,
   HatenaShareButton,
   HatenaIcon,
+  FacebookMessengerShareButton,
+  FacebookMessengerIcon,
 } from 'next-share'
 
 function App() {
@@ -194,6 +196,14 @@ function App() {
           <HatenaIcon size={32} round />
         </div>
       </HatenaShareButton>
+      <FacebookMessengerShareButton
+        url={'https://github.com/next-share'}
+        appId={''}
+      >
+        <div style={{marginRight: 10, width: 32, height: 32}}>
+          <FacebookMessengerIcon size={32} round />
+        </div>
+      </FacebookMessengerShareButton>
     </div>
   )
 };

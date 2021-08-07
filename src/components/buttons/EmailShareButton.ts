@@ -8,13 +8,19 @@ type Options = {
 };
 
 function emailLink(url: string, { subject, body, separator }: Options) {
-  return 'mailto:' + transformObjectToParams({ subject, body: body ? body + separator + url : url });
+  return (
+    'mailto:' +
+    transformObjectToParams({
+      subject,
+      body: body ? body + separator + url : url,
+    })
+  );
 }
 
 const EmailShareButton = createShareButton<Options>(
   'email',
   emailLink,
-  props => ({
+  (props) => ({
     subject: props.subject,
     body: props.body,
     separator: props.separator || ' ',

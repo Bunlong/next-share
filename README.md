@@ -79,8 +79,6 @@ import {
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
 
-
-
 ### 🎀 Line
 
 #### 👨‍💻 Code
@@ -106,8 +104,8 @@ import {
 | children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
 | title | string |  | The title of the shared page. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
 
 ### 🎀 Pinterest
 
@@ -135,8 +133,8 @@ import {
 | url | string |  | The URL of the shared page. | ✅ |
 | media | string |  | The image URL that will be pinned. | ✅ |
 | description | string |  | The description of the shared media. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 1000 | Opened window width. | ❌ |
+| windowHeight | number | 730 | Opened window height. | ❌ |
 
 ### 🎀 Reddit
 
@@ -163,8 +161,8 @@ import {
 | children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
 | title | string |  | The title of the shared page. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
 
 ### 🎀 Telegram
 
@@ -222,8 +220,8 @@ import {
 | tags | <code>Array&lt;string&gt;</code> |  |  | ❌ |
 | caption | string |  | The description of the shared page. | ❌ |
 | posttype | string | <code>link</code> |  | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
 
 ### 🎀 Twitter
 
@@ -282,8 +280,8 @@ import {
 | url | string |  | The URL of the shared page. | ✅ |
 | title | string |  | The title of the shared page. | ❌ |
 | separator |  |  |  | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
 
 ### 🎀 Weibo
 
@@ -312,8 +310,8 @@ import {
 | url | string |  | The URL of the shared page. | ✅ |
 | title | string |  | The title of the shared page. | ❌ |
 | image | string |  | The image URL that will be shared. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 550 | Opened window height. | ❌ |
 
 ### 🎀 Whatsapp
 
@@ -369,8 +367,8 @@ import {
 | title | string |  | The title of the shared page. | ❌ |
 | summary | string |  | Description of the shared page. | ❌ |
 | source | string |  | Source of the content (e.g. your website or application name). | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 750 | Opened window width. | ❌ |
+| windowHeight | number | 600 | Opened window height. | ❌ |
 
 ### 🎀 VK
 
@@ -400,8 +398,8 @@ import {
 | image | string |  | An absolute link to the image that will be shared. | ❌ |
 | noParse | boolean |  | If true is passed, VK will not retrieve URL information. | ❌ |
 | noVkLinks | boolean |  | If true is passed, there will be no links to the user's profile in the open window. Only for mobile devices. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
 
 ### 🎀 Livejournal
 
@@ -430,8 +428,8 @@ import {
 | url | string |  | The URL of the shared page. | ✅ |
 | title | string |  | The title of the shared page. | ❌ |
 | description | string |  | Description of the shared page. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
 
 ### 🎀 Workplace
 
@@ -487,8 +485,8 @@ import {
 | children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
 | title | string |  | Title of the shared page. Note that if Pocket detects a title tag on the page being saved, this parameter will be ignored and the title tag of the saved page will be used instead. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
 
 ### 🎀 Instapaper
 
@@ -516,8 +514,8 @@ import {
 | url | string |  | The URL of the shared page. | ✅ |
 | title | string |  | Title of the shared page. | ❌ |
 | description | string |  | Description of the shared page. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
 
 ### 🎀 Hatena
 
@@ -544,8 +542,8 @@ import {
 | children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
 | title | string |  | Title of the shared page. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
 
 ### 🎀 FacebookMessenger
 
@@ -574,8 +572,8 @@ import {
 | appId | string |  | Facebook application id. | ❌ |
 | redirectUri | string |  | The URL to redirect to after sharing (default: the shared url). | ❌ |
 | to | string |  | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| windowWidth | number | 1000 | Opened window width. | ❌ |
+| windowHeight | number | 820 | Opened window height. | ❌ |
 
 ### 🎀 Email
 

@@ -29,6 +29,7 @@ Social media share buttons for your next React apps.
   * Instapaper
   * Hatena
   * FacebookMessenger
+  * Email
 
 ## 🔧 Install
 
@@ -335,6 +336,23 @@ import {
 >
   <FacebookMessengerIcon size={32} round />
 </FacebookMessengerShareButton>
+```
+
+### 🎀 Email
+
+```js
+import {
+  EmailShareButton,
+  EmailIcon,
+} from 'next-share'
+
+<EmailShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+  body="body"
+>
+  <EmailIcon size={32} round />
+</EmailShareButton>
 ```
 
 ## 📚 Icons Documentation

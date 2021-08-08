@@ -434,6 +434,8 @@ import {
 
 ### 🎀 Workplace
 
+#### 👨‍💻 Code
+
 ```js
 import {
   WorkplaceShareButton,
@@ -447,6 +449,17 @@ import {
   <WorkplaceIcon size={32} round />
 </WorkplaceShareButton>
 ```
+
+#### 📖 WorkplaceShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| quote | string |  |  | ❌ |
+| hashtag | string |  |  | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
 
 ### 🎀 Pocket
 
@@ -562,8 +575,6 @@ import {
 ## 📚 ShareButtons Documentation
 
 <!-- TODO -->
-
-
 
 ### 📖 LivejournalShareButton Props
 

@@ -78,17 +78,11 @@ import {
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
 
-<!--
-
-| Props | Type | Default | Description | Required |
-| :--- | :--- | :--- | :--- | :--- |
-|  |  |  |  |  |
-|  |  |  |  |  |
-
--->
 
 
 ### 🎀 Line
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -103,6 +97,16 @@ import {
   <LineIcon />
 </LineShareButton>
 ```
+
+#### 📖 LineShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
 
 ### 🎀 Pinterest
 
@@ -412,53 +416,6 @@ import {
 </table>
 
 ## 📚 ShareButtons Documentation
-
-### 📖 LineShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>500</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>500</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
 
 ### 📖 PinterestShareButton Props
 
@@ -1445,3 +1402,12 @@ export default class Sticky extends Component<Props> {
 }
 
 ====================== -->
+
+<!--
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
+-->

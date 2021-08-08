@@ -195,6 +195,8 @@ import {
 
 ### 🎀 Tumblr
 
+#### 👨‍💻 Code
+
 ```js
 import {
   TumblrShareButton,
@@ -208,6 +210,19 @@ import {
   <TumblrIcon size={32} round />
 </TumblrShareButton>
 ```
+
+### 📖 TumblrShareButton Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| tags | <code>Array&lt;string&gt;</code> |  |  | ❌ |
+| caption | string |  | The description of the shared page. | ❌ |
+| posttype | string | <code>link</code> |  | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
 
 ### 🎀 Twitter
 
@@ -453,74 +468,6 @@ import {
 ## 📚 ShareButtons Documentation
 
 <!-- TODO -->
-
-### 📖 TumblrShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>tags</td>
-    <td><code>Array&lt;string&gt;</code></td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>caption</td>
-    <td>string</td>
-    <td></td>
-    <td>The description of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>posttype</td>
-    <td>string</td>
-    <td><code>link</code></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>660</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>460</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
 
 ### 📖 TwitterShareButton Props
 

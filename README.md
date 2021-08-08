@@ -1,10 +1,12 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bunlong/next-share/master/static/images/next-share.png" alt="next-share" />
+</p>
+
 # next-share
 
 Social media share buttons for your next React apps.
 
 [![NPM](https://img.shields.io/npm/v/next-share.svg)](https://www.npmjs.com/package/next-share) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-share) [![Build Status](https://api.travis-ci.com/Bunlong/next-share.svg?branch=master)](https://travis-ci.com/Bunlong/next-share) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![downloads](https://img.shields.io/npm/dm/next-share.svg)](https://www.npmjs.com/package/next-share)
-
-![next-share](https://raw.githubusercontent.com/bunlong/next-share/master/static/images/next-share.png)
 
 ## 🎁 Features
 
@@ -48,11 +50,13 @@ yarn add next-share --save
 
 ### 🎀 Facebook
 
+#### 👨‍💻 Code
+
 ```js
 import {
   FacebookShareButton,
   FacebookIcon,
-} from 'next-share'
+} from 'next-share';
 
 <FacebookShareButton
   url={'https://github.com/next-share'}
@@ -63,13 +67,34 @@ import {
 </FacebookShareButton>
 ```
 
+#### 📖 FacebookShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| quote | string |  | A quote to be shared. | ❌ |
+| hashtag | string |  | Hashtag to be shared. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+
+<!--
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
+-->
+
+
 ### 🎀 Line
 
 ```js
 import {
   LineShareButton,
   LineIcon,
-} from 'next-share'
+} from 'next-share';
 
 <LineShareButton
   url={'https://github.com/next-share'}
@@ -337,9 +362,9 @@ import {
 </FacebookMessengerShareButton>
 ```
 
-## 📚 Icons Documentation
+## 📚 Icons props
 
-### 📖 Icons Props
+### 📖 
 
 <table>
   <tr>
@@ -353,94 +378,40 @@ import {
     <td>size</td>
     <td>number</td>
     <td></td>
-    <td>Icon size in pixels.</td>
+    <td>icon size in pixels.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>round</td>
     <td>boolean</td>
     <td>false</td>
-    <td>Show round or rectangle.</td>
+    <td>show round or rectangle.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>borderRadius</td>
     <td>number</td>
     <td></td>
-    <td>Set rounded corners if using round icon.</td>
+    <td>set rounded corners if using round icon.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>bgStyle</td>
     <td>object</td>
     <td></td>
-    <td>Customize background style.</td>
+    <td>customize background style.</td>
     <td>❌</td>
   </tr>
   <tr>
     <td>iconFillColor</td>
     <td>string</td>
     <td>`white`</td>
-    <td>Customize icon fill color.</td>
+    <td>customize icon fill color.</td>
     <td>❌</td>
   </tr>
 </table>
 
 ## 📚 ShareButtons Documentation
-
-### 📖 FacebookShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>quote</td>
-    <td>string</td>
-    <td></td>
-    <td>A quote to be shared.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>hashtag</td>
-    <td>string</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
 
 ### 📖 LineShareButton Props
 

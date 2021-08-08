@@ -608,50 +608,13 @@ import {
 
 ## 📚 Icons props
 
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>size</td>
-    <td>number</td>
-    <td></td>
-    <td>Icon size in pixels.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>round</td>
-    <td>boolean</td>
-    <td>false</td>
-    <td>Show round or rectangle.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>borderRadius</td>
-    <td>number</td>
-    <td></td>
-    <td>Set rounded corners if using round icon.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>bgStyle</td>
-    <td>object</td>
-    <td></td>
-    <td>Customize background style.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>iconFillColor</td>
-    <td>string</td>
-    <td>`white`</td>
-    <td>Customize icon fill color.</td>
-    <td>❌</td>
-  </tr>
-</table>
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| size | number |  | Icon size in pixels. | ❌ |
+| round | boolean |  | Show round or rectangle. | ❌ |
+| borderRadius | number |  | Set rounded corners if using round icon. | ❌ |
+| bgStyle | object |  | Customize background style. | ❌ |
+| iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
 
 ## 💖 Wrap Up
 

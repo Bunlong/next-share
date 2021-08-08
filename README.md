@@ -346,6 +346,8 @@ import {
 
 ### 🎀 Linkedin
 
+#### 👨‍💻 Code
+
 ```js
 import {
   LinkedinShareButton,
@@ -356,6 +358,18 @@ import {
   <LinkedinIcon size={32} round />
 </LinkedinShareButton>
 ```
+
+#### 📖 LinkedinShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| summary | string |  | Description of the shared page. | ❌ |
+| source | string |  | Source of the content (e.g. your website or application name). | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
 
 ### 🎀 VK
 
@@ -523,66 +537,7 @@ import {
 
 <!-- TODO -->
 
-### 📖 LinkedinShareButton Props
 
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>summary</td>
-    <td>string</td>
-    <td></td>
-    <td>Description of the shared page</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>source</td>
-    <td>string</td>
-    <td></td>
-    <td>Source of the content (e.g. your website or application name).</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
 
 ### 📖 VKShareButton Props
 

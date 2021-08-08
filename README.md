@@ -31,6 +31,7 @@ Social media share buttons for your next React apps.
   * Instapaper
   * Hatena
   * FacebookMessenger
+  * Email
 
 ## 🔧 Install
 
@@ -575,6 +576,35 @@ import {
 | to | string |  | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌ |
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
+
+### 🎀 Email
+
+#### 👨‍💻 Code
+
+```js
+import {
+  EmailShareButton,
+  EmailIcon,
+} from 'next-share'
+
+<EmailShareButton
+  url={'https://github.com/next-share'}
+  subject={'Next Share'}
+  body="body"
+>
+  <EmailIcon size={32} round />
+</EmailShareButton>
+```
+
+#### 📖 EmailShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| subject | string |  |  | ❌ |
+| body | string |  |  | ❌ |
+| separator | string |  |  | ❌ |
 
 ## 📚 Icons props
 

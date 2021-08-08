@@ -548,6 +548,8 @@ import {
 
 ### 🎀 FacebookMessenger
 
+#### 👨‍💻 Code
+
 ```js
 import {
   FacebookMessengerShareButton,
@@ -561,6 +563,18 @@ import {
   <FacebookMessengerIcon size={32} round />
 </FacebookMessengerShareButton>
 ```
+
+#### 📖 FacebookMessengerShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| appId | string |  | Facebook application id. | ❌ |
+| redirectUri | string |  | The URL to redirect to after sharing (default: the shared url). | ❌ |
+| to | string |  | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
 
 ## 📚 Icons props
 
@@ -605,73 +619,6 @@ import {
     <td>string</td>
     <td>`white`</td>
     <td>Customize icon fill color.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-## 📚 ShareButtons Documentation
-
-<!-- TODO -->
-
-
-
-### 📖 FacebookMessengerShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>appId</td>
-    <td>string</td>
-    <td></td>
-    <td>Facebook application id.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>redirectUri</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL to redirect to after sharing (default: the shared url).</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>to</td>
-    <td>string</td>
-    <td></td>
-    <td>A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
     <td>❌</td>
   </tr>
 </table>
@@ -769,12 +716,3 @@ export default class Sticky extends Component<Props> {
 }
 
 ====================== -->
-
-<!--
-
-| Props | Type | Default | Description | Required |
-| :--- | :--- | :--- | :--- | :--- |
-|  |  |  |  |  |
-|  |  |  |  |  |
-
--->

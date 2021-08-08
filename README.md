@@ -155,7 +155,7 @@ import {
 </RedditShareButton>
 ```
 
-### 📖 RedditShareButton Props
+#### 📖 RedditShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -211,7 +211,7 @@ import {
 </TumblrShareButton>
 ```
 
-### 📖 TumblrShareButton Props
+#### 📖 TumblrShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -226,6 +226,8 @@ import {
 
 ### 🎀 Twitter
 
+#### 👨‍💻 Code
+
 ```js
 import {
   TwitterShareButton,
@@ -239,6 +241,19 @@ import {
   <TwitterIcon size={32} round />
 </TwitterShareButton>
 ```
+
+#### 📖 TwitterShareButton Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| via | string |  |  | ❌ |
+| hashtags | array |  |  | ❌ |
+| related | array |  |  | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
 
 ### 🎀 Viber
 
@@ -468,74 +483,6 @@ import {
 ## 📚 ShareButtons Documentation
 
 <!-- TODO -->
-
-### 📖 TwitterShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>via</td>
-    <td>string</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>hashtags</td>
-    <td>array</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>related</td>
-    <td>array</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
 
 ### 📖 ViberShareButton Props
 

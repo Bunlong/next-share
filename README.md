@@ -1,8 +1,10 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bunlong/next-share/master/static/images/next-share.png" alt="next-share" />
+</p>
+
 # next-share
 
 Social media share buttons for your next React apps.
-
-![next-share](https://raw.githubusercontent.com/bunlong/next-share/master/static/images/next-share.png)
 
 [![NPM](https://img.shields.io/npm/v/next-share.svg)](https://www.npmjs.com/package/next-share) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-share) [![Build Status](https://api.travis-ci.com/Bunlong/next-share.svg?branch=master)](https://travis-ci.com/Bunlong/next-share) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![downloads](https://img.shields.io/npm/dm/next-share.svg)](https://www.npmjs.com/package/next-share)
 
@@ -10,7 +12,7 @@ Social media share buttons for your next React apps.
 
 * No dependencies
 * Compatible with both JavaScript and TypeScript
-* Share buttons for your next React app:
+* Share buttons for your next React app
   * Facebook
   * Line
   * Pinterest
@@ -49,11 +51,13 @@ yarn add next-share --save
 
 ### 🎀 Facebook
 
+#### 👨‍💻 Code
+
 ```js
 import {
   FacebookShareButton,
   FacebookIcon,
-} from 'next-share'
+} from 'next-share';
 
 <FacebookShareButton
   url={'https://github.com/next-share'}
@@ -64,13 +68,26 @@ import {
 </FacebookShareButton>
 ```
 
+#### 📖 FacebookShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| quote | string |  | A quote to be shared. | ❌ |
+| hashtag | string |  | Hashtag to be shared. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+
 ### 🎀 Line
+
+#### 👨‍💻 Code
 
 ```js
 import {
   LineShareButton,
   LineIcon,
-} from 'next-share'
+} from 'next-share';
 
 <LineShareButton
   url={'https://github.com/next-share'}
@@ -80,7 +97,19 @@ import {
 </LineShareButton>
 ```
 
+#### 📖 LineShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
+
 ### 🎀 Pinterest
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -96,7 +125,20 @@ import {
 </PinterestShareButton>
 ```
 
+#### 📖 PinterestShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| media | string |  | The image URL that will be pinned. | ✅ |
+| description | string |  | The description of the shared media. | ❌ |
+| windowWidth | number | 1000 | Opened window width. | ❌ |
+| windowHeight | number | 730 | Opened window height. | ❌ |
+
 ### 🎀 Reddit
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -107,14 +149,24 @@ import {
 <RedditShareButton
   url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
-  windowWidth={660}
-  windowHeight={460}
 >
   <RedditIcon size={32} round />
 </RedditShareButton>
 ```
 
+#### 📖 RedditShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+
 ### 🎀 Telegram
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -130,7 +182,19 @@ import {
 </TelegramShareButton>
 ```
 
+#### 📖 TelegramShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+
 ### 🎀 Tumblr
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -146,7 +210,22 @@ import {
 </TumblrShareButton>
 ```
 
+#### 📖 TumblrShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| tags | <code>Array&lt;string&gt;</code> |  |  | ❌ |
+| caption | string |  | The description of the shared page. | ❌ |
+| posttype | string | <code>link</code> |  | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+
 ### 🎀 Twitter
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -162,7 +241,22 @@ import {
 </TwitterShareButton>
 ```
 
+#### 📖 TwitterShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| via | string |  |  | ❌ |
+| hashtags | array |  |  | ❌ |
+| related | array |  |  | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+
 ### 🎀 Viber
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -178,7 +272,20 @@ import {
 </ViberShareButton>
 ```
 
+#### 📖 ViberShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| separator |  |  |  | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+
 ### 🎀 Weibo
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -195,7 +302,20 @@ import {
 </WeiboShareButton>
 ```
 
+#### 📖 WeiboShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| image | string |  | The image URL that will be shared. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 550 | Opened window height. | ❌ |
+
 ### 🎀 Whatsapp
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -212,7 +332,20 @@ import {
 </WhatsappShareButton>
 ```
 
+#### 📖 WhatsappShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| separator | string |  |  | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+
 ### 🎀 Linkedin
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -225,7 +358,21 @@ import {
 </LinkedinShareButton>
 ```
 
+#### 📖 LinkedinShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| summary | string |  | Description of the shared page. | ❌ |
+| source | string |  | Source of the content (e.g. your website or application name). | ❌ |
+| windowWidth | number | 750 | Opened window width. | ❌ |
+| windowHeight | number | 600 | Opened window height. | ❌ |
+
 ### 🎀 VK
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -241,7 +388,22 @@ import {
 </VKShareButton>
 ```
 
+#### 📖 VKShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| image | string |  | An absolute link to the image that will be shared. | ❌ |
+| noParse | boolean |  | If true is passed, VK will not retrieve URL information. | ❌ |
+| noVkLinks | boolean |  | If true is passed, there will be no links to the user's profile in the open window. Only for mobile devices. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+
 ### 🎀 Livejournal
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -258,7 +420,20 @@ import {
 </LivejournalShareButton>
 ```
 
+#### 📖 LivejournalShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| description | string |  | Description of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+
 ### 🎀 Workplace
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -274,7 +449,20 @@ import {
 </WorkplaceShareButton>
 ```
 
+#### 📖 WorkplaceShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| quote | string |  |  | ❌ |
+| hashtag | string |  |  | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+
 ### 🎀 Pocket
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -290,7 +478,19 @@ import {
 </PocketShareButton>
 ```
 
+#### 📖 PocketShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | Title of the shared page. Note that if Pocket detects a title tag on the page being saved, this parameter will be ignored and the title tag of the saved page will be used instead. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
+
 ### 🎀 Instapaper
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -306,7 +506,20 @@ import {
 </InstapaperShareButton>
 ```
 
+#### 📖 InstapaperShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | Title of the shared page. | ❌ |
+| description | string |  | Description of the shared page. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
+
 ### 🎀 Hatena
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -322,7 +535,19 @@ import {
 </HatenaShareButton>
 ```
 
+#### 📖 HatenaShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | Title of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+
 ### 🎀 FacebookMessenger
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -338,7 +563,21 @@ import {
 </FacebookMessengerShareButton>
 ```
 
+#### 📖 FacebookMessengerShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| appId | string |  | Facebook application id. | ❌ |
+| redirectUri | string |  | The URL to redirect to after sharing (default: the shared url). | ❌ |
+| to | string |  | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌ |
+| windowWidth | number | 1000 | Opened window width. | ❌ |
+| windowHeight | number | 820 | Opened window height. | ❌ |
+
 ### 🎀 Email
+
+#### 👨‍💻 Code
 
 ```js
 import {
@@ -348,1056 +587,32 @@ import {
 
 <EmailShareButton
   url={'https://github.com/next-share'}
-  title={'Next Share'}
+  subject={'Next Share'}
   body="body"
 >
   <EmailIcon size={32} round />
 </EmailShareButton>
 ```
 
-## 📚 Icons Documentation
+#### 📖 EmailShareButton props
 
-### 📖 Icons Props
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| subject | string |  |  | ❌ |
+| body | string |  |  | ❌ |
+| separator | string |  |  | ❌ |
 
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>size</td>
-    <td>number</td>
-    <td></td>
-    <td>Icon size in pixels.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>round</td>
-    <td>boolean</td>
-    <td>false</td>
-    <td>Show round or rectangle.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>borderRadius</td>
-    <td>number</td>
-    <td></td>
-    <td>Set rounded corners if using round icon.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>bgStyle</td>
-    <td>object</td>
-    <td></td>
-    <td>Customize background style.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>iconFillColor</td>
-    <td>string</td>
-    <td>`white`</td>
-    <td>Customize icon fill color.</td>
-    <td>❌</td>
-  </tr>
-</table>
+## 📚 Icons props
 
-## 📚 ShareButtons Documentation
-
-### 📖 FacebookShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>quote</td>
-    <td>string</td>
-    <td></td>
-    <td>A quote to be shared.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>hashtag</td>
-    <td>string</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 LineShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>500</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>500</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 PinterestShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>media</td>
-    <td>string</td>
-    <td></td>
-    <td>The image URL that will be pinned.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>description</td>
-    <td>string</td>
-    <td></td>
-    <td>The description of the shared media.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 RedditShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>660</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>460</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 TelegramShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 TumblrShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>tags</td>
-    <td><code>Array&lt;string&gt;</code></td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>caption</td>
-    <td>string</td>
-    <td></td>
-    <td>The description of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>posttype</td>
-    <td>string</td>
-    <td><code>link</code></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>660</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>460</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 TwitterShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>via</td>
-    <td>string</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>hashtags</td>
-    <td>array</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>related</td>
-    <td>array</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 ViberShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>separator</td>
-    <td>string</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>660</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>460</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 WeiboShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>image</td>
-    <td>string</td>
-    <td></td>
-    <td>The image URL that will be shared.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>660</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 WhatsappShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>separator</td>
-    <td>string</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 LinkedinShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>summary</td>
-    <td>string</td>
-    <td></td>
-    <td>Description of the shared page</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>source</td>
-    <td>string</td>
-    <td></td>
-    <td>Source of the content (e.g. your website or application name).</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 VKShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>image</td>
-    <td>string</td>
-    <td></td>
-    <td>An absolute link to the image that will be shared</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>noParse</td>
-    <td>boolean</td>
-    <td></td>
-    <td>If true is passed, VK will not retrieve URL information.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>noVkLinks</td>
-    <td>boolean</td>
-    <td></td>
-    <td> If true is passed, there will be no links to the user's profile in the open window. Only for mobile devices.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 LivejournalShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>description</td>
-    <td>string</td>
-    <td></td>
-    <td>Description of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 LivejournalShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>quote</td>
-    <td>string</td>
-    <td></td>
-    <td>A quote to be shared along with the link.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>hashtag</td>
-    <td>string</td>
-    <td></td>
-    <td> A hashtag specified by the developer to be added to the shared content. People will still have the opportunity to remove this hashtag in the dialog. The hashtag should include the hash symbol.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 PocketShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>Title of the shared page. Note that if Pocket detects a title tag on the page being saved, this parameter will be ignored and the title tag of the saved page will be used instead.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 InstapaperShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>Title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>description</td>
-    <td>string</td>
-    <td></td>
-    <td>Description of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 HatenaShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>Title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
-
-### 📖 FacebookMessengerShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>appId</td>
-    <td>string</td>
-    <td></td>
-    <td>Facebook application id.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>redirectUri</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL to redirect to after sharing (default: the shared url).</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>to</td>
-    <td>string</td>
-    <td></td>
-    <td>A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>550</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>400</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| size | number |  | Icon size in pixels. | ❌ |
+| round | boolean |  | Show round or rectangle. | ❌ |
+| borderRadius | number |  | Set rounded corners if using round icon. | ❌ |
+| bgStyle | object |  | Customize background style. | ❌ |
+| iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
 
 ## 💖 Wrap Up
 

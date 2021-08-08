@@ -257,6 +257,8 @@ import {
 
 ### 🎀 Viber
 
+#### 👨‍💻 Code
+
 ```js
 import {
   ViberShareButton,
@@ -270,6 +272,17 @@ import {
   <ViberIcon size={32} round />
 </ViberShareButton>
 ```
+
+#### 📖 ViberShareButton Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| separator |  |  |  | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
 
 ### 🎀 Weibo
 
@@ -483,60 +496,6 @@ import {
 ## 📚 ShareButtons Documentation
 
 <!-- TODO -->
-
-### 📖 ViberShareButton Props
-
-<table>
-  <tr>
-    <th>Props</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-    <th>Required</th>
-  </tr>
-  <tr>
-    <td>children</td>
-    <td>React node</td>
-    <td></td>
-    <td>React component, HTML element or string.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>string</td>
-    <td></td>
-    <td>The URL of the shared page.</td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>string</td>
-    <td></td>
-    <td>The title of the shared page.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>separator</td>
-    <td>string</td>
-    <td></td>
-    <td></td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowWidth</td>
-    <td>number</td>
-    <td>660</td>
-    <td>Opened window width.</td>
-    <td>❌</td>
-  </tr>
-  <tr>
-    <td>windowHeight</td>
-    <td>number</td>
-    <td>460</td>
-    <td>Opened window height.</td>
-    <td>❌</td>
-  </tr>
-</table>
 
 ### 📖 WeiboShareButton Props
 

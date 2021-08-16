@@ -423,6 +423,38 @@ import {
 
 #### 📖 [VKIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
+### 🎀 Mailru
+
+#### 👨‍💻 Code
+
+```js
+import {
+  MailruShareButton,
+  MailruIcon,
+} from 'next-share'
+
+<MailruShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+>
+  <MailruIcon size={32} round />
+</MailruShareButton>
+```
+
+#### 📖 MailruShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| description | string |  | Description of the shared page. | ❌ |
+| imageUrl | string |  | Image url of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+
+#### 📖 [MailruIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Livejournal
 
 #### 👨‍💻 Code

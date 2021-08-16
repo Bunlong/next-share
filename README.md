@@ -77,6 +77,8 @@ import {
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
 
+#### 📖 [FacebookIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Line
 
 #### 👨‍💻 Code
@@ -104,6 +106,8 @@ import {
 | title | string |  | The title of the shared page. | ❌ |
 | windowWidth | number | 500 | Opened window width. | ❌ |
 | windowHeight | number | 500 | Opened window height. | ❌ |
+
+#### 📖 [LineIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Pinterest
 
@@ -134,6 +138,8 @@ import {
 | windowWidth | number | 1000 | Opened window width. | ❌ |
 | windowHeight | number | 730 | Opened window height. | ❌ |
 
+#### 📖 [PinterestIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Reddit
 
 #### 👨‍💻 Code
@@ -162,6 +168,8 @@ import {
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
 
+#### 📖 [RedditIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Telegram
 
 #### 👨‍💻 Code
@@ -189,6 +197,8 @@ import {
 | title | string |  | The title of the shared page. | ❌ |
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
+
+#### 📖 [TelegramIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Tumblr
 
@@ -221,6 +231,8 @@ import {
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
 
+#### 📖 [TumblrIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Twitter
 
 #### 👨‍💻 Code
@@ -252,6 +264,8 @@ import {
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
 
+#### 📖 [TwitterIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Viber
 
 #### 👨‍💻 Code
@@ -280,6 +294,8 @@ import {
 | separator |  |  |  | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
+
+#### 📖 [ViberIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Weibo
 
@@ -311,6 +327,8 @@ import {
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 550 | Opened window height. | ❌ |
 
+#### 📖 [WeiboIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Whatsapp
 
 #### 👨‍💻 Code
@@ -341,6 +359,8 @@ import {
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
 
+#### 📖 [WhatsappIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Linkedin
 
 #### 👨‍💻 Code
@@ -367,6 +387,8 @@ import {
 | source | string |  | Source of the content (e.g. your website or application name). | ❌ |
 | windowWidth | number | 750 | Opened window width. | ❌ |
 | windowHeight | number | 600 | Opened window height. | ❌ |
+
+#### 📖 [LinkedinIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 VK
 
@@ -399,6 +421,8 @@ import {
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
 
+#### 📖 [VKIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Livejournal
 
 #### 👨‍💻 Code
@@ -429,6 +453,8 @@ import {
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
 
+#### 📖 [LivejournalIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Workplace
 
 #### 👨‍💻 Code
@@ -458,6 +484,8 @@ import {
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
 
+#### 📖 [WorkplaceIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Pocket
 
 #### 👨‍💻 Code
@@ -485,6 +513,8 @@ import {
 | title | string |  | Title of the shared page. Note that if Pocket detects a title tag on the page being saved, this parameter will be ignored and the title tag of the saved page will be used instead. | ❌ |
 | windowWidth | number | 500 | Opened window width. | ❌ |
 | windowHeight | number | 500 | Opened window height. | ❌ |
+
+#### 📖 [PocketIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Instapaper
 
@@ -515,6 +545,8 @@ import {
 | windowWidth | number | 500 | Opened window width. | ❌ |
 | windowHeight | number | 500 | Opened window height. | ❌ |
 
+#### 📖 [InstapaperIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Hatena
 
 #### 👨‍💻 Code
@@ -542,6 +574,8 @@ import {
 | title | string |  | Title of the shared page. | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
+
+#### 📖 [HatenaIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 FacebookMessenger
 
@@ -573,6 +607,8 @@ import {
 | windowWidth | number | 1000 | Opened window width. | ❌ |
 | windowHeight | number | 820 | Opened window height. | ❌ |
 
+#### 📖 [FacebookMessengerIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ### 🎀 Email
 
 #### 👨‍💻 Code
@@ -601,6 +637,8 @@ import {
 | subject | string |  |  | ❌ |
 | body | string |  |  | ❌ |
 | separator | string |  |  | ❌ |
+
+#### 📖 [EmailIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
 ## 📚 Icons props
 

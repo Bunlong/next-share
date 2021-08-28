@@ -7,9 +7,23 @@ node_modules
 build
 dist
 
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 package-lock.json
 
-# docs
-docs/.next
-docs/node_modules
-docs/package-lock.json
+/supports/create-react-app/node_modules
+/supports/create-react-app/package-lock.json
+
+/supports/create-next-app/node_modules
+/supports/create-next-app/.next
+/supports/create-next-app/package-lock.json

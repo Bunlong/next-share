@@ -22,16 +22,10 @@ export default function createIcon(config: Config) {
     round,
     size,
     ...rest
-  }) => (
+  }: Props) => (
     <svg viewBox="0 0 64 64" width={size} height={size} {...rest}>
       {round ? (
-        <circle
-          cx="32"
-          cy="32"
-          r="31"
-          fill={config.color}
-          style={bgStyle}
-        />
+        <circle cx="32" cy="32" r="31" fill={config.color} style={bgStyle} />
       ) : (
         <rect
           width="64"

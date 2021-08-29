@@ -1,8 +1,13 @@
 import React, { Ref, forwardRef } from 'react';
 
-import SocialShareButton, { Props as ShareButtonProps } from '../components/SocialShareButton';
+import SocialShareButton, {
+  Props as ShareButtonProps,
+} from '../components/SocialShareButton';
 
-function createShareButton<OptionProps extends Record<string, any>, LinkOptions = OptionProps>(
+function createShareButton<
+  OptionProps extends Record<string, any>,
+  LinkOptions = OptionProps,
+>(
   networkName: string,
   link: (url: string, options: LinkOptions) => string,
   optsMap: (props: OptionProps) => LinkOptions,
@@ -19,7 +24,7 @@ function createShareButton<OptionProps extends Record<string, any>, LinkOptions 
     const passedProps = { ...props };
 
     const optsKeys = Object.keys(opts);
-    optsKeys.forEach(key => {
+    optsKeys.forEach((key) => {
       delete (passedProps as any)[key];
     });
 

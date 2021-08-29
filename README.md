@@ -2,7 +2,7 @@
 
 Social media share buttons for your next React apps.
 
-[![monthly downloads](https://img.shields.io/npm/dt/react-papaparse.svg?label=monthly%20downloads)](https://www.npmjs.com/package/react-papaparse)
+[![monthly downloads](https://img.shields.io/npm/dt/next-share.svg?label=monthly%20downloads)](https://www.npmjs.com/package/next-share)
 
 [![NPM](https://img.shields.io/npm/v/next-share.svg)](https://www.npmjs.com/package/next-share) ![npm bundle size](https://img.shields.io/bundlephobia/min/next-share) [![Build Status](https://api.travis-ci.com/Bunlong/next-share.svg?branch=master)](https://travis-ci.com/Bunlong/next-share) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 

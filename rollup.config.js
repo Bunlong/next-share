@@ -2,11 +2,9 @@ import typescript from 'rollup-plugin-typescript2';
 import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
 import resolve from '@rollup/plugin-node-resolve';
-import { terser } from "rollup-plugin-terser";
-import pkg from './package.json';
-
-// import external from 'rollup-plugin-peer-deps-external';
 // import builtins from 'builtin-modules'
+import { terser } from 'rollup-plugin-terser';
+import pkg from './package.json';
 
 export default {
   input: 'src/next-share.ts',
@@ -23,16 +21,9 @@ export default {
     },
   ],
   // external: builtins,
-  external: [
-    'react',
-    'react-dom',
-    'fs',
-    'util',
-    'stream',
-    'buffer',
-    'zlib',
-    'assert'
-  ],
+  // To use hook in development
+  // https://reactjs.org/warnings/invalid-hook-call-warning.html
+  external: ['react', 'react-dom'],
   plugins: [
     typescript({
       tsconfig: './tsconfig.json',
@@ -42,11 +33,11 @@ export default {
       exclude: 'node_modules/**',
     }),
     resolve({
-      preferBuiltins: true
+      preferBuiltins: true,
     }),
     commonjs({
       extensions: ['.js', '.ts', '.tsx'],
     }),
-    terser()
+    terser(),
   ],
 };

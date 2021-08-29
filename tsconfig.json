@@ -65,9 +65,10 @@
   },
   "exclude": [
     "node_modules",
+    "test",
     "dist",
-    "examples",
-    "setup.ts",
     "docs",
+    "supports",
+    "setup.ts",
   ]
 }

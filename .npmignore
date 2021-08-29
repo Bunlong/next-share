@@ -4,7 +4,7 @@
 # *
 # ***
 
-/docs
-/examples
 /src
+/supports
+/test
 .gitignore

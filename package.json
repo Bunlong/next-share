@@ -11,7 +11,14 @@
   "bugs": {
     "url": "https://github.com/Bunlong/next-share.git/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "reactjs",
+    "next-share",
+    "share-buttons",
+    "social-share-buttons",
+    "social-media-share-buttons"
+  ],
   "homepage": "https://github.com/Bunlong/next-share",
   "main": "dist/next-share.js",
   "module": "dist/next-share.es.js",

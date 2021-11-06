@@ -24,14 +24,9 @@ interface CustomProps<LinkOptions> {
   forwardedRef?: Ref<HTMLButtonElement>;
   networkName: string;
   networkLink: NetworkLink<LinkOptions>;
-  onClick?: (
-    event: React.MouseEvent<HTMLButtonElement>,
-    link: string,
-    newTab?: boolean,
-  ) => void;
+  onClick?: (event: React.MouseEvent<HTMLButtonElement>, link: string) => void;
   openShareDialogOnClick?: boolean;
   opts: LinkOptions;
-  newTab?: boolean;
   /**
    * URL of the shared page
    */
@@ -95,7 +90,6 @@ export default class SocialShareButton<LinkOptions> extends Component<
       url,
       openShareDialogOnClick,
       opts,
-      newTab,
     } = this.props;
 
     const link = networkLink(url, opts);
@@ -119,7 +113,7 @@ export default class SocialShareButton<LinkOptions> extends Component<
     }
 
     if (onClick) {
-      onClick(event, link, newTab);
+      onClick(event, link);
     }
   };
 

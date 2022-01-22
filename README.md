@@ -684,6 +684,14 @@ import {
 | bgStyle | object |  | Customize background style. | ❌ |
 | iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
 
+## 📜 Changelog
+
+Latest version 0.13.0 (2022-01-22):
+
+  * Resize next share to smaller size
+
+Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
+
 ## 💖 Wrap Up
 
 If you think any of the `next-share` can be improved, please do open a PR with any updates and submit any issues. Also, I will continue to improve this, so you might want to watch/star this repository to revisit.
@@ -738,6 +746,12 @@ How to contribute:
 ## ⚖️ License
 
 The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<!-- ======= Development =======
+
+To use hook in development => https://reactjs.org/warnings/invalid-hook-call-warning.html
+
+====================== -->
 
 <!-- ======= Sticky =======
 

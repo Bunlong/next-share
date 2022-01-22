@@ -739,6 +739,12 @@ How to contribute:
 
 The MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<!-- ======= Development =======
+
+To use hook in development => https://reactjs.org/warnings/invalid-hook-call-warning.html
+
+====================== -->
+
 <!-- ======= Sticky =======
 
 import React, { Component, CSSProperties } from 'react';

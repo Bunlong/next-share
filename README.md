@@ -686,9 +686,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.13.0 (2022-01-22):
+Latest version 0.14.0 (2022-05-29):
 
-  * Resize next share to smaller size
+  * Support React 18
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

@@ -740,6 +740,15 @@ How to contribute:
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/stevescavo">
+        <img src="https://avatars.githubusercontent.com/u/2171570?v=4" width="100" alt="Steve Scavo" />
+        <br />
+        <sub>
+          <b>Steve Scavo</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 

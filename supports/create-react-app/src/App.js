@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -40,11 +39,11 @@ import {
   FacebookMessengerIcon,
   EmailShareButton,
   EmailIcon,
-} from 'next-share'
+} from 'next-share';
 
 function App() {
   return (
-    <div style={{float: 'left'}}>
+    <>
       <FacebookShareButton
         url={'https://github.com/bunlong/next-share'}
         quote={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
@@ -215,8 +214,8 @@ function App() {
           <EmailIcon size={32} round />
         </div>
       </EmailShareButton>
-    </div>
-  )
-};
+    </>
+  );
+}
 
 export default App;

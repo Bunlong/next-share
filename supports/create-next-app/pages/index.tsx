@@ -1,4 +1,5 @@
-import React from 'react';
+import type { NextPage } from 'next'
+
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -42,9 +43,9 @@ import {
   EmailIcon,
 } from 'next-share'
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
-    <div style={{float: 'left'}}>
+    <>
       <FacebookShareButton
         url={'https://github.com/bunlong/next-share'}
         quote={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
@@ -215,6 +216,8 @@ export default function Home() {
           <EmailIcon size={32} round />
         </div>
       </EmailShareButton>
-    </div>
+    </>
   )
 }
+
+export default Home

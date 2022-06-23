@@ -1,3 +1,14 @@
+## 0.16.0 (2022-06-25)
+
+### ✨ Features
+
+  * Add mobile props to choose between web link or app link for messenger
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
+
 ## 0.14.0 (2022-05-29)
 
 ### ✨ Features

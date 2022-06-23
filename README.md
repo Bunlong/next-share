@@ -640,6 +640,7 @@ import {
 | to | string |  | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌ |
 | windowWidth | number | 1000 | Opened window width. | ❌ |
 | windowHeight | number | 820 | Opened window height. | ❌ |
+| mobile | boolean | false | When `true` the link will be `fb-messenger://share` when `false` it will be `https://www.facebook.com/dialog/send`. | ❌ |
 
 #### 📖 [FacebookMessengerIcon props](https://github.com/Bunlong/next-share#-icons-props)
 

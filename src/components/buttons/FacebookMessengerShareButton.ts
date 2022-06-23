@@ -10,14 +10,17 @@ type Options = {
   /** A user ID of a recipient. Once the dialog comes up, the sender can
    * specify additional people as recipients. */
   to?: string;
+  /** A boolean used to choose between fb-messenger://share (Mobile)
+   * and https://www.facebook.com/dialog/send (Desktop) */
+  mobile?: boolean;
 };
 
 function facebookMessengerLink(
   url: string,
-  { appId, redirectUri, to }: Options,
+  { appId, redirectUri, to, mobile }: Options,
 ) {
   return (
-    'https://www.facebook.com/dialog/send' +
+    (mobile ? 'fb-messenger://share' : 'https://www.facebook.com/dialog/send') +
     transformObjectToParams({
       link: url,
       redirect_uri: redirectUri || url,
@@ -34,6 +37,7 @@ const FacebookMessengerShareButton = createShareButton<Options>(
     appId: props.appId,
     redirectUri: props.redirectUri,
     to: props.to,
+    mobile: props.mobile,
   }),
   {
     windowWidth: 1000,

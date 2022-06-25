@@ -47,6 +47,7 @@
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
+    "@types/jsonp": "^0.2.1",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
     "@types/react-test-renderer": "^17.0.1",
@@ -95,5 +96,8 @@
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0",
     "react-scripts": ">=4.0.0"
+  },
+  "dependencies": {
+    "jsonp": "^0.2.1"
   }
 }

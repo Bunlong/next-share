@@ -15,7 +15,7 @@ function getPinterestShareCount(
         url: shareUrl,
       }),
     (err, data) => {
-      callback(data ? data.count : undefined);
+      callback(!err && data ? data.count : undefined);
     },
   );
 }

@@ -690,20 +690,17 @@ import {
 
 ```js
 import {
-  FacebookShareCount,
-  HatenaShareCount,
   OKShareCount,
   PinterestShareCount,
-  RedditShareCount,
   TumblrShareCount,
   VKShareCount,
 } from 'next-share';
 
-<FacebookShareCount url={'https://github.com/next-share'} />
+<PinterestShareCount url={'https://github.com/next-share'} />
 
-<FacebookShareCount url={'https://github.com/next-share'}>
+<PinterestShareCount url={'https://github.com/next-share'}>
   {shareCount => <span className="wrapper">{shareCount}</span>}
-</FacebookShareCount>
+</PinterestShareCount>
 ```
 
 #### 📖 FacebookShareButton props
@@ -722,13 +719,13 @@ import {
 Latest version 0.16.0 (2022-06-27):
 
   * Add sharecount component
-    * FacebookShareCount
-    * HatenaShareCount
-    * OKShareCount
-    * PinterestShareCount
-    * RedditShareCount
-    * TumblrShareCount
-    * VKShareCount
+    * [x] OKShareCount
+    * [x] PinterestShareCount
+    * [x] TumblrShareCount
+    * [x] VKShareCount
+    * [] FacebookShareCount
+    * [] HatenaShareCount
+    * [] RedditShareCount
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

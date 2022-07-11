@@ -41,6 +41,11 @@ import {
   FacebookMessengerIcon,
   EmailShareButton,
   EmailIcon,
+  OKShareCount,
+  PinterestShareCount,
+  TumblrShareCount,
+  VKShareCount,
+  HatenaShareCount,
 } from 'next-share'
 
 const Home: NextPage = () => {
@@ -216,6 +221,26 @@ const Home: NextPage = () => {
           <EmailIcon size={32} round />
         </div>
       </EmailShareButton>
+      {/* <OKShareCount url={'https://github.com/next-share'} /> */}
+      <OKShareCount url={'https://github.com/next-share'}>
+        {shareCount => <span className="myShareCountWrapper">OKShareCount: {shareCount}</span>}
+      </OKShareCount>
+      {/* <PinterestShareCount url={'https://github.com/next-share'} /> */}
+      <PinterestShareCount url={'https://github.com/next-share'}>
+        {shareCount => <span className="myShareCountWrapper">PinterestShareCount: {shareCount}</span>}
+      </PinterestShareCount>
+      {/* <TumblrShareCount url={'https://github.com/next-share'} /> */}
+      <TumblrShareCount url={'https://github.com/next-share'}>
+        {shareCount => <span className="myShareCountWrapper">TumblrShareCount: {shareCount}</span>}
+      </TumblrShareCount>
+      {/* <VKShareCount url={'https://github.com/next-share'} /> */}
+      <VKShareCount url={'https://github.com/next-share'}>
+        {shareCount => <span className="myShareCountWrapper">VKShareCount: {shareCount}</span>}
+      </VKShareCount>
+      {/* <HatenaShareCount url={'https://github.com/next-share'} /> */}
+      <HatenaShareCount url={'https://github.com/next-share'}>
+        {shareCount => <span className="myShareCountWrapper">HatenaShareCount: {shareCount}</span>}
+      </HatenaShareCount>
     </>
   )
 }

@@ -3,11 +3,8 @@
 ### ✨ Features
 
   * Add sharecount component
-    * FacebookShareCount
-    * HatenaShareCount
     * OKShareCount
     * PinterestShareCount
-    * RedditShareCount
     * TumblrShareCount
     * VKShareCount
 

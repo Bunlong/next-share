@@ -22,7 +22,6 @@ function getVKShareCount(
     window.VK = {};
   }
   window.VK.Share = {
-    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     count: (index, count) => window.VK.callbacks![index](count),
   };
   window.VK.callbacks = [];

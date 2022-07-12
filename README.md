@@ -47,7 +47,7 @@ next-share is available on yarn as well. It can be installed with the following 
 yarn add next-share --save
 ```
 
-## 💡 Usage
+## 💡 Usage of ShareButton
 
 ### 🎀 Facebook
 
@@ -684,11 +684,48 @@ import {
 | bgStyle | object |  | Customize background style. | ❌ |
 | iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
 
+## 💡 Usage of ShareCount
+
+#### 👨‍💻 Code
+
+```js
+import {
+  OKShareCount,
+  PinterestShareCount,
+  TumblrShareCount,
+  VKShareCount,
+} from 'next-share';
+
+<PinterestShareCount url={'https://github.com/next-share'} />
+
+<PinterestShareCount url={'https://github.com/next-share'}>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</PinterestShareCount>
+```
+
+#### 📖 FacebookShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| quote | string |  | A quote to be shared. | ❌ |
+| hashtag | string |  | Hashtag to be shared. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+
 ## 📜 Changelog
 
-Latest version 0.14.0 (2022-05-29):
+Latest version 0.16.0 (2022-06-27):
 
-  * Support React 18
+  * Add sharecount component
+    * [x] OKShareCount
+    * [x] PinterestShareCount
+    * [x] TumblrShareCount
+    * [x] VKShareCount
+    * [] FacebookShareCount
+    * [] HatenaShareCount
+    * [] RedditShareCount
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

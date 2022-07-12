@@ -1,3 +1,17 @@
+## 0.16.0 (2022-06-27)
+
+### ✨ Features
+
+  * Add sharecount component
+    * OKShareCount
+    * PinterestShareCount
+    * TumblrShareCount
+    * VKShareCount
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
 ## 0.14.0 (2022-05-29)
 
 ### ✨ Features

@@ -41,3 +41,13 @@ export { default as InstapaperShareButton } from './components/buttons/Instapape
 export { default as HatenaShareButton } from './components/buttons/HatenaShareButton';
 export { default as FacebookMessengerShareButton } from './components/buttons/FacebookMessengerShareButton';
 export { default as EmailShareButton } from './components/buttons/EmailShareButton';
+
+// Counts
+export { default as OKShareCount } from './components/counts/OKShareCount';
+export { default as PinterestShareCount } from './components/counts/PinterestShareCount';
+export { default as TumblrShareCount } from './components/counts/TumblrShareCount';
+export { default as VKShareCount } from './components/counts/VKShareCount';
+
+// export { default as FacebookShareCount } from './components/counts/FacebookShareCount';
+// export { default as HatenaShareCount } from './components/counts/HatenaShareCount';
+// export { default as RedditShareCount } from './components/counts/RedditShareCount';

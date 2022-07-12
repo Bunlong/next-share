@@ -723,9 +723,9 @@ Latest version 0.16.0 (2022-06-27):
     * [x] PinterestShareCount
     * [x] TumblrShareCount
     * [x] VKShareCount
-    * [] FacebookShareCount
-    * [] HatenaShareCount
-    * [] RedditShareCount
+    * [ ] FacebookShareCount
+    * [ ] HatenaShareCount
+    * [ ] RedditShareCount
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

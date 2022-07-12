@@ -32,6 +32,11 @@ Social media share buttons for your next React apps.
   * Hatena
   * FacebookMessenger
   * Email
+* Share counts
+  * OKShareCount
+  * PinterestShareCount
+  * TumblrShareCount
+  * VKShareCount
 
 ## 🔧 Install
 

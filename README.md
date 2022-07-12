@@ -716,7 +716,7 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.16.0 (2022-06-27):
+Latest version 0.16.0 (2022-07-14):
 
   * Add sharecount component
     * [x] OKShareCount

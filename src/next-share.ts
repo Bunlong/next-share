@@ -49,5 +49,5 @@ export { default as TumblrShareCount } from './components/counts/TumblrShareCoun
 export { default as VKShareCount } from './components/counts/VKShareCount';
 
 // export { default as FacebookShareCount } from './components/counts/FacebookShareCount';
-// export { default as HatenaShareCount } from './components/counts/HatenaShareCount';
+export { default as HatenaShareCount } from './components/counts/HatenaShareCount';
 // export { default as RedditShareCount } from './components/counts/RedditShareCount';

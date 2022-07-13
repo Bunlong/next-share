@@ -46,6 +46,7 @@ import {
   TumblrShareCount,
   VKShareCount,
   HatenaShareCount,
+  RedditShareCount,
 } from 'next-share'
 
 const Home: NextPage = () => {
@@ -241,6 +242,10 @@ const Home: NextPage = () => {
       <HatenaShareCount url={'https://github.com/next-share'}>
         {shareCount => <span className="myShareCountWrapper">HatenaShareCount: {shareCount}</span>}
       </HatenaShareCount>
+      {/* <RedditShareCount url={'https://github.com/next-share'} /> */}
+      {/* <RedditShareCount url={'https://github.com/next-share'}>
+        {shareCount => <span className="myShareCountWrapper">RedditShareCount: {shareCount}</span>}
+      </RedditShareCount> */}
     </>
   )
 }

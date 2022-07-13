@@ -15,7 +15,7 @@ function getHatenaShareCount(
         url: shareUrl,
       }),
     (err, data) => {
-      callback(!err && data ? data : undefined);
+      callback(!err ? data : undefined);
     },
   );
 }

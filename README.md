@@ -640,7 +640,7 @@ import {
 | :--- | :--- | :--- | :--- | :--- |
 | children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
-| appId | string |  | Facebook application id. | ❌ |
+| appId | string |  | Facebook application id. | ✅ |
 | redirectUri | string |  | The URL to redirect to after sharing (default: the shared url). | ❌ |
 | to | string |  | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌ |
 | windowWidth | number | 1000 | Opened window width. | ❌ |

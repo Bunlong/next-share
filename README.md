@@ -8,6 +8,8 @@ Social media share buttons for your next React apps.
 
 <img src="https://raw.githubusercontent.com/bunlong/next-share/master/static/images/next-share.png" alt="next-share" />
 
+Please support us by leaving a star.
+
 ## 🎁 Features
 
 * No dependencies

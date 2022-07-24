@@ -1,3 +1,11 @@
+## 0.17.0 (2022-07-24)
+
+### ✨ Features
+
+  * Add sharecount component
+    * FacebookShareCount
+    * HatenaShareCount
+
 ## 0.16.0 (2022-07-14)
 
 ### ✨ Features

@@ -711,9 +711,17 @@ import {
   {shareCount => <span className="wrapper">{shareCount}</span>}
 </PinterestShareCount>
 
-<FacebookShareCount url={'https://github.com/next-share'} appId={''} appSecret={''} />
+<FacebookShareCount
+  url={'https://github.com/next-share'}
+  appId={''}
+  appSecret={''}
+/>
 
-<FacebookShareCount url={'https://github.com/next-share'} appId={''} appSecret={''}>
+<FacebookShareCount
+  url={'https://github.com/next-share'}
+  appId={''}
+  appSecret={''}
+>
   {shareCount => <span className="wrapper">{shareCount}</span>}
 </FacebookShareCount>
 ```

@@ -695,6 +695,8 @@ import {
 
 ```js
 import {
+  FacebookShareCount,
+  HatenaShareCount,
   OKShareCount,
   PinterestShareCount,
   TumblrShareCount,
@@ -706,31 +708,30 @@ import {
 <PinterestShareCount url={'https://github.com/next-share'}>
   {shareCount => <span className="wrapper">{shareCount}</span>}
 </PinterestShareCount>
+
+<FacebookShareCount url={'https://github.com/next-share'} appId={''} appSecret={''} />
+
+<FacebookShareCount url={'https://github.com/next-share'} appId={''} appSecret={''}>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</FacebookShareCount>
 ```
 
-#### 📖 FacebookShareButton props
+#### 📖 FacebookShareCount props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
-| children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
-| quote | string |  | A quote to be shared. | ❌ |
-| hashtag | string |  | Hashtag to be shared. | ❌ |
-| windowWidth | number | 550 | Opened window width. | ❌ |
-| windowHeight | number | 400 | Opened window height. | ❌ |
+| appId | string |  | Facebook application id. | ✅ |
+| appSecret | string |  | Facebook application secret. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
 
 ## 📜 Changelog
 
-Latest version 0.16.0 (2022-07-14):
+Latest version 0.17.0 (2022-07-24):
 
   * Add sharecount component
-    * [x] OKShareCount
-    * [x] PinterestShareCount
-    * [x] TumblrShareCount
-    * [x] VKShareCount
-    * [ ] FacebookShareCount
-    * [ ] HatenaShareCount
-    * [ ] RedditShareCount
+    * [x] FacebookShareCount
+    * [x] HatenaShareCount
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

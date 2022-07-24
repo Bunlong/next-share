@@ -46,7 +46,8 @@ import {
   TumblrShareCount,
   VKShareCount,
   HatenaShareCount,
-  RedditShareCount,
+  // FacebookShareCount,
+  // RedditShareCount,
 } from 'next-share'
 
 const Home: NextPage = () => {
@@ -242,6 +243,10 @@ const Home: NextPage = () => {
       <HatenaShareCount url={'https://github.com/next-share'}>
         {shareCount => <span className="myShareCountWrapper">HatenaShareCount: {shareCount}</span>}
       </HatenaShareCount>
+      {/* <FacebookShareCount url={'https://github.com/next-share'} appId={''} appSecret={''} /> */}
+      {/* <FacebookShareCount url={'https://github.com/next-share'} appId={''} appSecret={''}>
+        {shareCount => <span className="myShareCountWrapper">FacebookShareCount: {shareCount}</span>}
+      </FacebookShareCount> */}
       {/* <RedditShareCount url={'https://github.com/next-share'} /> */}
       {/* <RedditShareCount url={'https://github.com/next-share'}>
         {shareCount => <span className="myShareCountWrapper">RedditShareCount: {shareCount}</span>}

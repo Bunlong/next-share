@@ -4,8 +4,15 @@ const defaultChildren = (shareCount: number) => shareCount;
 
 type SocialMediaShareCountProps = React.HTMLAttributes<HTMLSpanElement> & {
   children?: (shareCount: number) => React.ReactNode;
-  getCount: (url: string, callback: (shareCount?: number) => void) => void;
+  getCount: (
+    url: string,
+    callback: (shareCount?: number) => void,
+    appId?: string,
+    appSecret?: string,
+  ) => void;
   url: string;
+  appId?: string;
+  appSecret?: string;
 };
 
 type StateTypes = {
@@ -26,12 +33,12 @@ class SocialMediaShareCount extends Component<
 
   componentDidMount() {
     this._isMounted = true;
-    this.updateCount(this.props.url);
+    this.updateCount(this.props.url, this.props.appId, this.props.appSecret);
   }
 
   componentDidUpdate(prevProps: SocialMediaShareCountProps) {
     if (this.props.url !== prevProps.url) {
-      this.updateCount(this.props.url);
+      this.updateCount(this.props.url, this.props.appId, this.props.appSecret);
     }
   }
 
@@ -39,19 +46,24 @@ class SocialMediaShareCount extends Component<
     this._isMounted = false;
   }
 
-  updateCount(url: string) {
+  updateCount(url: string, appId?: string, appSecret?: string) {
     this.setState({
       isLoading: true,
     });
 
-    this.props.getCount(url, (count) => {
-      if (this._isMounted) {
-        this.setState({
-          count,
-          isLoading: false,
-        });
-      }
-    });
+    this.props.getCount(
+      url,
+      (count) => {
+        if (this._isMounted) {
+          this.setState({
+            count,
+            isLoading: false,
+          });
+        }
+      },
+      appId,
+      appSecret,
+    );
   }
 
   render() {
@@ -62,11 +74,11 @@ class SocialMediaShareCount extends Component<
       className,
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       getCount: _,
-      ...rest
+      // ...rest
     } = this.props;
 
     return (
-      <span className={className} {...rest}>
+      <span className={className} /* {...rest} */>
         {!isLoading && count !== undefined && children(count)}
       </span>
     );

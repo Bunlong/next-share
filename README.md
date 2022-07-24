@@ -35,6 +35,8 @@ Please support us by leaving a ⭐
   * FacebookMessenger
   * Email
 * Share counts
+  * FacebookShareCount
+  * HatenaShareCount
   * OKShareCount
   * PinterestShareCount
   * TumblrShareCount

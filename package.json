@@ -1,6 +1,6 @@
 {
   "name": "next-share",
-  "version": "0.17.0",
+  "version": "0.17.1",
   "description": "Social media share buttons for your next React apps.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
@@ -17,7 +17,8 @@
     "next-share",
     "share-buttons",
     "social-share-buttons",
-    "social-media-share-buttons"
+    "social-media-share-buttons",
+    "react-share"
   ],
   "homepage": "https://github.com/Bunlong/next-share",
   "main": "dist/next-share.js",

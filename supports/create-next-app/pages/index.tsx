@@ -41,6 +41,8 @@ import {
   FacebookMessengerIcon,
   EmailShareButton,
   EmailIcon,
+  GabShareButton,
+  GabIcon,
   OKShareCount,
   PinterestShareCount,
   TumblrShareCount,
@@ -223,6 +225,14 @@ const Home: NextPage = () => {
           <EmailIcon size={32} round />
         </div>
       </EmailShareButton>
+      <GabShareButton
+        url={'https://github.com/next-share'}
+        title={'Next Share'}
+      >
+        <div style={{marginRight: 10, width: 32, height: 32}}>
+          <GabIcon size={32} round />
+        </div>
+      </GabShareButton>
       {/* <OKShareCount url={'https://github.com/next-share'} /> */}
       <OKShareCount url={'https://github.com/next-share'}>
         {shareCount => <span className="myShareCountWrapper">OKShareCount: {shareCount}</span>}

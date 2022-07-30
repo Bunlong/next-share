@@ -41,6 +41,7 @@ export { default as InstapaperShareButton } from './components/buttons/Instapape
 export { default as HatenaShareButton } from './components/buttons/HatenaShareButton';
 export { default as FacebookMessengerShareButton } from './components/buttons/FacebookMessengerShareButton';
 export { default as EmailShareButton } from './components/buttons/EmailShareButton';
+export { default as GabShareButton } from './components/buttons/GabShareButton';
 
 // Counts
 export { default as OKShareCount } from './components/counts/OKShareCount';

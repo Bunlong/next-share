@@ -1,3 +1,11 @@
+## 0.18.0 (2022-08-01)
+
+### ✨ Features
+
+  * Add sharebutton component
+    * GabShareButton
+    * GabIcon
+
 ## 0.17.0 (2022-07-24)
 
 ### ✨ Features

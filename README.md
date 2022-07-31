@@ -768,11 +768,11 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.17.0 (2022-07-24):
+Latest version 0.18.0 (2022-08-01):
 
-  * Add sharecount component
-    * [x] FacebookShareCount
-    * [x] HatenaShareCount
+  * Add sharebutton component
+    * GabShareButton
+    * GabIcon
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

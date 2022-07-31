@@ -32,6 +32,7 @@ Social media share buttons for your next React apps.
   * Hatena
   * FacebookMessenger
   * Email
+  * Gab
 * Share counts
   * FacebookShareCount
   * HatenaShareCount
@@ -680,6 +681,36 @@ import {
 | separator | string |  |  | ❌ |
 
 #### 📖 [EmailIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
+### 🎀 Gab
+
+#### 👨‍💻 Code
+
+```js
+import {
+  GabShareButton,
+  GabIcon,
+} from 'next-share'
+
+<GabShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+>
+  <GabIcon size={32} round />
+</GabShareButton>
+```
+
+#### 📖 GabShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | Title of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 640 | Opened window height. | ❌ |
+
+#### 📖 [GabIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
 ## 📚 Icons props
 

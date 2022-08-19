@@ -100,5 +100,6 @@
   },
   "dependencies": {
     "jsonp": "^0.2.1"
-  }
+  },
+  "sideEffects": false
 }

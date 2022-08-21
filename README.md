@@ -768,11 +768,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.18.0 (2022-08-01):
+Latest version 0.18.1 (2022-08-21):
 
-  * Add sharebutton component
-    * GabShareButton
-    * GabIcon
+  * Update reddit icon color to match current branding
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 
@@ -830,6 +828,15 @@ How to contribute:
         <br />
         <sub>
           <b>Steve Scavo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/me4502">
+        <img src="https://avatars.githubusercontent.com/u/546754?v=4" width="100" alt="Maddy Miller" />
+        <br />
+        <sub>
+          <b>Maddy Miller</b>
         </sub>
       </a>
     </td>

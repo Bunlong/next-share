@@ -1,3 +1,9 @@
+## 0.18.1 (2022-08-21)
+
+### ✨ Features
+
+  * Update reddit icon color to match current branding
+
 ## 0.18.0 (2022-08-01)
 
 ### ✨ Features

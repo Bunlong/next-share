@@ -768,7 +768,7 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.18.1 (2022-08-31):
+Latest version 0.18.1 (2022-09-01):
 
   * Update reddit icon color to match current branding
 

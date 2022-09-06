@@ -118,18 +118,27 @@ export default class SocialShareButton<LinkOptions> extends Component<
   };
 
   render() {
-    const { children, forwardedRef, networkName, style, ...rest } = this.props;
+    const {
+      children,
+      forwardedRef,
+      networkName,
+      style,
+      resetButtonStyle,
+      ...rest
+    } = this.props;
 
-    const newStyle = {
-      backgroundColor: 'transparent',
-      border: 'none',
-      padding: 0,
-      font: 'inherit',
-      color: 'inherit',
-      cursor: 'pointer',
-      outline: 'none',
-      ...style,
-    };
+    const newStyle = resetButtonStyle
+      ? {
+          backgroundColor: 'transparent',
+          border: 'none',
+          padding: 0,
+          font: 'inherit',
+          color: 'inherit',
+          cursor: 'pointer',
+          outline: 'none',
+          ...style,
+        }
+      : style;
 
     return (
       <button

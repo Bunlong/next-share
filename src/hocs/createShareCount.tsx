@@ -71,6 +71,7 @@ class SocialMediaShareCount extends Component<
 
     const {
       children = defaultChildren,
+      // eslint-disable-next-line react/prop-types
       className,
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       getCount: _,

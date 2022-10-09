@@ -1,3 +1,9 @@
+## 0.18.2 (2022-10-09)
+
+### ✨ Bugs
+
+  * Fix added 1060 packages with 7 high vulnerabilities
+
 ## 0.18.1 (2022-09-01)
 
 ### ✨ Features

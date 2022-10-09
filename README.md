@@ -768,9 +768,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.18.1 (2022-09-01):
+Latest version 0.18.2 (2022-10-09):
 
-  * Update reddit icon color to match current branding
+  * Fix added 1060 packages with 7 high vulnerabilities
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

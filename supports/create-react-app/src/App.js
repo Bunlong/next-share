@@ -132,8 +132,6 @@ function App() {
       </WhatsappShareButton>
       <LinkedinShareButton
         url={'http://github.com'}
-        title={'Testing - next-share is a .'}
-        summary={'Testing - next-share is a .'}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <LinkedinIcon size={32} round />

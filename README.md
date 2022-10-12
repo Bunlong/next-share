@@ -406,7 +406,6 @@ Use `og` tags in the `<head>` block of the HTML.
 <meta property='og:image' content='' />
 <meta property='og:title' content='' />
 <meta property='og:description' content='' />
-<meta property='og:url' content='' />
 ```
 
 #### 📖 [LinkedinIcon props](https://github.com/Bunlong/next-share#-icons-props)

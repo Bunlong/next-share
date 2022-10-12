@@ -1,3 +1,9 @@
+## 0.18.4 (2022-10-12)
+
+### ✨ Features
+
+  * Upgrade Linkedin API
+
 ## 0.18.2 (2022-10-09)
 
 ### ✨ Bugs

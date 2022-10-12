@@ -398,6 +398,17 @@ import {
 | summary | string |  | Description of the shared page. | ❌ |
 | source | string |  | Source of the content (e.g. your website or application name). | ❌ | -->
 
+How do you use things like `title`, `summary`, etc.?
+
+Use `og` tags in the `<head>` block of the HTML.
+
+```html
+<meta property='og:image' content='' />
+<meta property='og:title' content='' />
+<meta property='og:description' content='' />
+<meta property='og:url' content='' />
+```
+
 #### 📖 [LinkedinIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 VK
@@ -768,9 +779,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.18.2 (2022-10-09):
+Latest version 0.18.4 (2022-10-12):
 
-  * Fix added 1060 packages with 7 high vulnerabilities
+  * Upgrade Linkedin API
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

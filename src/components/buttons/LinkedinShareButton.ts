@@ -9,7 +9,8 @@ type Options = {
 
 function linkedinLink(url: string, { title, summary, source }: Options) {
   return (
-    'https://linkedin.com/shareArticle' +
+    // 'https://linkedin.com/shareArticle' +
+    'https://linkedin.com/sharing/share-offsite' +
     transformObjectToParams({ url, mini: 'true', title, summary, source })
   );
 }

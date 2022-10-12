@@ -392,11 +392,11 @@ import {
 | :--- | :--- | :--- | :--- | :--- |
 | children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
-| title | string |  | The title of the shared page. | ❌ |
-| summary | string |  | Description of the shared page. | ❌ |
-| source | string |  | Source of the content (e.g. your website or application name). | ❌ |
 | windowWidth | number | 750 | Opened window width. | ❌ |
 | windowHeight | number | 600 | Opened window height. | ❌ |
+<!-- | title | string |  | The title of the shared page. | ❌ |
+| summary | string |  | Description of the shared page. | ❌ |
+| source | string |  | Source of the content (e.g. your website or application name). | ❌ | -->
 
 #### 📖 [LinkedinIcon props](https://github.com/Bunlong/next-share#-icons-props)
 

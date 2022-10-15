@@ -86,6 +86,7 @@ import {
 | hashtag | string |  | Hashtag to be shared. | ❌ |
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [FacebookIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -116,6 +117,7 @@ import {
 | title | string |  | The title of the shared page. | ❌ |
 | windowWidth | number | 500 | Opened window width. | ❌ |
 | windowHeight | number | 500 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [LineIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -147,6 +149,7 @@ import {
 | description | string |  | The description of the shared media. | ❌ |
 | windowWidth | number | 1000 | Opened window width. | ❌ |
 | windowHeight | number | 730 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [PinterestIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -177,6 +180,7 @@ import {
 | title | string |  | The title of the shared page. | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [RedditIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -207,6 +211,7 @@ import {
 | title | string |  | The title of the shared page. | ❌ |
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [TelegramIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -240,6 +245,7 @@ import {
 | posttype | string | <code>link</code> |  | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [TumblrIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -273,6 +279,7 @@ import {
 | related | array |  |  | ❌ |
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [TwitterIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -304,6 +311,7 @@ import {
 | separator |  |  |  | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [ViberIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -336,6 +344,7 @@ import {
 | image | string |  | The image URL that will be shared. | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 550 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [WeiboIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -368,6 +377,7 @@ import {
 | separator | string |  |  | ❌ |
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [WhatsappIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -394,6 +404,7 @@ import {
 | url | string |  | The URL of the shared page. | ✅ |
 | windowWidth | number | 750 | Opened window width. | ❌ |
 | windowHeight | number | 600 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 <!-- | title | string |  | The title of the shared page. | ❌ |
 | summary | string |  | Description of the shared page. | ❌ |
 | source | string |  | Source of the content (e.g. your website or application name). | ❌ | -->
@@ -440,6 +451,7 @@ import {
 | noVkLinks | boolean |  | If true is passed, there will be no links to the user's profile in the open window. Only for mobile devices. | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [VKIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -472,6 +484,7 @@ import {
 | imageUrl | string |  | Image url of the shared page. | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [MailruIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -504,6 +517,7 @@ import {
 | description | string |  | Description of the shared page. | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [LivejournalIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -535,6 +549,7 @@ import {
 | hashtag | string |  |  | ❌ |
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [WorkplaceIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -565,6 +580,7 @@ import {
 | title | string |  | Title of the shared page. Note that if Pocket detects a title tag on the page being saved, this parameter will be ignored and the title tag of the saved page will be used instead. | ❌ |
 | windowWidth | number | 500 | Opened window width. | ❌ |
 | windowHeight | number | 500 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [PocketIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -596,6 +612,7 @@ import {
 | description | string |  | Description of the shared page. | ❌ |
 | windowWidth | number | 500 | Opened window width. | ❌ |
 | windowHeight | number | 500 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [InstapaperIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -626,6 +643,7 @@ import {
 | title | string |  | Title of the shared page. | ❌ |
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [HatenaIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -658,6 +676,7 @@ import {
 | to | string |  | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌ |
 | windowWidth | number | 1000 | Opened window width. | ❌ |
 | windowHeight | number | 820 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [FacebookMessengerIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -689,6 +708,7 @@ import {
 | subject | string |  |  | ❌ |
 | body | string |  |  | ❌ |
 | separator | string |  |  | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [EmailIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -731,6 +751,7 @@ import {
 | borderRadius | number |  | Set rounded corners if using round icon. | ❌ |
 | bgStyle | object |  | Customize background style. | ❌ |
 | iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 ## 💡 Usage of ShareCount
 
@@ -778,9 +799,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.18.4 (2022-10-12):
+Latest version 0.19.0 (2022-10-17):
 
-  * Upgrade Linkedin API
+  * Add blankTarget props to open up a new tab
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 
@@ -852,6 +873,15 @@ How to contribute:
     </td>
   </tr>
 </table>
+
+## 👨‍👩‍👦 Advertisement
+
+You maybe interested.
+
+* [React Patterns](https://github.com/reactpatterns/reactpatterns) – React patterns & techniques to use in development for React Developer.
+* [React Papaparse](https://github.com/Bunlong/react-papaparse) –  The fastest in-browser CSV (or delimited text) parser for React.
+* [Next QRCode](https://github.com/bunlong/next-qrcode) – React hooks for generating QR code for your next React apps.
+* [Next Time Ago](https://github.com/Bunlong/next-time-ago) – A lightweight tiny time-ago component for your next React apps.
 
 ## ⚖️ License
 

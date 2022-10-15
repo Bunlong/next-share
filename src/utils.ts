@@ -5,6 +5,7 @@ export function CustomWindow(
     width,
     ...configRest
   }: { height: number; width: number; [key: string]: any },
+  blankTarget?: boolean,
   onClose?: (dialog: Window | null) => void,
 ) {
   const config: { [key: string]: string | number } = {
@@ -22,13 +23,19 @@ export function CustomWindow(
     ...configRest,
   };
 
-  const dialog = window.open(
-    url,
-    '',
-    Object.keys(config)
-      .map((key) => `${key}=${config[key]}`)
-      .join(', '),
-  );
+  let dialog: Window;
+
+  if (blankTarget) {
+    dialog = <Window>window.open(url, '_blank');
+  } else {
+    dialog = <Window>window.open(
+      url,
+      '',
+      Object.keys(config)
+        .map((key) => `${key}=${config[key]}`)
+        .join(', '),
+    );
+  }
 
   if (onClose) {
     const interval = window.setInterval(() => {

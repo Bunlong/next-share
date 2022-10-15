@@ -59,6 +59,7 @@ const Home: NextPage = () => {
         url={'https://github.com/bunlong/next-share'}
         quote={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
         hashtag={'#NextShare'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <FacebookIcon size={32} round />
@@ -67,6 +68,7 @@ const Home: NextPage = () => {
       <LineShareButton
         url={'https://github.com/bunlong/next-share'}
         title={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <LineIcon size={32} round />
@@ -75,6 +77,7 @@ const Home: NextPage = () => {
       <PinterestShareButton
         url={'https://github.com/bunlong/next-share'}
         media={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <PinterestIcon size={32} round />
@@ -85,6 +88,7 @@ const Home: NextPage = () => {
         title={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
         windowWidth={660}
         windowHeight={460}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <RedditIcon size={32} round />
@@ -93,6 +97,7 @@ const Home: NextPage = () => {
       <TelegramShareButton
         url={'https://github.com/bunlong/next-share'}
         title={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <TelegramIcon size={32} round />
@@ -101,6 +106,7 @@ const Home: NextPage = () => {
       <TumblrShareButton
         url={'https://github.com/bunlong/next-share'}
         title={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <TumblrIcon size={32} round />
@@ -109,6 +115,7 @@ const Home: NextPage = () => {
       <TwitterShareButton
         url={'https://github.com/bunlong/next-share'}
         title={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <TwitterIcon size={32} round />
@@ -117,6 +124,7 @@ const Home: NextPage = () => {
       <ViberShareButton
         url={'https://github.com/bunlong/next-share'}
         title={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <ViberIcon size={32} round />
@@ -126,6 +134,7 @@ const Home: NextPage = () => {
         url={'https://github.com/bunlong/next-share'}
         title={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
         // image={`${String(window.location)}/${exampleImage}`}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <WeiboIcon size={32} round />
@@ -135,6 +144,7 @@ const Home: NextPage = () => {
         url={'https://github.com/bunlong/next-share'}
         title={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
         separator="::"
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <WhatsappIcon size={32} round />
@@ -142,6 +152,7 @@ const Home: NextPage = () => {
       </WhatsappShareButton>
       <LinkedinShareButton
         url={'https://github.com/bunlong/next-share'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <LinkedinIcon size={32} round />
@@ -150,6 +161,7 @@ const Home: NextPage = () => {
       <VKShareButton
         url={'https://github.com/next-share'}
         image={`https://repository-images.githubusercontent.com/282947984/a3f80f00-df42-11ea-8d44-2d5482d26f27`}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <VKIcon size={32} round />
@@ -158,6 +170,7 @@ const Home: NextPage = () => {
       <MailruShareButton
         url={'https://github.com/next-share'}
         title={'Next Share'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <MailruIcon size={32} round />
@@ -167,6 +180,7 @@ const Home: NextPage = () => {
         url={'https://github.com/next-share'}
         title={'Next Share'}
         description={'https://github.com/next-share'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <LivejournalIcon size={32} round />
@@ -175,6 +189,7 @@ const Home: NextPage = () => {
       <WorkplaceShareButton
         url={'https://github.com/next-share'}
         quote={'Next Share'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <WorkplaceIcon size={32} round />
@@ -183,6 +198,7 @@ const Home: NextPage = () => {
       <PocketShareButton
         url={'https://github.com/next-share'}
         title={'Next Share'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <PocketIcon size={32} round />
@@ -191,6 +207,7 @@ const Home: NextPage = () => {
       <InstapaperShareButton
         url={'https://github.com/next-share'}
         title={'Next Share'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <InstapaperIcon size={32} round />
@@ -201,6 +218,7 @@ const Home: NextPage = () => {
         title={'Next Share'}
         windowWidth={660}
         windowHeight={460}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <HatenaIcon size={32} round />
@@ -209,6 +227,7 @@ const Home: NextPage = () => {
       <FacebookMessengerShareButton
         url={'https://github.com/next-share'}
         appId={''}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <FacebookMessengerIcon size={32} round />
@@ -218,6 +237,7 @@ const Home: NextPage = () => {
         url={'https://github.com/next-share'}
         title={'Next Share'}
         body="body"
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <EmailIcon size={32} round />
@@ -226,6 +246,7 @@ const Home: NextPage = () => {
       <GabShareButton
         url={'https://github.com/next-share'}
         title={'Next Share'}
+        // blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <GabIcon size={32} round />

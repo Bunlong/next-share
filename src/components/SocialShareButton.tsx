@@ -45,6 +45,7 @@ interface CustomProps<LinkOptions> {
    */
   onShareWindowClose?: () => void;
   resetButtonStyle?: boolean;
+  blankTarget?: boolean;
 }
 
 export type Props<LinkOptions> = Omit<
@@ -68,6 +69,7 @@ export default class SocialShareButton<LinkOptions> extends Component<
       windowHeight = 400,
       windowPosition = 'windowCenter',
       windowWidth = 550,
+      blankTarget = false,
     } = this.props;
 
     const windowConfig = {
@@ -78,7 +80,7 @@ export default class SocialShareButton<LinkOptions> extends Component<
         : getPositionOnScreenCenter(windowWidth, windowHeight)),
     };
 
-    CustomWindow(link, windowConfig, onShareWindowClose);
+    CustomWindow(link, windowConfig, blankTarget, onShareWindowClose);
   };
 
   handleClick = async (event: React.MouseEvent<HTMLButtonElement>) => {

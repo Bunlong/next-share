@@ -20,12 +20,12 @@ function createShareButton<
     OptionProps;
 
   function CreatedButton(props: Props, ref: Ref<HTMLButtonElement>) {
-    const opts = optsMap(props);
-    const passedProps = { ...props };
+    const opts: any = optsMap(props);
+    const passedProps: any = { ...props };
 
     const optsKeys = Object.keys(opts);
     optsKeys.forEach((key) => {
-      delete (passedProps as any)[key];
+      delete passedProps[key];
     });
 
     return (

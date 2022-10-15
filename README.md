@@ -32,6 +32,14 @@ Social media share buttons for your next React apps.
   * Hatena
   * FacebookMessenger
   * Email
+  * Gab
+* Share counts
+  * FacebookShareCount
+  * HatenaShareCount
+  * OKShareCount
+  * PinterestShareCount
+  * TumblrShareCount
+  * VKShareCount
 
 ## 🔧 Install
 
@@ -47,7 +55,7 @@ next-share is available on yarn as well. It can be installed with the following 
 yarn add next-share --save
 ```
 
-## 💡 Usage
+## 💡 Usage of ShareButton
 
 ### 🎀 Facebook
 
@@ -394,12 +402,22 @@ import {
 | :--- | :--- | :--- | :--- | :--- |
 | children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
-| title | string |  | The title of the shared page. | ❌ |
-| summary | string |  | Description of the shared page. | ❌ |
-| source | string |  | Source of the content (e.g. your website or application name). | ❌ |
 | windowWidth | number | 750 | Opened window width. | ❌ |
 | windowHeight | number | 600 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
+<!-- | title | string |  | The title of the shared page. | ❌ |
+| summary | string |  | Description of the shared page. | ❌ |
+| source | string |  | Source of the content (e.g. your website or application name). | ❌ | -->
+
+How do you use things like `title`, `summary`, etc.?
+
+Use `og` tags in the `<head>` block of the HTML.
+
+```html
+<meta property='og:image' content='' />
+<meta property='og:title' content='' />
+<meta property='og:description' content='' />
+```
 
 #### 📖 [LinkedinIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -653,7 +671,7 @@ import {
 | :--- | :--- | :--- | :--- | :--- |
 | children | node |  | React component, HTML element or string. | ✅ |
 | url | string |  | The URL of the shared page. | ✅ |
-| appId | string |  | Facebook application id. | ❌ |
+| appId | string |  | Facebook application id. | ✅ |
 | redirectUri | string |  | The URL to redirect to after sharing (default: the shared url). | ❌ |
 | to | string |  | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌ |
 | windowWidth | number | 1000 | Opened window width. | ❌ |
@@ -694,6 +712,36 @@ import {
 
 #### 📖 [EmailIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
+### 🎀 Gab
+
+#### 👨‍💻 Code
+
+```js
+import {
+  GabShareButton,
+  GabIcon,
+} from 'next-share'
+
+<GabShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+>
+  <GabIcon size={32} round />
+</GabShareButton>
+```
+
+#### 📖 GabShareButton props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | Title of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 640 | Opened window height. | ❌ |
+
+#### 📖 [GabIcon props](https://github.com/Bunlong/next-share#-icons-props)
+
 ## 📚 Icons props
 
 | Props | Type | Default | Description | Required |
@@ -705,11 +753,55 @@ import {
 | iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
+## 💡 Usage of ShareCount
+
+#### 👨‍💻 Code
+
+```js
+import {
+  FacebookShareCount,
+  HatenaShareCount,
+  OKShareCount,
+  PinterestShareCount,
+  TumblrShareCount,
+  VKShareCount,
+} from 'next-share';
+
+<PinterestShareCount url={'https://github.com/next-share'} />
+
+<PinterestShareCount url={'https://github.com/next-share'}>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</PinterestShareCount>
+
+<FacebookShareCount
+  url={'https://github.com/next-share'}
+  appId={''}
+  appSecret={''}
+/>
+
+<FacebookShareCount
+  url={'https://github.com/next-share'}
+  appId={''}
+  appSecret={''}
+>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</FacebookShareCount>
+```
+
+#### 📖 FacebookShareCount props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| appId | string |  | Facebook application id. | ✅ |
+| appSecret | string |  | Facebook application secret. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
+
 ## 📜 Changelog
 
-Latest version 0.14.0 (2022-05-29):
+Latest version 0.18.4 (2022-10-12):
 
-  * Support React 18
+  * Upgrade Linkedin API
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 
@@ -767,6 +859,15 @@ How to contribute:
         <br />
         <sub>
           <b>Steve Scavo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/me4502">
+        <img src="https://avatars.githubusercontent.com/u/546754?v=4" width="100" alt="Maddy Miller" />
+        <br />
+        <sub>
+          <b>Maddy Miller</b>
         </sub>
       </a>
     </td>

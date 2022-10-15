@@ -39,6 +39,7 @@ import {
   FacebookMessengerIcon,
   EmailShareButton,
   EmailIcon,
+  VKShareCount,
 } from 'next-share';
 
 function App() {
@@ -131,8 +132,6 @@ function App() {
       </WhatsappShareButton>
       <LinkedinShareButton
         url={'http://github.com'}
-        title={'Testing - next-share is a .'}
-        summary={'Testing - next-share is a .'}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <LinkedinIcon size={32} round />
@@ -214,6 +213,7 @@ function App() {
           <EmailIcon size={32} round />
         </div>
       </EmailShareButton>
+      <VKShareCount url={'https://github.com/next-share'} />
     </>
   );
 }

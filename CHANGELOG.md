@@ -1,3 +1,51 @@
+## 0.18.4 (2022-10-12)
+
+### ✨ Features
+
+  * Upgrade Linkedin API
+
+## 0.18.2 (2022-10-09)
+
+### ✨ Bugs
+
+  * Fix added 1060 packages with 7 high vulnerabilities
+
+## 0.18.1 (2022-09-01)
+
+### ✨ Features
+
+  * Update reddit icon color to match current branding
+
+## 0.18.0 (2022-08-01)
+
+### ✨ Features
+
+  * Add sharebutton component
+    * GabShareButton
+    * GabIcon
+
+## 0.17.0 (2022-07-24)
+
+### ✨ Features
+
+  * Add sharecount component
+    * FacebookShareCount
+    * HatenaShareCount
+
+## 0.16.0 (2022-07-14)
+
+### ✨ Features
+
+  * Add sharecount component
+    * OKShareCount
+    * PinterestShareCount
+    * TumblrShareCount
+    * VKShareCount
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
 ## 0.14.0 (2022-05-29)
 
 ### ✨ Features

@@ -799,9 +799,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.18.4 (2022-10-12):
+Latest version 0.19.0 (2022-10-17):
 
-  * Upgrade Linkedin API
+  * Add blankTarget props to open up a new tab
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

@@ -1,3 +1,9 @@
+## 0.19.0 (2022-10-17)
+
+### ✨ Features
+
+  * Add blankTarget props to open up a new tab
+
 ## 0.18.4 (2022-10-12)
 
 ### ✨ Features

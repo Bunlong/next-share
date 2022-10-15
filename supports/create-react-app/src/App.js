@@ -49,6 +49,7 @@ function App() {
         url={'https://github.com/bunlong/next-share'}
         quote={'Testing - next-share is a social share buttons plugin for Next.js, Create React App, Gatsby.js as well as React apps.'}
         hashtag={'#NextShare'}
+        blankTarget={true}
       >
         <div style={{marginRight: 10, width: 32, height: 32}}>
           <FacebookIcon size={32} round />

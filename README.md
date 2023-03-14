@@ -25,6 +25,7 @@ Social media share buttons for your next React apps.
   * Whatsapp
   * Linkedin
   * VKShare
+  * Mailru
   * Livejournal
   * Workplace
   * Pocket
@@ -65,7 +66,7 @@ yarn add next-share --save
 import {
   FacebookShareButton,
   FacebookIcon,
-} from 'next-share';
+} from 'next-share'
 
 <FacebookShareButton
   url={'https://github.com/next-share'}
@@ -76,7 +77,7 @@ import {
 </FacebookShareButton>
 ```
 
-#### 📖 FacebookShareButton props
+#### 📖 FacebookShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -88,7 +89,7 @@ import {
 | windowHeight | number | 400 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [FacebookIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [FacebookIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Line
 
@@ -98,7 +99,7 @@ import {
 import {
   LineShareButton,
   LineIcon,
-} from 'next-share';
+} from 'next-share'
 
 <LineShareButton
   url={'https://github.com/next-share'}
@@ -108,7 +109,7 @@ import {
 </LineShareButton>
 ```
 
-#### 📖 LineShareButton props
+#### 📖 LineShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -139,7 +140,7 @@ import {
 </PinterestShareButton>
 ```
 
-#### 📖 PinterestShareButton props
+#### 📖 PinterestShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -151,7 +152,7 @@ import {
 | windowHeight | number | 730 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [PinterestIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [PinterestIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Reddit
 
@@ -171,7 +172,7 @@ import {
 </RedditShareButton>
 ```
 
-#### 📖 RedditShareButton props
+#### 📖 RedditShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -182,7 +183,7 @@ import {
 | windowHeight | number | 460 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [RedditIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [RedditIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Telegram
 
@@ -202,7 +203,7 @@ import {
 </TelegramShareButton>
 ```
 
-#### 📖 TelegramShareButton props
+#### 📖 TelegramShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -213,7 +214,7 @@ import {
 | windowHeight | number | 400 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [TelegramIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [TelegramIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Tumblr
 
@@ -233,7 +234,7 @@ import {
 </TumblrShareButton>
 ```
 
-#### 📖 TumblrShareButton props
+#### 📖 TumblrShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -247,7 +248,7 @@ import {
 | windowHeight | number | 460 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [TumblrIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [TumblrIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Twitter
 
@@ -267,7 +268,7 @@ import {
 </TwitterShareButton>
 ```
 
-#### 📖 TwitterShareButton props
+#### 📖 TwitterShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -281,7 +282,7 @@ import {
 | windowHeight | number | 400 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [TwitterIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [TwitterIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Viber
 
@@ -301,7 +302,7 @@ import {
 </ViberShareButton>
 ```
 
-#### 📖 ViberShareButton props
+#### 📖 ViberShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -313,7 +314,7 @@ import {
 | windowHeight | number | 460 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [ViberIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [ViberIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Weibo
 
@@ -334,7 +335,7 @@ import {
 </WeiboShareButton>
 ```
 
-#### 📖 WeiboShareButton props
+#### 📖 WeiboShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -346,7 +347,7 @@ import {
 | windowHeight | number | 550 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [WeiboIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [WeiboIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Whatsapp
 
@@ -367,7 +368,7 @@ import {
 </WhatsappShareButton>
 ```
 
-#### 📖 WhatsappShareButton props
+#### 📖 WhatsappShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -379,7 +380,7 @@ import {
 | windowHeight | number | 400 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [WhatsappIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [WhatsappIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Linkedin
 
@@ -396,7 +397,7 @@ import {
 </LinkedinShareButton>
 ```
 
-#### 📖 LinkedinShareButton props
+#### 📖 LinkedinShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -419,7 +420,7 @@ Use `og` tags in the `<head>` block of the HTML.
 <meta property='og:description' content='' />
 ```
 
-#### 📖 [LinkedinIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [LinkedinIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 VK
 
@@ -439,7 +440,7 @@ import {
 </VKShareButton>
 ```
 
-#### 📖 VKShareButton props
+#### 📖 VKShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -453,7 +454,7 @@ import {
 | windowHeight | number | 460 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [VKIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [VKIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Mailru
 
@@ -473,7 +474,7 @@ import {
 </MailruShareButton>
 ```
 
-#### 📖 MailruShareButton props
+#### 📖 MailruShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -486,7 +487,7 @@ import {
 | windowHeight | number | 460 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [MailruIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [MailruIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Livejournal
 
@@ -507,7 +508,7 @@ import {
 </LivejournalShareButton>
 ```
 
-#### 📖 LivejournalShareButton props
+#### 📖 LivejournalShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -519,7 +520,7 @@ import {
 | windowHeight | number | 460 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [LivejournalIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [LivejournalIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Workplace
 
@@ -539,7 +540,7 @@ import {
 </WorkplaceShareButton>
 ```
 
-#### 📖 WorkplaceShareButton props
+#### 📖 WorkplaceShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -551,7 +552,7 @@ import {
 | windowHeight | number | 400 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [WorkplaceIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [WorkplaceIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Pocket
 
@@ -571,7 +572,7 @@ import {
 </PocketShareButton>
 ```
 
-#### 📖 PocketShareButton props
+#### 📖 PocketShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -582,7 +583,7 @@ import {
 | windowHeight | number | 500 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [PocketIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [PocketIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Instapaper
 
@@ -602,7 +603,7 @@ import {
 </InstapaperShareButton>
 ```
 
-#### 📖 InstapaperShareButton props
+#### 📖 InstapaperShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -614,7 +615,7 @@ import {
 | windowHeight | number | 500 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [InstapaperIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [InstapaperIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Hatena
 
@@ -634,7 +635,7 @@ import {
 </HatenaShareButton>
 ```
 
-#### 📖 HatenaShareButton props
+#### 📖 HatenaShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -645,7 +646,7 @@ import {
 | windowHeight | number | 460 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [HatenaIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [HatenaIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 FacebookMessenger
 
@@ -665,7 +666,7 @@ import {
 </FacebookMessengerShareButton>
 ```
 
-#### 📖 FacebookMessengerShareButton props
+#### 📖 FacebookMessengerShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -678,7 +679,7 @@ import {
 | windowHeight | number | 820 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [FacebookMessengerIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [FacebookMessengerIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Email
 
@@ -699,7 +700,7 @@ import {
 </EmailShareButton>
 ```
 
-#### 📖 EmailShareButton props
+#### 📖 EmailShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -710,7 +711,7 @@ import {
 | separator | string |  |  | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
-#### 📖 [EmailIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [EmailIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ### 🎀 Gab
 
@@ -730,7 +731,7 @@ import {
 </GabShareButton>
 ```
 
-#### 📖 GabShareButton props
+#### 📖 GabShareButton Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -740,9 +741,9 @@ import {
 | windowWidth | number | 660 | Opened window width. | ❌ |
 | windowHeight | number | 640 | Opened window height. | ❌ |
 
-#### 📖 [GabIcon props](https://github.com/Bunlong/next-share#-icons-props)
+#### 📖 [GabIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
-## 📚 Icons props
+## 📚 Icons Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |
@@ -765,7 +766,7 @@ import {
   PinterestShareCount,
   TumblrShareCount,
   VKShareCount,
-} from 'next-share';
+} from 'next-share'
 
 <PinterestShareCount url={'https://github.com/next-share'} />
 
@@ -788,7 +789,7 @@ import {
 </FacebookShareCount>
 ```
 
-#### 📖 FacebookShareCount props
+#### 📖 FacebookShareCount Props
 
 | Props | Type | Default | Description | Required |
 | :--- | :--- | :--- | :--- | :--- |

@@ -20,6 +20,7 @@ export { default as HatenaIcon } from './icons/HatenaIcon';
 export { default as FacebookMessengerIcon } from './icons/FacebookMessengerIcon';
 export { default as EmailIcon } from './icons/EmailIcon';
 export { default as GabIcon } from './icons/GabIcon';
+export { default as LensIcon } from './icons/LensIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';
@@ -43,6 +44,7 @@ export { default as HatenaShareButton } from './components/buttons/HatenaShareBu
 export { default as FacebookMessengerShareButton } from './components/buttons/FacebookMessengerShareButton';
 export { default as EmailShareButton } from './components/buttons/EmailShareButton';
 export { default as GabShareButton } from './components/buttons/GabShareButton';
+export { default as LensShareButton } from './components/buttons/LensShareButton';
 
 // Counts
 export { default as OKShareCount } from './components/counts/OKShareCount';

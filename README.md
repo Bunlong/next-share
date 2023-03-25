@@ -756,23 +756,12 @@ import {
 
 ## 💡 Usage of ShareCount
 
+### 🎀 Facebook
+
 #### 👨‍💻 Code
 
 ```js
-import {
-  FacebookShareCount,
-  HatenaShareCount,
-  OKShareCount,
-  PinterestShareCount,
-  TumblrShareCount,
-  VKShareCount,
-} from 'next-share'
-
-<PinterestShareCount url={'https://github.com/next-share'} />
-
-<PinterestShareCount url={'https://github.com/next-share'}>
-  {shareCount => <span className="wrapper">{shareCount}</span>}
-</PinterestShareCount>
+import { FacebookShareCount } from 'next-share'
 
 <FacebookShareCount
   url={'https://github.com/next-share'}
@@ -796,6 +785,111 @@ import {
 | url | string |  | The URL of the shared page. | ✅ |
 | appId | string |  | Facebook application id. | ✅ |
 | appSecret | string |  | Facebook application secret. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
+
+### 🎀 Hatena
+
+#### 👨‍💻 Code
+
+```js
+import { HatenaShareCount } from 'next-share'
+
+<HatenaShareCount url={'https://github.com/next-share'} />
+
+<HatenaShareCount url={'https://github.com/next-share'}>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</HatenaShareCount>
+```
+
+#### 📖 HatenaShareCount Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
+
+### 🎀 OK
+
+#### 👨‍💻 Code
+
+```js
+import { OKShareCount } from 'next-share'
+
+<OKShareCount url={'https://github.com/next-share'} />
+
+<OKShareCount url={'https://github.com/next-share'}>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</OKShareCount>
+```
+
+#### 📖 OKShareCount Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
+
+### 🎀 Pinterest
+
+#### 👨‍💻 Code
+
+```js
+import { PinterestShareCount } from 'next-share'
+
+<PinterestShareCount url={'https://github.com/next-share'} />
+
+<PinterestShareCount url={'https://github.com/next-share'}>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</PinterestShareCount>
+```
+
+#### 📖 PinterestShareCount Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
+
+### 🎀 Tumblr
+
+#### 👨‍💻 Code
+
+```js
+import { TumblrShareCount } from 'next-share'
+
+<TumblrShareCount url={'https://github.com/next-share'} />
+
+<TumblrShareCount url={'https://github.com/next-share'}>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</TumblrShareCount>
+```
+
+#### 📖 TumblrShareCount Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
+
+### 🎀 VK
+
+#### 👨‍💻 Code
+
+```js
+import { VKShareCount } from 'next-share'
+
+<VKShareCount url={'https://github.com/next-share'} />
+
+<VKShareCount url={'https://github.com/next-share'}>
+  {shareCount => <span className="wrapper">{shareCount}</span>}
+</VKShareCount>
+```
+
+#### 📖 VKShareCount Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
 | children | node |  | React component, HTML element or string. | ❌ |
 
 ## 📜 Changelog

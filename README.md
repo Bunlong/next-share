@@ -34,6 +34,7 @@ Social media share buttons for your next React apps.
   * FacebookMessenger
   * Email
   * Gab
+  * Lens
 * Share counts
   * FacebookShareCount
   * HatenaShareCount
@@ -730,6 +731,40 @@ import {
   <GabIcon size={32} round />
 </GabShareButton>
 ```
+
+### 🎀 Lens
+
+#### 👨‍💻 Code
+
+```js
+import {
+  LensShareButton,
+  LensIcon,
+} from 'next-share'
+
+<LensShareButton
+  url={'https://github.com/next-share'}
+  quote={'next-share is a social share buttons for your next React apps.'}
+  hashtag={'#nextshare'}
+>
+  <LensIcon size={32} round bgStyle={{ "background": "#abfe2c" }} />
+</LensShareButton>
+```
+
+#### 📖 LensShareButton Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| text | string |  | A quote to be shared. | ❌ |
+| hashtags | string |  | Hashtag to be shared. | ❌ |
+| via | string |  | Ability to tag someone. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
+
+#### 📖 [FacebookIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 #### 📖 GabShareButton Props
 

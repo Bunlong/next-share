@@ -1,3 +1,9 @@
+## 0.20.0 (2023-03-27)
+
+### ✨ Features
+
+  * Add lens.xyz share button
+
 ## 0.19.0 (2022-10-17)
 
 ### ✨ Features

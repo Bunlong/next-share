@@ -16,11 +16,11 @@ type Config = {
 
 export default function createIcon(config: Config) {
   const Icon: React.FC<Props> = ({
-    bgStyle,
-    borderRadius,
-    iconFillColor,
+    bgStyle = {},
+    borderRadius = 0,
+    iconFillColor = 'white',
     round,
-    size,
+    size = 64,
     ...rest
   }: Props) => (
     <svg viewBox="0 0 64 64" width={size} height={size} {...rest}>
@@ -40,13 +40,6 @@ export default function createIcon(config: Config) {
       <path d={config.path} fill={iconFillColor} />
     </svg>
   );
-
-  Icon.defaultProps = {
-    bgStyle: {},
-    borderRadius: 0,
-    iconFillColor: 'white',
-    size: 64,
-  };
 
   return Icon;
 }

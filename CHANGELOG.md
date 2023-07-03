@@ -1,3 +1,13 @@
+## 0.21.1 (2023-07-04)
+
+### ✨ Features
+
+  * Fix warning (support for defaultProps will be removed in a future major release)
+
+Credits
+
+* [@joemcbroom](https://github.com/joemcbroom)
+
 ## 0.21.0 (2023-07-04)
 
 ### ✨ Features

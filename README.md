@@ -894,9 +894,9 @@ import { VKShareCount } from 'next-share'
 
 ## 📜 Changelog
 
-Latest version 0.19.0 (2022-10-17):
+Latest version 0.21.0 (2023-07-04):
 
-  * Add blankTarget props to open up a new tab
+  * Upgrade dependencies
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

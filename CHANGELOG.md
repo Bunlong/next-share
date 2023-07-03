@@ -1,3 +1,9 @@
+## 0.21.0 (2023-07-04)
+
+### ✨ Features
+
+  * Upgrade dependencies
+
 ## 0.19.0 (2022-10-17)
 
 ### ✨ Features

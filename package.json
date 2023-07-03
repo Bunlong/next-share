@@ -1,6 +1,6 @@
 {
   "name": "next-share",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "description": "Social media share buttons for your next React apps.",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "social-media-share-buttons",
     "react-share"
   ],
-  "homepage": "https://next-share.github.io",
+  "homepage": "https://next-share.js.org",
   "main": "dist/next-share.js",
   "module": "dist/next-share.es.js",
   "jsnext:main": "dist/next-share.es.js",
@@ -67,7 +67,7 @@
     "react-test-renderer": "^17.0.2",
     "rollup": "^2.56.3",
     "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-typescript2": "^0.35.0",
     "ts-jest": "^27.0.5",
     "tslib": "^2.3.1",
     "typescript": "^4.4.2"

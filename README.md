@@ -894,9 +894,9 @@ import { VKShareCount } from 'next-share'
 
 ## 📜 Changelog
 
-Latest version 0.21.0 (2023-07-04):
+Latest version 0.21.1 (2023-07-04):
 
-  * Upgrade dependencies
+  * Fix warning (support for defaultProps will be removed in a future major release)
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 
@@ -963,6 +963,15 @@ How to contribute:
         <br />
         <sub>
           <b>Maddy Miller</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/joemcbroom">
+        <img src="https://avatars.githubusercontent.com/u/22060335?v=4" width="100" alt="Joe McBroom" />
+        <br />
+        <sub>
+          <b>Joe McBroom</b>
         </sub>
       </a>
     </td>

@@ -1,3 +1,13 @@
+## 0.22.2 (2023-07-04)
+
+### ✨ Features
+
+  * Fix TwitterShareButton doesn't work on mobile devices
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
 ## 0.22.1 (2023-07-04)
 
 ### ✨ Features

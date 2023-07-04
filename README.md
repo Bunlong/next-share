@@ -894,9 +894,9 @@ import { VKShareCount } from 'next-share'
 
 ## 📜 Changelog
 
-Latest version 0.22.1 (2023-07-04):
+Latest version 0.22.2 (2023-07-04):
 
-  * Fix InstagramIcon
+  * Fix TwitterShareButton doesn't work on mobile devices
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

@@ -894,9 +894,9 @@ import { VKShareCount } from 'next-share'
 
 ## 📜 Changelog
 
-Latest version 0.21.1 (2023-07-04):
+Latest version 0.22.0 (2023-07-04):
 
-  * Fix warning (support for defaultProps will be removed in a future major release)
+  * Add InstagramIcon
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

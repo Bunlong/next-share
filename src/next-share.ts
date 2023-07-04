@@ -20,6 +20,7 @@ export { default as HatenaIcon } from './icons/HatenaIcon';
 export { default as FacebookMessengerIcon } from './icons/FacebookMessengerIcon';
 export { default as EmailIcon } from './icons/EmailIcon';
 export { default as GabIcon } from './icons/GabIcon';
+export { default as InstagramIcon } from './icons/InstagramIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

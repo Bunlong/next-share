@@ -11,7 +11,7 @@ function twitterLink(
   }: { title?: string; via?: string; hashtags?: string[]; related?: string[] },
 ) {
   return (
-    'https://twitter.com/share' +
+    'https://twitter.com/intent/tweet' +
     transformObjectToParams({
       url,
       text: title,

@@ -1,3 +1,13 @@
+## 0.22.1 (2023-07-04)
+
+### ✨ Features
+
+  * Fix InstagramIcon
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
 ## 0.22.0 (2023-07-04)
 
 ### ✨ Features

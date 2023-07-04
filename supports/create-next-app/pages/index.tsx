@@ -50,6 +50,7 @@ import {
   HatenaShareCount,
   // FacebookShareCount,
   // RedditShareCount,
+  InstagramIcon,
 } from 'next-share'
 
 const Home: NextPage = () => {
@@ -252,6 +253,9 @@ const Home: NextPage = () => {
           <GabIcon size={32} round />
         </div>
       </GabShareButton>
+      <div style={{marginRight: 10, width: 32, height: 32}}>
+        <InstagramIcon size={37} round />
+      </div>
       {/* <OKShareCount url={'https://github.com/next-share'} /> */}
       <OKShareCount url={'https://github.com/next-share'}>
         {shareCount => <span className="myShareCountWrapper">OKShareCount: {shareCount}</span>}
@@ -280,6 +284,7 @@ const Home: NextPage = () => {
       {/* <RedditShareCount url={'https://github.com/next-share'}>
         {shareCount => <span className="myShareCountWrapper">RedditShareCount: {shareCount}</span>}
       </RedditShareCount> */}
+      
     </>
   )
 }

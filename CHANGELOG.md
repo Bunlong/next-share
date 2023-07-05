@@ -1,3 +1,13 @@
+## 0.23.0 (2023-07-05)
+
+### ✨ Features
+
+  * Add SpotifyIcon
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
 ## 0.22.2 (2023-07-04)
 
 ### ✨ Features

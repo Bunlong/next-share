@@ -21,6 +21,7 @@ export { default as FacebookMessengerIcon } from './icons/FacebookMessengerIcon'
 export { default as EmailIcon } from './icons/EmailIcon';
 export { default as GabIcon } from './icons/GabIcon';
 export { default as InstagramIcon } from './icons/InstagramIcon';
+export { default as SpotifyIcon } from './icons/SpotifyIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

@@ -51,6 +51,7 @@ import {
   // FacebookShareCount,
   // RedditShareCount,
   InstagramIcon,
+  SpotifyIcon,
 } from 'next-share'
 
 const Home: NextPage = () => {
@@ -253,9 +254,12 @@ const Home: NextPage = () => {
           <GabIcon size={32} round />
         </div>
       </GabShareButton>
-      <div style={{marginRight: 10, width: 32, height: 32}}>
+      <span style={{marginRight: 10, width: 32, height: 32}}>
         <InstagramIcon size={32} round />
-      </div>
+      </span>
+      <span style={{marginRight: 10, width: 32, height: 32}}>
+        <SpotifyIcon size={32} round />
+      </span>
       {/* <OKShareCount url={'https://github.com/next-share'} /> */}
       <OKShareCount url={'https://github.com/next-share'}>
         {shareCount => <span className="myShareCountWrapper">OKShareCount: {shareCount}</span>}

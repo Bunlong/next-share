@@ -937,9 +937,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.23.0 (2023-07-05):
+Latest version 0.24.0 (2023-07-20):
 
-  * Add SpotifyIcon
+  * Add documentary icon
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

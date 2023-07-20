@@ -41,6 +41,7 @@ Social media share buttons for your next React apps.
   * PinterestShareCount
   * TumblrShareCount
   * VKShareCount
+* Icons
 
 ## 🔧 Install
 
@@ -892,11 +893,53 @@ import { VKShareCount } from 'next-share'
 | url | string |  | The URL of the shared page. | ✅ |
 | children | node |  | React component, HTML element or string. | ❌ |
 
+## 💡 Usage of Icon
+
+#### 👨‍💻 Code
+
+```js
+import {
+  EmailIcon,
+  FacebookIcon,
+  FacebookMessengerIcon,
+  HatenaIcon,
+  InstagramIcon,
+  InstapaperIcon,
+  LineIcon,
+  LinkedinIcon,
+  LivejournalIcon,
+  MailruIcon,
+  OKIcon,
+  PinterestIcon,
+  PocketIcon,
+  RedditIcon,
+  SpotifyIcon,
+  TelegramIcon,
+  TumblrIcon,
+  TwitterIcon,
+  ViberIcon,
+  VKIcon,
+  WeiboIcon,
+  WhatsappIcon,
+  WorkplaceIcon,
+} from 'next-share'
+```
+
+#### 📖 Props
+
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| size | number |  |  Icon size in pixels. | ❌ |
+| round | boolean |  | Whether to show round or rect icons. | ❌ |
+| borderRadius | number |  | Allow rounded corners if using rect icons. | ❌ |
+| bgStyle | object |  | Customize background. | ❌ |
+| iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
+
 ## 📜 Changelog
 
-Latest version 0.23.0 (2023-07-05):
+Latest version 0.24.0 (2023-07-20):
 
-  * Add SpotifyIcon
+  * Add documentary icon
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

@@ -1,3 +1,13 @@
+## 0.24.0 (2023-07-20)
+
+### ✨ Features
+
+  * Add documentary icon
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
 ## 0.23.0 (2023-07-05)
 
 ### ✨ Features

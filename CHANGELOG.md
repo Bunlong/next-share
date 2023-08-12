@@ -1,3 +1,13 @@
+## 0.26.0 (2023-08-12)
+
+### ✨ Features
+
+  * Add new TwitterIcon
+
+Credits
+
+* [@LenaKotlyar](https://github.com/LenaKotlyar)
+
 ## 0.25.0 (2023-08-07)
 
 ### ✨ Features

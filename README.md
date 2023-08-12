@@ -938,9 +938,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.25.0 (2023-08-07):
+Latest version 0.26.0 (2023-08-12):
 
-  * Add GithubIcon
+  * Add new TwitterIcon
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

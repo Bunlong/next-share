@@ -902,6 +902,7 @@ import {
   EmailIcon,
   FacebookIcon,
   FacebookMessengerIcon,
+  GithubIcon,
   HatenaIcon,
   InstagramIcon,
   InstapaperIcon,
@@ -937,9 +938,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.24.0 (2023-07-20):
+Latest version 0.25.0 (2023-08-07):
 
-  * Add documentary icon
+  * Add GithubIcon
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

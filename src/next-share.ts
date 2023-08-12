@@ -22,6 +22,7 @@ export { default as EmailIcon } from './icons/EmailIcon';
 export { default as GabIcon } from './icons/GabIcon';
 export { default as InstagramIcon } from './icons/InstagramIcon';
 export { default as SpotifyIcon } from './icons/SpotifyIcon';
+export { default as GithubIcon } from './icons/GithubIcon';
 
 // Buttons
 export { default as FacebookShareButton } from './components/buttons/FacebookShareButton';

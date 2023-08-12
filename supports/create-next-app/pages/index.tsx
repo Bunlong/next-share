@@ -52,6 +52,7 @@ import {
   // RedditShareCount,
   InstagramIcon,
   SpotifyIcon,
+  GithubIcon,
 } from 'next-share'
 
 const Home: NextPage = () => {
@@ -259,6 +260,9 @@ const Home: NextPage = () => {
       </span>
       <span style={{marginRight: 10, width: 32, height: 32}}>
         <SpotifyIcon size={32} round />
+      </span>
+      <span style={{marginRight: 10, width: 32, height: 32}}>
+        <GithubIcon size={32} round />
       </span>
       {/* <OKShareCount url={'https://github.com/next-share'} /> */}
       <OKShareCount url={'https://github.com/next-share'}>

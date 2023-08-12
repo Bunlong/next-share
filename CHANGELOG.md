@@ -1,3 +1,13 @@
+## 0.25.0 (2023-08-07)
+
+### ✨ Features
+
+  * Add GithubIcon
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
 ## 0.24.0 (2023-07-20)
 
 ### ✨ Features

@@ -1020,6 +1020,17 @@ How to contribute:
       </a>
     </td>
   </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/lenakotlyar">
+        <img src="https://avatars.githubusercontent.com/u/123081081?v=4" width="100" alt="Lena Kotlyar" />
+        <br />
+        <sub>
+          <b>Lena Kotlyar</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
 </table>
 
 ## 👨‍👩‍👦 Advertisement

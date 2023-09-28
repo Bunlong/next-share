@@ -938,9 +938,9 @@ import {
 
 ## 📜 Changelog
 
-Latest version 0.26.0 (2023-08-12):
+Latest version 0.27.0 (2023-09-28):
 
-  * Add new TwitterIcon
+  * Upgrade TwitterIcon
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 

@@ -1,3 +1,13 @@
+## 0.27.0 (2023-09-28)
+
+### ✨ Features
+
+  * Upgrade TwitterIcon
+
+Credits
+
+* [@Bunlong](https://github.com/Bunlong)
+
 ## 0.26.0 (2023-08-12)
 
 ### ✨ Features

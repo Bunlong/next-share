@@ -1,18 +1,12 @@
 import transformObjectToParams from '../../utils';
 import createShareButton from '../../hocs/createShareButton';
 
-function isMobileOrTablet() {
-  return /(android|iphone|ipad|mobile)/i.test(navigator.userAgent);
-}
-
 function whatsappLink(
   url: string,
   { title, separator }: { title?: string; separator?: string },
 ) {
   return (
-    'https://' +
-    (isMobileOrTablet() ? 'api' : 'web') +
-    '.whatsapp.com/send' +
+    'https://api.whatsapp.com/send' +
     transformObjectToParams({
       text: title ? title + separator + url : url,
     })

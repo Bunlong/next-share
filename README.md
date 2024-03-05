@@ -10,38 +10,38 @@ Social media share buttons for your next React apps.
 
 ## 🎁 Features
 
-- No dependencies
-- Compatible with both JavaScript and TypeScript
-- Share buttons for your next React app
-  - Facebook
-  - Line
-  - Pinterest
-  - Reddit
-  - Telegram
-  - Tumblr
-  - Twitter
-  - Viber
-  - Weibo
-  - Whatsapp
-  - Linkedin
-  - VKShare
-  - Mailru
-  - Livejournal
-  - Workplace
-  - Pocket
-  - Instapaper
-  - Hatena
-  - FacebookMessenger
-  - Email
-  - Gab
-- Share counts
-  - FacebookShareCount
-  - HatenaShareCount
-  - OKShareCount
-  - PinterestShareCount
-  - TumblrShareCount
-  - VKShareCount
-- Icons
+* No dependencies
+* Compatible with both JavaScript and TypeScript
+* Share buttons for your next React app
+  * Facebook
+  * Line
+  * Pinterest
+  * Reddit
+  * Telegram
+  * Tumblr
+  * Twitter
+  * Viber
+  * Weibo
+  * Whatsapp
+  * Linkedin
+  * VKShare
+  * Mailru
+  * Livejournal
+  * Workplace
+  * Pocket
+  * Instapaper
+  * Hatena
+  * FacebookMessenger
+  * Email
+  * Gab
+* Share counts
+  * FacebookShareCount
+  * HatenaShareCount
+  * OKShareCount
+  * PinterestShareCount
+  * TumblrShareCount
+  * VKShareCount
+* Icons
 
 ## 🔧 Install
 
@@ -64,7 +64,10 @@ yarn add next-share --save
 #### 👨‍💻 Code
 
 ```js
-import { FacebookShareButton, FacebookIcon } from 'next-share';
+import {
+  FacebookShareButton,
+  FacebookIcon,
+} from 'next-share'
 
 <FacebookShareButton
   url={'https://github.com/next-share'}
@@ -72,20 +75,20 @@ import { FacebookShareButton, FacebookIcon } from 'next-share';
   hashtag={'#nextshare'}
 >
   <FacebookIcon size={32} round />
-</FacebookShareButton>;
+</FacebookShareButton>
 ```
 
 #### 📖 FacebookShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| quote        | string  |         | A quote to be shared.                            | ❌       |
-| hashtag      | string  |         | Hashtag to be shared.                            | ❌       |
-| windowWidth  | number  | 550     | Opened window width.                             | ❌       |
-| windowHeight | number  | 400     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| quote | string |  | A quote to be shared. | ❌ |
+| hashtag | string |  | Hashtag to be shared. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [FacebookIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -94,26 +97,29 @@ import { FacebookShareButton, FacebookIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { LineShareButton, LineIcon } from 'next-share';
+import {
+  LineShareButton,
+  LineIcon,
+} from 'next-share'
 
 <LineShareButton
   url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <LineIcon />
-</LineShareButton>;
+</LineShareButton>
 ```
 
 #### 📖 LineShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | The title of the shared page.                    | ❌       |
-| windowWidth  | number  | 500     | Opened window width.                             | ❌       |
-| windowHeight | number  | 500     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [LineIcon props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -122,27 +128,30 @@ import { LineShareButton, LineIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { PinterestShareButton, PinterestIcon } from 'next-share';
+import {
+  PinterestShareButton,
+  PinterestIcon,
+} from 'next-share'
 
 <PinterestShareButton
   url={'https://github.com/next-share'}
   media={'next-share is a social share buttons for your next React apps.'}
 >
   <PinterestIcon size={32} round />
-</PinterestShareButton>;
+</PinterestShareButton>
 ```
 
 #### 📖 PinterestShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| media        | string  |         | The image URL that will be pinned.               | ✅       |
-| description  | string  |         | The description of the shared media.             | ❌       |
-| windowWidth  | number  | 1000    | Opened window width.                             | ❌       |
-| windowHeight | number  | 730     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| media | string |  | The image URL that will be pinned. | ✅ |
+| description | string |  | The description of the shared media. | ❌ |
+| windowWidth | number | 1000 | Opened window width. | ❌ |
+| windowHeight | number | 730 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [PinterestIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -151,26 +160,29 @@ import { PinterestShareButton, PinterestIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { RedditShareButton, RedditIcon } from 'next-share';
+import {
+  RedditShareButton,
+  RedditIcon,
+} from 'next-share'
 
 <RedditShareButton
   url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <RedditIcon size={32} round />
-</RedditShareButton>;
+</RedditShareButton>
 ```
 
 #### 📖 RedditShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | The title of the shared page.                    | ❌       |
-| windowWidth  | number  | 660     | Opened window width.                             | ❌       |
-| windowHeight | number  | 460     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [RedditIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -179,26 +191,29 @@ import { RedditShareButton, RedditIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { TelegramShareButton, TelegramIcon } from 'next-share';
+import {
+  TelegramShareButton,
+  TelegramIcon,
+} from 'next-share'
 
 <TelegramShareButton
   url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <TelegramIcon size={32} round />
-</TelegramShareButton>;
+</TelegramShareButton>
 ```
 
 #### 📖 TelegramShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | The title of the shared page.                    | ❌       |
-| windowWidth  | number  | 550     | Opened window width.                             | ❌       |
-| windowHeight | number  | 400     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [TelegramIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -207,29 +222,32 @@ import { TelegramShareButton, TelegramIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { TumblrShareButton, TumblrIcon } from 'next-share';
+import {
+  TumblrShareButton,
+  TumblrIcon,
+} from 'next-share'
 
 <TumblrShareButton
   url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <TumblrIcon size={32} round />
-</TumblrShareButton>;
+</TumblrShareButton>
 ```
 
 #### 📖 TumblrShareButton Props
 
-| Props        | Type                             | Default           | Description                                      | Required |
-| :----------- | :------------------------------- | :---------------- | :----------------------------------------------- | :------- |
-| children     | node                             |                   | React component, HTML element or string.         | ✅       |
-| url          | string                           |                   | The URL of the shared page.                      | ✅       |
-| title        | string                           |                   | The title of the shared page.                    | ❌       |
-| tags         | <code>Array&lt;string&gt;</code> |                   |                                                  | ❌       |
-| caption      | string                           |                   | The description of the shared page.              | ❌       |
-| posttype     | string                           | <code>link</code> |                                                  | ❌       |
-| windowWidth  | number                           | 660               | Opened window width.                             | ❌       |
-| windowHeight | number                           | 460               | Opened window height.                            | ❌       |
-| blankTarget  | boolean                          | false             | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| tags | <code>Array&lt;string&gt;</code> |  |  | ❌ |
+| caption | string |  | The description of the shared page. | ❌ |
+| posttype | string | <code>link</code> |  | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [TumblrIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -238,30 +256,33 @@ import { TumblrShareButton, TumblrIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { TwitterShareButton, TwitterIcon } from 'next-share';
+import {
+  TwitterShareButton,
+  TwitterIcon,
+} from 'next-share'
 
 <TwitterShareButton
   url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <TwitterIcon size={32} round />
-</TwitterShareButton>;
+</TwitterShareButton>
 ```
 
 #### 📖 TwitterShareButton Props
 
-| Props        | Type    | Default | Description                                        | Required |
-| :----------- | :------ | :------ | :------------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.           | ✅       |
-| url          | string  |         | The URL of the shared page.                        | ✅       |
-| title        | string  |         | The title of the shared page.                      | ❌       |
-| via          | string  |         |                                                    | ❌       |
-| hashtags     | array   |         |                                                    | ❌       |
-| related      | array   |         |                                                    | ❌       |
-| isMobile     | boolean | false   | Supports twitter share for mobile if set to `true` | ❌       |
-| windowWidth  | number  | 550     | Opened window width.                               | ❌       |
-| windowHeight | number  | 400     | Opened window height.                              | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`.   | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| via | string |  |  | ❌ |
+| hashtags | array |  |  | ❌ |
+| related | array |  |  | ❌ |
+| isMobile     | boolean | false   | Supports twitter share for mobile if set to `true` | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [TwitterIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -270,27 +291,30 @@ import { TwitterShareButton, TwitterIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { ViberShareButton, ViberIcon } from 'next-share';
+import {
+  ViberShareButton,
+  ViberIcon,
+} from 'next-share'
 
 <ViberShareButton
   url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
 >
   <ViberIcon size={32} round />
-</ViberShareButton>;
+</ViberShareButton>
 ```
 
 #### 📖 ViberShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | The title of the shared page.                    | ❌       |
-| separator    |         |         |                                                  | ❌       |
-| windowWidth  | number  | 660     | Opened window width.                             | ❌       |
-| windowHeight | number  | 460     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| separator |  |  |  | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [ViberIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -299,28 +323,31 @@ import { ViberShareButton, ViberIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { WeiboShareButton, WeiboIcon } from 'next-share';
+import {
+  WeiboShareButton,
+  WeiboIcon,
+} from 'next-share'
 
 <WeiboShareButton
   url={'https://github.com/next-share'}
   title={'next-share is a social share buttons for your next React apps.'}
-  image={`${String(window.location)}/${example - image}`}
+  image={`${String(window.location)}/${example-image}`}
 >
   <WeiboIcon size={32} round />
-</WeiboShareButton>;
+</WeiboShareButton>
 ```
 
 #### 📖 WeiboShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | The title of the shared page.                    | ❌       |
-| image        | string  |         | The image URL that will be shared.               | ❌       |
-| windowWidth  | number  | 660     | Opened window width.                             | ❌       |
-| windowHeight | number  | 550     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| image | string |  | The image URL that will be shared. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 550 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [WeiboIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -329,7 +356,10 @@ import { WeiboShareButton, WeiboIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { WhatsappShareButton, WhatsappIcon } from 'next-share';
+import {
+  WhatsappShareButton,
+  WhatsappIcon,
+} from 'next-share'
 
 <WhatsappShareButton
   url={'https://github.com/next-share'}
@@ -337,20 +367,20 @@ import { WhatsappShareButton, WhatsappIcon } from 'next-share';
   separator=":: "
 >
   <WhatsappIcon size={32} round />
-</WhatsappShareButton>;
+</WhatsappShareButton>
 ```
 
 #### 📖 WhatsappShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | The title of the shared page.                    | ❌       |
-| separator    | string  |         |                                                  | ❌       |
-| windowWidth  | number  | 550     | Opened window width.                             | ❌       |
-| windowHeight | number  | 400     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| separator | string |  |  | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [WhatsappIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -359,34 +389,37 @@ import { WhatsappShareButton, WhatsappIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { LinkedinShareButton, LinkedinIcon } from 'next-share';
+import {
+  LinkedinShareButton,
+  LinkedinIcon,
+} from 'next-share'
 
 <LinkedinShareButton url={'https://github.com/next-share'}>
   <LinkedinIcon size={32} round />
-</LinkedinShareButton>;
+</LinkedinShareButton>
 ```
 
 #### 📖 LinkedinShareButton Props
 
-| Props        | Type    | Default | Description                                                    | Required                      |
-| :----------- | :------ | :------ | :------------------------------------------------------------- | :---------------------------- | --- |
-| children     | node    |         | React component, HTML element or string.                       | ✅                            |
-| url          | string  |         | The URL of the shared page.                                    | ✅                            |
-| windowWidth  | number  | 750     | Opened window width.                                           | ❌                            |
-| windowHeight | number  | 600     | Opened window height.                                          | ❌                            |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`.               | ❌                            |
-| <!--         | title   | string  |                                                                | The title of the shared page. | ❌  |
-| summary      | string  |         | Description of the shared page.                                | ❌                            |
-| source       | string  |         | Source of the content (e.g. your website or application name). | ❌                            | --> |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| windowWidth | number | 750 | Opened window width. | ❌ |
+| windowHeight | number | 600 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
+<!-- | title | string |  | The title of the shared page. | ❌ |
+| summary | string |  | Description of the shared page. | ❌ |
+| source | string |  | Source of the content (e.g. your website or application name). | ❌ | -->
 
 How do you use things like `title`, `summary`, etc.?
 
 Use `og` tags in the `<head>` block of the HTML.
 
 ```html
-<meta property="og:image" content="" />
-<meta property="og:title" content="" />
-<meta property="og:description" content="" />
+<meta property='og:image' content='' />
+<meta property='og:title' content='' />
+<meta property='og:description' content='' />
 ```
 
 #### 📖 [LinkedinIcon Props](https://github.com/Bunlong/next-share#-icons-props)
@@ -396,26 +429,32 @@ Use `og` tags in the `<head>` block of the HTML.
 #### 👨‍💻 Code
 
 ```js
-import { VKShareButton, VKIcon } from 'next-share';
+import {
+  VKShareButton,
+  VKIcon,
+} from 'next-share'
 
-<VKShareButton url={'https://github.com/next-share'} image={'./next-share.png'}>
+<VKShareButton
+  url={'https://github.com/next-share'}
+  image={'./next-share.png'}
+>
   <VKIcon size={32} round />
-</VKShareButton>;
+</VKShareButton>
 ```
 
 #### 📖 VKShareButton Props
 
-| Props        | Type    | Default | Description                                                                                                  | Required |
-| :----------- | :------ | :------ | :----------------------------------------------------------------------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.                                                                     | ✅       |
-| url          | string  |         | The URL of the shared page.                                                                                  | ✅       |
-| title        | string  |         | The title of the shared page.                                                                                | ❌       |
-| image        | string  |         | An absolute link to the image that will be shared.                                                           | ❌       |
-| noParse      | boolean |         | If true is passed, VK will not retrieve URL information.                                                     | ❌       |
-| noVkLinks    | boolean |         | If true is passed, there will be no links to the user's profile in the open window. Only for mobile devices. | ❌       |
-| windowWidth  | number  | 660     | Opened window width.                                                                                         | ❌       |
-| windowHeight | number  | 460     | Opened window height.                                                                                        | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`.                                                             | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| image | string |  | An absolute link to the image that will be shared. | ❌ |
+| noParse | boolean |  | If true is passed, VK will not retrieve URL information. | ❌ |
+| noVkLinks | boolean |  | If true is passed, there will be no links to the user's profile in the open window. Only for mobile devices. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [VKIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -424,25 +463,31 @@ import { VKShareButton, VKIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { MailruShareButton, MailruIcon } from 'next-share';
+import {
+  MailruShareButton,
+  MailruIcon,
+} from 'next-share'
 
-<MailruShareButton url={'https://github.com/next-share'} title={'Next Share'}>
+<MailruShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+>
   <MailruIcon size={32} round />
-</MailruShareButton>;
+</MailruShareButton>
 ```
 
 #### 📖 MailruShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | The title of the shared page.                    | ❌       |
-| description  | string  |         | Description of the shared page.                  | ❌       |
-| imageUrl     | string  |         | Image url of the shared page.                    | ❌       |
-| windowWidth  | number  | 660     | Opened window width.                             | ❌       |
-| windowHeight | number  | 460     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| description | string |  | Description of the shared page. | ❌ |
+| imageUrl | string |  | Image url of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [MailruIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -451,7 +496,10 @@ import { MailruShareButton, MailruIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { LivejournalShareButton, LivejournalIcon } from 'next-share';
+import {
+  LivejournalShareButton,
+  LivejournalIcon,
+} from 'next-share'
 
 <LivejournalShareButton
   url={'https://github.com/next-share'}
@@ -459,20 +507,20 @@ import { LivejournalShareButton, LivejournalIcon } from 'next-share';
   description={'https://github.com/next-share'}
 >
   <LivejournalIcon size={32} round />
-</LivejournalShareButton>;
+</LivejournalShareButton>
 ```
 
 #### 📖 LivejournalShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | The title of the shared page.                    | ❌       |
-| description  | string  |         | Description of the shared page.                  | ❌       |
-| windowWidth  | number  | 660     | Opened window width.                             | ❌       |
-| windowHeight | number  | 460     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | The title of the shared page. | ❌ |
+| description | string |  | Description of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [LivejournalIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -481,27 +529,30 @@ import { LivejournalShareButton, LivejournalIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { WorkplaceShareButton, WorkplaceIcon } from 'next-share';
+import {
+  WorkplaceShareButton,
+  WorkplaceIcon,
+} from 'next-share'
 
 <WorkplaceShareButton
   url={'https://github.com/next-share'}
   quote={'Next Share'}
 >
   <WorkplaceIcon size={32} round />
-</WorkplaceShareButton>;
+</WorkplaceShareButton>
 ```
 
 #### 📖 WorkplaceShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| quote        | string  |         |                                                  | ❌       |
-| hashtag      | string  |         |                                                  | ❌       |
-| windowWidth  | number  | 550     | Opened window width.                             | ❌       |
-| windowHeight | number  | 400     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| quote | string |  |  | ❌ |
+| hashtag | string |  |  | ❌ |
+| windowWidth | number | 550 | Opened window width. | ❌ |
+| windowHeight | number | 400 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [WorkplaceIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -510,23 +561,29 @@ import { WorkplaceShareButton, WorkplaceIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { PocketShareButton, PocketIcon } from 'next-share';
+import {
+  PocketShareButton,
+  PocketIcon,
+} from 'next-share'
 
-<PocketShareButton url={'https://github.com/next-share'} title={'Next Share'}>
+<PocketShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+>
   <PocketIcon size={32} round />
-</PocketShareButton>;
+</PocketShareButton>
 ```
 
 #### 📖 PocketShareButton Props
 
-| Props        | Type    | Default | Description                                                                                                                                                                         | Required |
-| :----------- | :------ | :------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.                                                                                                                                            | ✅       |
-| url          | string  |         | The URL of the shared page.                                                                                                                                                         | ✅       |
-| title        | string  |         | Title of the shared page. Note that if Pocket detects a title tag on the page being saved, this parameter will be ignored and the title tag of the saved page will be used instead. | ❌       |
-| windowWidth  | number  | 500     | Opened window width.                                                                                                                                                                | ❌       |
-| windowHeight | number  | 500     | Opened window height.                                                                                                                                                               | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`.                                                                                                                                    | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | Title of the shared page. Note that if Pocket detects a title tag on the page being saved, this parameter will be ignored and the title tag of the saved page will be used instead. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [PocketIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -535,27 +592,30 @@ import { PocketShareButton, PocketIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { InstapaperShareButton, InstapaperIcon } from 'next-share';
+import {
+  InstapaperShareButton,
+  InstapaperIcon,
+} from 'next-share'
 
 <InstapaperShareButton
   url={'https://github.com/next-share'}
   title={'Next Share'}
 >
   <InstapaperIcon size={32} round />
-</InstapaperShareButton>;
+</InstapaperShareButton>
 ```
 
 #### 📖 InstapaperShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | Title of the shared page.                        | ❌       |
-| description  | string  |         | Description of the shared page.                  | ❌       |
-| windowWidth  | number  | 500     | Opened window width.                             | ❌       |
-| windowHeight | number  | 500     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | Title of the shared page. | ❌ |
+| description | string |  | Description of the shared page. | ❌ |
+| windowWidth | number | 500 | Opened window width. | ❌ |
+| windowHeight | number | 500 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [InstapaperIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -564,23 +624,29 @@ import { InstapaperShareButton, InstapaperIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { HatenaShareButton, HatenaIcon } from 'next-share';
+import {
+  HatenaShareButton,
+  HatenaIcon,
+} from 'next-share'
 
-<HatenaShareButton url={'https://github.com/next-share'} title={'Next Share'}>
+<HatenaShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+>
   <HatenaIcon size={32} round />
-</HatenaShareButton>;
+</HatenaShareButton>
 ```
 
 #### 📖 HatenaShareButton Props
 
-| Props        | Type    | Default | Description                                      | Required |
-| :----------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.         | ✅       |
-| url          | string  |         | The URL of the shared page.                      | ✅       |
-| title        | string  |         | Title of the shared page.                        | ❌       |
-| windowWidth  | number  | 660     | Opened window width.                             | ❌       |
-| windowHeight | number  | 460     | Opened window height.                            | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | Title of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 460 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [HatenaIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -592,25 +658,28 @@ import { HatenaShareButton, HatenaIcon } from 'next-share';
 import {
   FacebookMessengerShareButton,
   FacebookMessengerIcon,
-} from 'next-share';
+} from 'next-share'
 
-<FacebookMessengerShareButton url={'https://github.com/next-share'} appId={''}>
+<FacebookMessengerShareButton
+  url={'https://github.com/next-share'}
+  appId={''}
+>
   <FacebookMessengerIcon size={32} round />
-</FacebookMessengerShareButton>;
+</FacebookMessengerShareButton>
 ```
 
 #### 📖 FacebookMessengerShareButton Props
 
-| Props        | Type    | Default | Description                                                                                                 | Required |
-| :----------- | :------ | :------ | :---------------------------------------------------------------------------------------------------------- | :------- |
-| children     | node    |         | React component, HTML element or string.                                                                    | ✅       |
-| url          | string  |         | The URL of the shared page.                                                                                 | ✅       |
-| appId        | string  |         | Facebook application id.                                                                                    | ✅       |
-| redirectUri  | string  |         | The URL to redirect to after sharing (default: the shared url).                                             | ❌       |
-| to           | string  |         | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌       |
-| windowWidth  | number  | 1000    | Opened window width.                                                                                        | ❌       |
-| windowHeight | number  | 820     | Opened window height.                                                                                       | ❌       |
-| blankTarget  | boolean | false   | Open share window in a new tab if set to `true`.                                                            | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| appId | string |  | Facebook application id. | ✅ |
+| redirectUri | string |  | The URL to redirect to after sharing (default: the shared url). | ❌ |
+| to | string |  | A user ID of a recipient. Once the dialog comes up, the sender can specify additional people as recipients. | ❌ |
+| windowWidth | number | 1000 | Opened window width. | ❌ |
+| windowHeight | number | 820 | Opened window height. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [FacebookMessengerIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -619,7 +688,10 @@ import {
 #### 👨‍💻 Code
 
 ```js
-import { EmailShareButton, EmailIcon } from 'next-share';
+import {
+  EmailShareButton,
+  EmailIcon,
+} from 'next-share'
 
 <EmailShareButton
   url={'https://github.com/next-share'}
@@ -627,19 +699,19 @@ import { EmailShareButton, EmailIcon } from 'next-share';
   body="body"
 >
   <EmailIcon size={32} round />
-</EmailShareButton>;
+</EmailShareButton>
 ```
 
 #### 📖 EmailShareButton Props
 
-| Props       | Type    | Default | Description                                      | Required |
-| :---------- | :------ | :------ | :----------------------------------------------- | :------- |
-| children    | node    |         | React component, HTML element or string.         | ✅       |
-| url         | string  |         | The URL of the shared page.                      | ✅       |
-| subject     | string  |         |                                                  | ❌       |
-| body        | string  |         |                                                  | ❌       |
-| separator   | string  |         |                                                  | ❌       |
-| blankTarget | boolean | false   | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| subject | string |  |  | ❌ |
+| body | string |  |  | ❌ |
+| separator | string |  |  | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 #### 📖 [EmailIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
@@ -648,35 +720,41 @@ import { EmailShareButton, EmailIcon } from 'next-share';
 #### 👨‍💻 Code
 
 ```js
-import { GabShareButton, GabIcon } from 'next-share';
+import {
+  GabShareButton,
+  GabIcon,
+} from 'next-share'
 
-<GabShareButton url={'https://github.com/next-share'} title={'Next Share'}>
+<GabShareButton
+  url={'https://github.com/next-share'}
+  title={'Next Share'}
+>
   <GabIcon size={32} round />
-</GabShareButton>;
+</GabShareButton>
 ```
 
 #### 📖 GabShareButton Props
 
-| Props        | Type   | Default | Description                              | Required |
-| :----------- | :----- | :------ | :--------------------------------------- | :------- |
-| children     | node   |         | React component, HTML element or string. | ✅       |
-| url          | string |         | The URL of the shared page.              | ✅       |
-| title        | string |         | Title of the shared page.                | ❌       |
-| windowWidth  | number | 660     | Opened window width.                     | ❌       |
-| windowHeight | number | 640     | Opened window height.                    | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| children | node |  | React component, HTML element or string. | ✅ |
+| url | string |  | The URL of the shared page. | ✅ |
+| title | string |  | Title of the shared page. | ❌ |
+| windowWidth | number | 660 | Opened window width. | ❌ |
+| windowHeight | number | 640 | Opened window height. | ❌ |
 
 #### 📖 [GabIcon Props](https://github.com/Bunlong/next-share#-icons-props)
 
 ## 📚 Icons Props
 
-| Props         | Type    | Default            | Description                                      | Required |
-| :------------ | :------ | :----------------- | :----------------------------------------------- | :------- |
-| size          | number  |                    | Icon size in pixels.                             | ❌       |
-| round         | boolean |                    | Show round or rectangle.                         | ❌       |
-| borderRadius  | number  |                    | Set rounded corners if using round icon.         | ❌       |
-| bgStyle       | object  |                    | Customize background style.                      | ❌       |
-| iconFillColor | string  | <code>white</code> | Customize icon fill color.                       | ❌       |
-| blankTarget   | boolean | false              | Open share window in a new tab if set to `true`. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| size | number |  | Icon size in pixels. | ❌ |
+| round | boolean |  | Show round or rectangle. | ❌ |
+| borderRadius | number |  | Set rounded corners if using round icon. | ❌ |
+| bgStyle | object |  | Customize background style. | ❌ |
+| iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
+| blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |
 
 ## 💡 Usage of ShareCount
 
@@ -704,12 +782,12 @@ import { FacebookShareCount } from 'next-share'
 
 #### 📖 FacebookShareCount Props
 
-| Props     | Type   | Default | Description                              | Required |
-| :-------- | :----- | :------ | :--------------------------------------- | :------- |
-| url       | string |         | The URL of the shared page.              | ✅       |
-| appId     | string |         | Facebook application id.                 | ✅       |
-| appSecret | string |         | Facebook application secret.             | ✅       |
-| children  | node   |         | React component, HTML element or string. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| appId | string |  | Facebook application id. | ✅ |
+| appSecret | string |  | Facebook application secret. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
 
 ### 🎀 Hatena
 
@@ -727,10 +805,10 @@ import { HatenaShareCount } from 'next-share'
 
 #### 📖 HatenaShareCount Props
 
-| Props    | Type   | Default | Description                              | Required |
-| :------- | :----- | :------ | :--------------------------------------- | :------- |
-| url      | string |         | The URL of the shared page.              | ✅       |
-| children | node   |         | React component, HTML element or string. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
 
 ### 🎀 OK
 
@@ -748,10 +826,10 @@ import { OKShareCount } from 'next-share'
 
 #### 📖 OKShareCount Props
 
-| Props    | Type   | Default | Description                              | Required |
-| :------- | :----- | :------ | :--------------------------------------- | :------- |
-| url      | string |         | The URL of the shared page.              | ✅       |
-| children | node   |         | React component, HTML element or string. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
 
 ### 🎀 Pinterest
 
@@ -769,10 +847,10 @@ import { PinterestShareCount } from 'next-share'
 
 #### 📖 PinterestShareCount Props
 
-| Props    | Type   | Default | Description                              | Required |
-| :------- | :----- | :------ | :--------------------------------------- | :------- |
-| url      | string |         | The URL of the shared page.              | ✅       |
-| children | node   |         | React component, HTML element or string. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
 
 ### 🎀 Tumblr
 
@@ -790,10 +868,10 @@ import { TumblrShareCount } from 'next-share'
 
 #### 📖 TumblrShareCount Props
 
-| Props    | Type   | Default | Description                              | Required |
-| :------- | :----- | :------ | :--------------------------------------- | :------- |
-| url      | string |         | The URL of the shared page.              | ✅       |
-| children | node   |         | React component, HTML element or string. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
 
 ### 🎀 VK
 
@@ -811,10 +889,10 @@ import { VKShareCount } from 'next-share'
 
 #### 📖 VKShareCount Props
 
-| Props    | Type   | Default | Description                              | Required |
-| :------- | :----- | :------ | :--------------------------------------- | :------- |
-| url      | string |         | The URL of the shared page.              | ✅       |
-| children | node   |         | React component, HTML element or string. | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| url | string |  | The URL of the shared page. | ✅ |
+| children | node |  | React component, HTML element or string. | ❌ |
 
 ## 💡 Usage of Icon
 
@@ -846,24 +924,24 @@ import {
   WeiboIcon,
   WhatsappIcon,
   WorkplaceIcon,
-} from 'next-share';
+} from 'next-share'
 ```
 
 #### 📖 Props
 
-| Props         | Type    | Default            | Description                                | Required |
-| :------------ | :------ | :----------------- | :----------------------------------------- | :------- |
-| size          | number  |                    | Icon size in pixels.                       | ❌       |
-| round         | boolean |                    | Whether to show round or rect icons.       | ❌       |
-| borderRadius  | number  |                    | Allow rounded corners if using rect icons. | ❌       |
-| bgStyle       | object  |                    | Customize background.                      | ❌       |
-| iconFillColor | string  | <code>white</code> | Customize icon fill color.                 | ❌       |
+| Props | Type | Default | Description | Required |
+| :--- | :--- | :--- | :--- | :--- |
+| size | number |  |  Icon size in pixels. | ❌ |
+| round | boolean |  | Whether to show round or rect icons. | ❌ |
+| borderRadius | number |  | Allow rounded corners if using rect icons. | ❌ |
+| bgStyle | object |  | Customize background. | ❌ |
+| iconFillColor | string | <code>white</code> | Customize icon fill color. | ❌ |
 
 ## 📜 Changelog
 
 Latest version 0.27.0 (2023-09-28):
 
-- Upgrade TwitterIcon
+  * Upgrade TwitterIcon
 
 Details changes for each release are documented in the [CHANGELOG.md](https://github.com/Bunlong/next-share/blob/master/CHANGELOG.md).
 
@@ -960,10 +1038,10 @@ How to contribute:
 
 You maybe interested.
 
-- [React Patterns](https://github.com/reactpatterns/reactpatterns) – React patterns & techniques to use in development for React Developer.
-- [React Papaparse](https://github.com/Bunlong/react-papaparse) – The fastest in-browser CSV (or delimited text) parser for React.
-- [Next QRCode](https://github.com/bunlong/next-qrcode) – React hooks for generating QR code for your next React apps.
-- [Next Time Ago](https://github.com/Bunlong/next-time-ago) – A lightweight tiny time-ago component for your next React apps.
+* [React Patterns](https://github.com/reactpatterns/reactpatterns) – React patterns & techniques to use in development for React Developer.
+* [React Papaparse](https://github.com/Bunlong/react-papaparse) –  The fastest in-browser CSV (or delimited text) parser for React.
+* [Next QRCode](https://github.com/bunlong/next-qrcode) – React hooks for generating QR code for your next React apps.
+* [Next Time Ago](https://github.com/Bunlong/next-time-ago) – A lightweight tiny time-ago component for your next React apps.
 
 ## ⚖️ License
 

@@ -279,6 +279,7 @@ import {
 | via | string |  |  | ❌ |
 | hashtags | array |  |  | ❌ |
 | related | array |  |  | ❌ |
+| isMobile     | boolean | false   | Supports twitter share for mobile if set to `true` | ❌ |
 | windowWidth | number | 550 | Opened window width. | ❌ |
 | windowHeight | number | 400 | Opened window height. | ❌ |
 | blankTarget | boolean | false | Open share window in a new tab if set to `true`. | ❌ |

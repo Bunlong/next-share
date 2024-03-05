@@ -8,10 +8,19 @@ function twitterLink(
     via,
     hashtags = [],
     related = [],
-  }: { title?: string; via?: string; hashtags?: string[]; related?: string[] },
+    isMobile = false,
+  }: {
+    title?: string;
+    via?: string;
+    hashtags?: string[];
+    related?: string[];
+    isMobile?: boolean;
+  },
 ) {
   return (
-    'https://twitter.com/intent/tweet' +
+    (isMobile
+      ? 'https://mobile.twitter.com/intent/tweet'
+      : 'https://twitter.com/intent/tweet') +
     transformObjectToParams({
       url,
       text: title,
@@ -27,6 +36,7 @@ const TwitterShareButton = createShareButton<{
   via?: string;
   hashtags?: string[];
   related?: string[];
+  isMobile?: boolean;
 }>(
   'twitter',
   twitterLink,
@@ -35,6 +45,7 @@ const TwitterShareButton = createShareButton<{
     title: props.title,
     via: props.via,
     related: props.related,
+    isMobile: props.isMobile,
   }),
   {
     windowWidth: 550,
